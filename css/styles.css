@@ -3,6 +3,8 @@ GEOM101 Web Design & Programming
 Web page for Assignment 3
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 /* Setting the background colour, all text is aligned centre */
 body {
     background-color: #DBCCE0; 
@@ -11,7 +13,7 @@ body {
 
 h1 {
 	color: #ffffff; 
-	font: 60px Arial, sans-serif;
+	font-family: 'Monoton', cursive;;
 	margin: 25px
 } 
 
