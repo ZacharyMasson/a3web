@@ -115,5 +115,22 @@ p .ServInfo {
     border-radius: 30%
   }
 
+  .flex-containerPart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    justify-content: center;
+    background-color:rgb(233, 143, 233);
+}
+.flexcontainerPart > div{
+    margin: 10px;
+    text-align: center;
+}
 
+.partnerlogo{
+    max-width: 100%;
+    float: bottom;
+    padding-left: 50px;
+    padding-right: 50px;
+}
  
