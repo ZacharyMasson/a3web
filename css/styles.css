@@ -40,3 +40,9 @@ p {
 	left:0;
 	bottom:0
 }
+
+.missionstatement{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px; 
+}
