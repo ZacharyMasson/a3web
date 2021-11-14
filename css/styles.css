@@ -63,6 +63,12 @@ p .ServInfo {
 
 
 /*Container*/
+.ServImg {
+    max-width: 440px;
+    height: 15%;
+    justify-content: left;
+}
+
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
