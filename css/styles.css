@@ -37,7 +37,7 @@ p {
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
+    background-color: #DBCCE0;
     align-items: center;
     justify-content: center;
 }
