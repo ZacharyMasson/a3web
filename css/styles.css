@@ -68,3 +68,16 @@ p {
 .heroimagecontainer{
 	position: relative;
 }
+
+.flex-containerProjects {
+    display: flex;
+    background-color: pink;
+    text-align: center;
+  }
+  
+  .flex-containerProjects > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
