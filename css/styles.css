@@ -76,9 +76,7 @@ p .ServInfo {
     width: 33%;
     margin: 10px;
     text-align: center;
-    line-height: auto;
     font-size: 15px;
-    flex-wrap: wrap;
     border-radius: 15%;
     padding: 10px;
 }
