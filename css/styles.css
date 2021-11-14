@@ -11,7 +11,13 @@ Web page for Assignment 3
 body {
     background-color: #DBCCE0; 
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }	
+
+footer{
+    background-color: #a673b8; 
+    text-align: center;
+}
 
 /* Set h1 parameters here */
 h1 {
@@ -27,7 +33,9 @@ h4 {
 	color: #ffffff; 
 	font-family: 'Monoton', cursive;
 	text-shadow: 2px 2px 8px #ea00ff;
-} 
+    font-size: 20px;
+    font-weight: lighter;
+}
 
 /* Set p parameters here */
 p {
