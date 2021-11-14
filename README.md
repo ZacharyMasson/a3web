@@ -12,9 +12,11 @@ Location page
 
 ### Kerstyne
 Team Page - Mission Statement/About Us
+Animated Social Icons
 
 ### Ridley
 Portfolio Page - Past and Present
+Landing Page - Image Carousel
 
 ### Victor
 Testimonials
