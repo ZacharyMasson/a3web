@@ -3,6 +3,7 @@ GEOM101 Web Design & Programming
 Web page for Assignment 3
 */
 
+/* referencing custom google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
@@ -12,6 +13,7 @@ body {
     text-align: center;
 }	
 
+/* Set h1 parameters here */
 h1 {
 	color: #ffffff; 
 	font-family: 'Monoton', cursive;
@@ -20,13 +22,14 @@ h1 {
 	margin: 25px
 } 
 
+/* Set h4 parameters here */
 h4 {
 	color: #ffffff; 
 	font-family: 'Monoton', cursive;
 	text-shadow: 2px 2px 8px #ea00ff;
 } 
 
-/* Paragraph text styles: */
+/* Set p parameters here */
 p {
 	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
@@ -63,3 +66,20 @@ p {
     flex-wrap: wrap;
     
 }
+
+.heroimagecontainer{
+	position: relative;
+}
+
+.flex-containerProjects {
+    display: flex;
+    background-color: pink;
+    text-align: center;
+  }
+  
+  .flex-containerProjects > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
