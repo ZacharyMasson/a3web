@@ -4,6 +4,7 @@ Web page for Assignment 3
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
 /* Setting the background colour, all text is aligned centre */
 body {
@@ -27,5 +28,6 @@ h2 {
 /* Paragraph text styles: */
 p {
 	color: #ffffff; 
-	font: 12px Arial, sans-serif; 
+    font-family: 'Nunito Sans', sans-serif;
+    font: 12px
 }
