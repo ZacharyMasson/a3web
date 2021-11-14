@@ -17,6 +17,7 @@ Animated Social Icons
 
 ### Ridley
 Portfolio Page - Past and Present
+On hover logo spin
 Landing Page - Image Carousel
 
 ### Victor
