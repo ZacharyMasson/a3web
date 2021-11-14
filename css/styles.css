@@ -63,11 +63,6 @@ p .ServInfo {
 
 
 /*Container*/
-.ServImg {
-    max-width: 440px;
-    height: 15%;
-    justify-content: left;
-}
 
 .flex-containerServ {
     display: flex;
@@ -84,8 +79,18 @@ p .ServInfo {
     line-height: auto;
     font-size: 15px;
     flex-wrap: wrap;
-    border-radius: 25%;
-    
+    border-radius: 15%;
+    padding: 10px;
+}
+.ServTitle {
+    color: white; 
+    font-family: 'Nunito Sans', sans-serif;
+    font: 12px   
+}
+.ServImg {
+    max-width: 440px;
+    height: 15%;
+    float: left;
 }
 
 .heroimagecontainer{
