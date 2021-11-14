@@ -85,9 +85,16 @@ p {
     text-align: center;
   }
   
-  .flex-containerProjects > div {
+.flex-containerProjects > div {
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
   }
+
+.projectimg {
+    height: auto;
+    width: 10%;
+}
+
+ 
