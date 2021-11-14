@@ -30,3 +30,13 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font: 12px
 }
+
+.heroimagecontainer {
+	position: relative;
+}
+
+.heroimagetitle {
+	position:absolute;
+	left:0;
+	bottom:0
+}
