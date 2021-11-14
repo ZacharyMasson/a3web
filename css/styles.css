@@ -15,6 +15,8 @@ body {
 h1 {
 	color: #ffffff; 
 	font-family: 'Monoton', cursive;
+	font-size: 60px;
+	font-weight: lighter;
 	margin: 25px
 } 
 
