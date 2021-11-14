@@ -14,20 +14,29 @@ body {
 
 h1 {
 	color: #ffffff; 
-	font-family: 'Monoton', cursive;;
+	font-family: 'Monoton', cursive;
 	margin: 25px
 } 
 
-h2 {
-	color: #000000; 
-	font: italic 25px Arial, sans-serif; 
-	font-weight: bold;
-	text-shadow: 2px 2px 8px #D8D8D8;
+h4 {
+	color: #ffffff; 
+	font-family: 'Monoton', cursive;
+	text-shadow: 2px 2px 8px #ea00ff;
 } 
 
 /* Paragraph text styles: */
 p {
-	color: #ffffff; 
+	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
     font: 12px
+}
+
+.heroimagecontainer {
+	position: relative;
+}
+
+.heroimagetitle {
+	position:absolute;
+	left:0;
+	bottom:0
 }
