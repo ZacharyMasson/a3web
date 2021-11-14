@@ -86,8 +86,7 @@ p .ServInfo {
     font: 12px   
 }
 .ServImg {
-    max-width: 440px;
-    height: 15%;
+    max-width: 25%;
     float: left;
 }
 
