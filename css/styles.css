@@ -52,6 +52,7 @@ p {
     flex-wrap: wrap;
     background-color: DodgerBlue;
     align-items: center;
+    justify-content: center;
 }
   
 .flex-containerServ > div {
