@@ -1,7 +1,29 @@
-p{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
+/* 
+GEOM101 Web Design & Programming
+Web page for Assignment 3
+*/
 
-.intro {
-    font-style: italic;
+/* Setting the background colour, all text is aligned centre */
+body {
+    background-color: #DBCCE0; 
+    text-align: center;
+}	
+
+h1 {
+	color: #ffffff; 
+	font: 60px Arial, sans-serif;
+	margin: 25px
+} 
+
+h2 {
+	color: #000000; 
+	font: italic 25px Arial, sans-serif; 
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #D8D8D8;
+} 
+
+/* Paragraph text styles: */
+p {
+	color: #ffffff; 
+	font: 12px Arial, sans-serif; 
 }
