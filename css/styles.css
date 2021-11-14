@@ -34,6 +34,19 @@ p {
 }
 
 
+<<<<<<< HEAD
+.heroimagetitle {
+	position:absolute;
+	left:0;
+	bottom:0
+}
+
+.missionstatement{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px; 
+}
+=======
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
@@ -50,3 +63,4 @@ p {
     line-height: 75px;
     font-size: 30px;
 }
+>>>>>>> 961fb1c5222d83e3846d10f12ea5b182f639114c
