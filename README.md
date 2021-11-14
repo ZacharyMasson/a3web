@@ -3,14 +3,21 @@ Web page for Assignment 3
 https://zacharymasson.github.io/a3web/
 
 ## Page List
-Landing Page
+Landing Page - Collaborative
 
-Our Team Page - Mission Statement/About Us Sections
+CSS - Collaborative
 
-Porfolio Page - Past/Present sections
+### Jade
+Location page
 
-Join Us
+### Kerstyne
+Team Page - Mission Statement/About Us
 
-Location
+### Ridley
+Portfolio Page - Past and Present
 
+### Victor
 Testimonials
+
+### Zachary
+Join Us
