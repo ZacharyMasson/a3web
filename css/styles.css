@@ -96,7 +96,7 @@ p .ServInfo {
     display: flex;
     flex-wrap: wrap;
     background-color: pink;
-    text-align: center;
+    justify-content: center;
   }
   
 .flex-containerProjects > div {
@@ -107,6 +107,7 @@ p .ServInfo {
     text-align: center;
     font-size: 30px;
     flex-wrap: wrap;
+    border-radius: 30%
   }
 
 
