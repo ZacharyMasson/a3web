@@ -35,7 +35,11 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font: 12px
 }
-
+p .ServInfo {
+	color: white; 
+    font-family: 'Nunito Sans', sans-serif;
+    font: 12px   
+}
 
 .heroimagetitle {
 	position:absolute;
@@ -48,22 +52,25 @@ p {
 	padding-top: 20px;
 	padding-bottom: 40px; 
 }
+
+
+/*Container*/
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
     background-color: #DBCCE0;
-    align-items: center;
     justify-content: center;
 }
   
 .flex-containerServ > div {
     background-color: #c397d1;
-    width: 100px;
+    width: 33%;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
+    line-height: auto;
     font-size: 15px;
     flex-wrap: wrap;
+    border-radius: 25%;
     
 }
 
