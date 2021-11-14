@@ -94,6 +94,7 @@ p .ServInfo {
 
 .flex-containerProjects {
     display: flex;
+    flex-wrap: wrap;
     background-color: pink;
     text-align: center;
   }
