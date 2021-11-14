@@ -88,10 +88,12 @@ p .ServInfo {
 .ServImg {
     max-width: 25%;
     float: left;
+    filter:hue-rotate(90deg);
 }
 
 .heroimagecontainer{
 	position: relative;
+    filter:hue-rotate(90deg);
 }
 
 .flex-containerProjects {
