@@ -9,6 +9,7 @@ CSS - Collaborative
 
 ### Jade
 Location page
+Javascript or Static API map
 
 ### Kerstyne
 Team Page - Mission Statement/About Us
@@ -23,3 +24,4 @@ Testimonials
 
 ### Zachary
 Join Us
+Form on Join Us
