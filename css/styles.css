@@ -99,6 +99,7 @@ p .ServInfo {
     padding: 20px;
     text-align: center;
     font-size: 30px;
+    float: left;
   }
 
 
