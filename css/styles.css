@@ -29,6 +29,10 @@ h1 {
 	margin: 25px
 } 
 
+h2{
+    font-weight: bold;
+}
+
 /* Set h4 parameters here */
 h4 {
 	color: #ffffff; 
@@ -50,21 +54,27 @@ p .ServInfo {
     font: 12px   
 }
 
+/* Parameters to have Company Name overtop of hero image*/
 .heroimagetitle {
 	position:absolute;
 	left:0;
 	bottom:0
 }
 
+/* Parameters to contain the hero image*/
+.heroimagecontainer{
+	position: relative;
+    filter:hue-rotate(90deg);
+}
+
+/* Parameters for mission statement on landing page*/
 .missionstatement{
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 40px; 
 }
 
-
 /*Container*/
-
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
@@ -81,19 +91,16 @@ p .ServInfo {
     border-radius: 15%;
     padding: 10px;
 }
+
 .ServTitle {
     color: white; 
     font-family: 'Nunito Sans', sans-serif;
     font: 12px   
 }
+
 .ServImg {
     max-width: 25%;
     float: left;
-    filter:hue-rotate(90deg);
-}
-
-.heroimagecontainer{
-	position: relative;
     filter:hue-rotate(90deg);
 }
 
@@ -116,6 +123,7 @@ p .ServInfo {
     border-radius: 30%
   }
 
+  /* Container for Partners on Team page, Owner: Kerstyne*/
   .flex-containerPart{
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +143,6 @@ p .ServInfo {
     padding-right: 50px;
 }
 
-
 /* Navbar Styling, owner: Ridley */
 .navbar-flex{
     margin: 0;
@@ -150,12 +157,12 @@ p .ServInfo {
 	flex: 40%;
     align-self: center;
 } 
+
 .navbar-flex-right { 
 
   flex: 60%;
   align-self: center;
   justify-content: right;
-
 }
 
 .logo-container {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <!-- Template taken from w3schools and gutted; https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_website&stacked=h -->
   <title>Lumpy Potato</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -127,6 +128,40 @@
     <p>Project 5 description</p>
   </div>
 </div>
+
+<!--Survey123 This is just to see if it works-->
+
+<style>
+  .embed-container {
+      position: relative; 
+      height: 0; 
+      padding-bottom:80%; 
+      max-width: 100%;
+  } 
+  .embed-container iframe, 
+  .embed-container object, 
+  .embed-container iframe{
+      position: absolute;
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%;
+  } 
+  small{
+      position: absolute; 
+      z-index: 40; 
+      bottom: 0; 
+      margin-bottom: -15px;
+  }
+</style>
+<div class="embed-container">
+    <iframe name="survey123webform" width="500" height="400" frameborder="0" marginheight="0" marginwidth="0" title="GroupWebPageZM" src="//survey123.arcgis.com/share/2aa16967394f4e9ca6cb8a8138bb8ea0?hide=header" allow="geolocation https://survey123.arcgis.com; camera https://survey123.arcgis.com">
+    </iframe></div>
+<script>
+    var survey123webform = document.getElementsByName('survey123webform')[0];
+    window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data);
+    "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
+</script>
 
 <!-- Footer -->
 <footer class="footer">
