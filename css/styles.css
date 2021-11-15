@@ -285,12 +285,15 @@ p .ServInfo {
 
 /*Navbar Mobile Styling, based on w3schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 @media only screen and (max-width: 768px) {
-    .navbar-menu a{
-        display: none
+    
+    .navbar-menu{
+        z-index: 1;
     }
-    .navbar-flex-left {
+    .navbar-menu > *{
+        display: none;
+    }
+    .navbar-flex > div {
         width: 100%;
-        color: white;
     }
     a.hamburger{
         display: block;
@@ -325,7 +328,11 @@ p .ServInfo {
         flex-direction: column;
     }
     .navbar-flex.responsive > div {
-        width: 100%;
-        color:#612848;
+        background-color:#612848;
+        transition: all 60ms;
+    }
+    .navbar-flex.responsive .hamburger{
+        color: white;
+        transition: all 60ms;
     }
 }
