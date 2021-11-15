@@ -123,6 +123,12 @@ p .ServInfo {
     border-radius: 30%
   }
 
+  .ProjectsImg {
+      max-width: 100%;
+      max-height: auto;
+      filter:hue-rotate(90deg);
+  }
+
   /* Container for Partners on Team page, Owner: Kerstyne*/
   .flex-containerPart{
     display: flex;
