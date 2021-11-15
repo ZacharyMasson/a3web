@@ -12,6 +12,7 @@ body {
     background-color: #DBCCE0; 
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
 }	
 
 footer{
@@ -133,4 +134,168 @@ p .ServInfo {
     padding-left: 50px;
     padding-right: 50px;
 }
- 
+
+
+/* Navbar Styling, owner: Ridley */
+.navbar-flex{
+    margin: 0;
+	display: flex;
+	flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #dddddd;
+}
+
+.navbar-flex-left {  
+	flex: 40%;
+    align-self: center;
+} 
+.navbar-flex-right { 
+
+  flex: 60%;
+  align-self: center;
+  justify-content: right;
+
+}
+
+.logo-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    margin: 5px 0 5px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Setting justify-content and align-items to center centers my flexboxes in mobile view */
+    align-items: center;
+    float: right;
+}
+
+.navbar-item {
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px; /* vertically centers text */
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-item:hover{
+    background-color: #612848;
+    color: white;
+    transition: background .2s ease-in;
+}
+
+#active{
+    background-color: #e08223;
+    color: white;
+    text-shadow: white;
+}
+
+/* Navbar dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    z-index: 1; /* Ensures dropdown does not appear behind other elements */
+}
+
+.dropdown-content a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px; /* vertically centers text */
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    background-color: #612848;
+    color: white;
+    transition: background .2s ease-in;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .navbar-item{
+    background-color:#612848;
+    transition: background .2s ease-in;
+    color: white;
+}
+
+.hamburger {
+    color: #612848;
+    height: 50px;
+    line-height: 50px;
+    display: none;
+}
+
+/*Navbar Mobile Styling, based on w3schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+@media only screen and (max-width: 768px) {
+    .navbar-menu a{
+        display: none
+    }
+    .navbar-flex-left {
+        width: 100%;
+    }
+    a.hamburger{
+        display: block;
+        float: right;
+    }
+    .navbar-menu.responsive {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-menu.responsive > *{
+        float: none;
+        display: block;
+        background-color:#612848;
+        color: white;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    .navbar-menu.responsive a{
+        float: none;
+        display: block;
+        background-color:#612848;
+        color: white;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .navbar-menu.responsive .dropdown-content{
+        display: none;
+    }
+    .navbar-flex {
+        flex-direction: column;
+    }
+    .navbar-flex.responsive > div {
+        width: 100%;
+    }
+}

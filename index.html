@@ -4,38 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
+  <!-- stylesheet for hamburger menu icon: -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src= "js/javascript.js"></script>
 </head>
 <body id="myPage">
 
-<!-- Navbar -->
-<div class="navbar">
-  <div class = "logobutton">
-
+<!-- Navbar, Owner: Ridley -->
+<div class="navbar-flex" id = "headerbar">
+  <div class = "navbar-flex-left">
+    <a class = "logo-container" href = 'index.html'>
+      <img class = 'logo' src='images/Earth_gravity.png'>
+    </a>
+    <a class = "hamburger" href = "javascript:void(0);" onclick="navBar()">
+      <i class = "fa fa-bars"></i>
+    </a>
   </div>
- <div class="navbarbuttons">
-  <a href="portfolio" class="navbaritem">Portfolio</a>
-  <a href="team" class="navbaritem">The Team</a>
-  <a href="testimonials" class="navbaritem">Testimonials</a>
-  <a href="location" class="navbaritem">Location</a>
-  <a href="contact" class="navbaritem">Contact Us</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-      <a href="#" class="w3-bar-item w3-button">Link</a>
+ <div class="navbar-flex-right">
+   <div class ="navbar-menu" id="navbarmaster">
+    <div class = "dropdown">
+      <a class = "navbar-item" id = 'active' href="portfolio.html" >Portfolio</a>
+      <div class = "dropdown-content">
+        <a href=portfolio.html#present>Present</a>
+        <a href=portfolio.html#past>Past</a>
+      </div>
     </div>
+    <a class = "navbar-item" href="testimonials.html" >Testimonials</a>
+    <a class = "navbar-item" href="team.html" >Team</a>
+    <div class = "dropdown">
+      <a class = "navbar-item" href="contact.html" >Contact</a>
+      <div class = "dropdown-content">
+        <a href=portfolio.html#hireus>Hire Us</a>
+        <a href=portfolio.html#joinus>Join Us</a>
+      </div>
+    </div>    
+    <a class = "navbar-item" href="location.html" >Location</a>
   </div>
-</div>
-
-  <!-- Navbar on small screens
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#work" class="w3-bar-item w3-button">Work</a>
-    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
-  </div> -->
+  </div>
 </div>
 
 <!-- Image Header, Owner: Kerstyne-->
