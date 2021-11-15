@@ -29,6 +29,10 @@ h1 {
 	margin: 25px
 } 
 
+h2{
+    font-weight: bold;
+}
+
 /* Set h4 parameters here */
 h4 {
 	color: #ffffff; 
