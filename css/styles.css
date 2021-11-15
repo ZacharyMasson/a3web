@@ -253,6 +253,7 @@ p .ServInfo {
     height: 50px;
     line-height: 50px;
     display: none;
+    margin: 0 5px;
 }
 
 /*Navbar Mobile Styling, based on w3schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
@@ -262,6 +263,7 @@ p .ServInfo {
     }
     .navbar-flex-left {
         width: 100%;
+        color: white;
     }
     a.hamburger{
         display: block;
@@ -297,5 +299,6 @@ p .ServInfo {
     }
     .navbar-flex.responsive > div {
         width: 100%;
+        color:#612848;
     }
 }
