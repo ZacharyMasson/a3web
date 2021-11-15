@@ -50,12 +50,20 @@ p .ServInfo {
     font: 12px   
 }
 
+/* Parameters to have Company Name overtop of hero image*/
 .heroimagetitle {
 	position:absolute;
 	left:0;
 	bottom:0
 }
 
+/* Parameters to contain the hero image*/
+.heroimagecontainer{
+	position: relative;
+    filter:hue-rotate(90deg);
+}
+
+/* Parameters for mission statement on landing page*/
 .missionstatement{
 	text-align: center;
 	padding-top: 20px;
@@ -92,10 +100,7 @@ p .ServInfo {
     filter:hue-rotate(90deg);
 }
 
-.heroimagecontainer{
-	position: relative;
-    filter:hue-rotate(90deg);
-}
+
 
 .flex-containerProjects {
     display: flex;
