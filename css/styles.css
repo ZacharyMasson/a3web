@@ -152,7 +152,7 @@ p {
 
 .ProjectsImg {
       max-width: 100%;
-      max-height: auto;
+      height: auto;
       filter:hue-rotate(90deg);
   }
 
@@ -179,7 +179,6 @@ p {
 
 .partnerlogo{
     max-width: 100%;
-    float: bottom;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -253,7 +252,6 @@ p {
 #active{ /*Assigns attributes to active ID navbar item */
     background-color: #e07509;
     color: white;
-    text-shadow: white;
 }
 
 /* Navbar dropdown styling */
@@ -313,11 +311,11 @@ p {
       transform: rotateX(-90deg);
     }
     50% {
-      transform: scale(-20deg);
+      transform: rotateX(-20deg);
     }
     100% {
       opacity: 1;
-      transform: scale(0deg);
+      transform: rotateX(0deg);
     }
   }
 

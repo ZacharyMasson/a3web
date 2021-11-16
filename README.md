@@ -22,7 +22,7 @@ Completion by Week 13 before lab.
 
 ### Ridley
 Portfolio Page - Past and Present projects. Finished by Week 12 Lab. Includes:
-Present Portfolio Items as slideshow carousel
+Present Portfolio Items as slideshow carousel of images with text blurbs
 Past Portfolio items as tile gallery of images with descriptions
 Responsive styling for both of the above
 Anchor links to parts of page from navbar
