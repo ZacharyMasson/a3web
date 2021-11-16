@@ -97,7 +97,7 @@ p {
 	padding-bottom: 40px; 
 }
 
-/*Container*/
+/*Container for Services section on landing page. Owner: Zachary Masson*/
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
