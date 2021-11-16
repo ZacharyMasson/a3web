@@ -72,7 +72,7 @@ p .ServInfo {
 .heroimagecontainer{
 	position: relative;
     filter:hue-rotate(90deg);
-    max-height: 500;
+    height: 730;
 }
 
 /* Parameters for mission statement on landing page*/
