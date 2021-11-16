@@ -27,9 +27,12 @@ Stretch goal - Logo spins while hovering over it, add animation to mobile navbar
 Formalize code commenting and review for bugs
 
 ### Victor
-Testimonials
 Image filter that meshes our photos with our websites colours
+Testimonials:
+
 Create 3 fake testimonials, with images of 'clients' or projects Completion by Week 13 before lab. 
+
+
 Stretch goal - 1 of the fake testimonials is a short video clip, under 10 seconds.
 
 ### Zachary
