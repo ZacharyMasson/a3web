@@ -57,9 +57,10 @@ p {
     font: 12px
 }
 p .ServInfo {
-	color: white; 
+	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font: 12px   
+    font-size: 12px;
+
 }
 
 /* Parameters to have Company Name overtop of hero image*/
@@ -120,9 +121,9 @@ p .ServInfo {
 }
 
 .ServTitle {
-    color: white; 
+    color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font: 12px   
+    font-size: 15px; 
 }
 
 .ServImg {
