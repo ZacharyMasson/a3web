@@ -28,7 +28,8 @@ h1 {
 	font-family: 'Monoton', cursive;
 	font-size: 80px;
 	font-weight: lighter;
-	margin: 25px
+	text-shadow: 2px 2px 5px #000000;
+    margin: 25px
 } 
 
 /* Set h2 parameters here, plan to use in pages */
@@ -44,10 +45,8 @@ h3{
 /* Set h4 parameters here */
 h4 {
 	color: #ffffff; 
-	font-family: 'Monoton', cursive;
-	text-shadow: 2px 2px 8px #ea00ff;
+	text-shadow: 2px 2px 5px #000000;
     font-size: 20px;
-    font-weight: lighter;
 }
 
 /* Set p parameters here */
