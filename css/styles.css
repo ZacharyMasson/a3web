@@ -196,8 +196,8 @@ p .ServInfo {
 }
 
 .logo { /*Class for logo imaging */
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 51px;
+    max-height: 51px;
     float: left;
     margin: 5px 0 5px;
 }
