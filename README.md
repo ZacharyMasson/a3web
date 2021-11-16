@@ -19,9 +19,11 @@ Animated Social Icons that link to Linkedins
 Completion by Week 13 before lab. 
 
 ### Ridley
-Portfolio Page - Past and Present
-On hover logo spin
+Portfolio Page - Past and Present - Finished by Week 12 Lab
+Past Portfolio Items as tile gallery of images with descriptions
 Landing Page - Image Carousel
+
+Stretch goal - Logo spins while hovering
 
 ### Victor
 Testimonials
