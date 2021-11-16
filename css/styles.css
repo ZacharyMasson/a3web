@@ -104,6 +104,7 @@ p .ServInfo {
     filter:hue-rotate(90deg);
 }
 
+/*Container for Projects section on landing page, owner: Jade*/
 .flex-containerProjects {
     display: flex;
     flex-wrap: wrap;
@@ -123,11 +124,19 @@ p .ServInfo {
     border-radius: 30%
   }
 
-  .ProjectsImg {
+.ProjectsImg {
       max-width: 100%;
       max-height: auto;
       filter:hue-rotate(90deg);
   }
+
+  /*Responsive styling for projects section, owner: Jade*/
+@media only screen and (max-width: 900px) {
+	.flex-containerProjects > div {
+    width: 40%;
+    margin: 10px;
+  }
+}
 
   /* Container for Partners on Team page, Owner: Kerstyne*/
   .flex-containerPart{
