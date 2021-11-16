@@ -89,6 +89,9 @@ p .ServInfo {
     h1{ /*Sets page title smaller for smaller devices*/
         font-size: 40px;
     }
+    .heroimagecontainercontainer{
+        height: 250px;
+    }
 }
 
 /* Parameters for mission statement on landing page*/
