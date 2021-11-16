@@ -2,12 +2,6 @@
 Web page for Assignment 3
 https://zacharymasson.github.io/a3web/
 
-## Page List
-Landing Page - Collaborative
-Done before Week 11 Lab
-
-CSS - Collaborative
-Main colours and theme done before Week 11 Lab. Will add to it as needed for individual sections after that
 
 ### Jade
 Location page - create two Static API maps, or create dynamic map using javascript if I can figure it out
