@@ -71,8 +71,11 @@ p .ServInfo {
 /* Parameters to contain the hero image*/
 .heroimagecontainer{
 	position: relative;
-    filter:hue-rotate(90deg);
-    height: 730;
+    filter: hue-rotate(90deg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Parameters for mission statement on landing page*/
