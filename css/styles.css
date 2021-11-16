@@ -333,7 +333,7 @@ p .ServInfo {
         flex-direction: column; /*This css resizes the navbar menu when the hamburger is clicked*/
         width: 100%;
     }
-    .navbar-menu.responsive > *{ /*This css */
+    .navbar-menu.responsive > *{ /*This css centers the navbar menu items and gives them styling on mobile*/
         float: none;
         display: block;
         background-color:#612848;
@@ -342,7 +342,7 @@ p .ServInfo {
         text-align: center;
         border-bottom: 1px solid white;
     }
-    .navbar-menu.responsive a{
+    .navbar-menu.responsive a{ /*This css styles the links within the navbar menu items and centers the text within them*/
         float: none;
         display: block;
         background-color:#612848;
@@ -351,18 +351,16 @@ p .ServInfo {
         height: 50px;
         line-height: 50px;
     }
-    .navbar-menu.responsive .dropdown-menu{
+    .navbar-menu.responsive .dropdown-menu{ /*This css turns off the dropdowns for mobile*/
         display: none;
     }
-    .navbar-flex {
+    .navbar-flex { /*This css centers the navbar menu and logo and changes the flex direction to vertical*/
         flex-direction: column;
     }
-    .navbar-flex.responsive > div {
+    .navbar-flex.responsive > div { /*This css changes the colour of the navbar on hamburger click*/
         background-color:#612848;
-        transition: all 60ms;
     }
-    .navbar-flex.responsive .hamburger{
+    .navbar-flex.responsive .hamburger{ /*This css changes the colour of the hamburger on click*/
         color: white;
-        transition: all 60ms;
     }
 }
