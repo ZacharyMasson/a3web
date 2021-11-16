@@ -10,9 +10,10 @@ CSS - Collaborative
 Main colours and theme done before Week 11 Lab. Will add to it as needed for individual sections after that
 
 ### Jade
-Location page - Static API maps (or Javascript to create dynamic map)
-Descriptions of company/team location range
-Done by Week 12 lab
+Location page - create two Static API maps, or create dynamic map using javascript if I can figure it out
+If javascript map is not figured out by Week 12, will move on with Satic API maps
+Write descriptions of company/team location range
+Done by Week 13 lab
 
 ### Kerstyne
 Team Page - Mission Statement/About Us: Rough layout/ design (template) done before Week 12 lab
@@ -20,11 +21,16 @@ Animated Social Icons that link to Linkedins, adding actual text and images in b
 Completion by Week 13 before lab. 
 
 ### Ridley
-Portfolio Page - Past and Present - Finished by Week 12 Lab
-Past Portfolio Items as tile gallery of images with descriptions
-Landing Page - Image Carousel
+Portfolio Page - Past and Present projects. Finished by Week 12 Lab. Includes:
+Present Portfolio Items as slideshow carousel of images with text blurbs
+Past Portfolio items as tile gallery of images with descriptions
+Responsive styling for both of the above
+Anchor links to parts of page from navbar
 
-Stretch goal - Logo spins while hovering
+Finished before Week 13:
+Landing Page - Image Carousel
+Stretch goal - Logo spins while hovering over it, add animation to mobile navbar
+Formalize code commenting and review for bugs
 
 ### Victor
 Testimonials
