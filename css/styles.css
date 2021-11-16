@@ -116,15 +116,17 @@ p .ServInfo {
     width: 33%;
     margin: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 1.5vw;
     border-radius: 15%;
     padding: 10px;
+    height: auto;
+    
 }
 
 .ServTitle {
     color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px; 
+    font-size: 2vw; 
 }
 
 .ServImg {
