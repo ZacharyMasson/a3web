@@ -7,6 +7,7 @@ Web page for Assignment 3
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
+/* Most of the general CSS settings were set by Victor */
 /* Setting the background colour, all text is aligned centre */
 body {
     background-color: #DBCCE0; 
@@ -29,8 +30,14 @@ h1 {
 	margin: 25px
 } 
 
+/* Set h2 parameters here, plan to use in pages */
 h2{
     font-weight: bold;
+}
+
+/* Set h3 parameters here, plan to use in pages */
+h3{
+    font-size: 10vw;
 }
 
 /* Set h4 parameters here */
@@ -65,6 +72,7 @@ p .ServInfo {
 .heroimagecontainer{
 	position: relative;
     filter:hue-rotate(90deg);
+    max-height: 500;
 }
 
 /* Parameters for mission statement on landing page*/
