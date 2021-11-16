@@ -14,8 +14,8 @@ Location page
 Javascript or Static API map
 
 ### Kerstyne
-Team Page - Mission Statement/About Us
-Animated Social Icons that link to Linkedins
+Team Page - Mission Statement/About Us: Rough layout/ design (template) done before Week 12 lab
+Animated Social Icons that link to Linkedins, adding actual text and images in by Week 13
 Completion by Week 13 before lab. 
 
 ### Ridley
