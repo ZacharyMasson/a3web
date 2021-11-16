@@ -73,7 +73,7 @@ p .ServInfo {
     background-image: url("images\DEM2.0.jpg");
 	position: relative;
     filter: hue-rotate(90deg);
-    height: 50%;
+    height: 20%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
