@@ -20,11 +20,16 @@ Animated Social Icons that link to Linkedins, adding actual text and images in b
 Completion by Week 13 before lab. 
 
 ### Ridley
-Portfolio Page - Past and Present - Finished by Week 12 Lab
-Past Portfolio Items as tile gallery of images with descriptions
-Landing Page - Image Carousel
+Portfolio Page - Past and Present projects. Finished by Week 12 Lab. Includes:
+Present Portfolio Items as slideshow carousel
+Past Portfolio items as tile gallery of images with descriptions
+Responsive styling for both of the above
+Anchor links to parts of page from navbar
 
-Stretch goal - Logo spins while hovering
+Finished before Week 13:
+Landing Page - Image Carousel
+Stretch goal - Logo spins while hovering over it, add animation to mobile navbar
+Formalize code commenting and review for bugs
 
 ### Victor
 Testimonials
