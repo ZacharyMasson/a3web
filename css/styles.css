@@ -17,6 +17,7 @@ body {
     height: 100%;
 }	
 
+/* Footer styling by Victor */
 footer{
     background-color: #a673b8; 
     text-align: center;
@@ -56,9 +57,10 @@ p {
     font: 12px
 }
 p .ServInfo {
-	color: white; 
+	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font: 12px   
+    font-size: 12px;
+
 }
 
 /* Parameters to have Company Name overtop of hero image*/
@@ -119,9 +121,9 @@ p .ServInfo {
 }
 
 .ServTitle {
-    color: white; 
+    color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font: 12px   
+    font-size: 15px; 
 }
 
 .ServImg {
@@ -251,7 +253,7 @@ p .ServInfo {
 }
 
 #active{ /*Assigns attributes to active ID navbar item */
-    background-color: #e08223;
+    background-color: #e07509;
     color: white;
     text-shadow: white;
 }
