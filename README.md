@@ -10,8 +10,9 @@ CSS - Collaborative
 Main colours and theme done before Week 11 Lab. Will add to it as needed for individual sections after that
 
 ### Jade
-Location page
-Javascript or Static API map
+Location page - Static API maps (or Javascript to create dynamic map)
+Descriptions of company/team location range
+Done by Week 12 lab
 
 ### Kerstyne
 Team Page - Mission Statement/About Us: Rough layout/ design (template) done before Week 12 lab

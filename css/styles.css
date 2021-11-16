@@ -56,13 +56,7 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font: 12px
 }
-p .ServInfo {
-	color: #000000; 
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 12px;
-    
 
-}
 
 /* Parameters to have Company Name overtop of hero image*/
 .heroimagetitle {
@@ -103,36 +97,37 @@ p .ServInfo {
 	padding-bottom: 40px; 
 }
 
-/*Container*/
+/*Container for Services section on landing page. Owner: Zachary Masson*/
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
     background-color: #DBCCE0;
     justify-content: center;
 }
-  
 .flex-containerServ > div {
     background-color: #c397d1;
     width: 33%;
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
-    border-radius: 15%;
+    border-radius: 25%;
     padding: 10px;
     height: auto;
-    
 }
-
 .ServTitle {
     color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
     font-size: 2vw; 
 }
-
 .ServImg {
     max-width: 25%;
     float: left;
     filter:hue-rotate(90deg);
+}
+.ServInfo {
+	color: #000000; 
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
 }
 
 /*Container for Projects section on landing page, owner: Jade*/
