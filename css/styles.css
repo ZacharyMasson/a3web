@@ -29,8 +29,14 @@ h1 {
 	margin: 25px
 } 
 
+/* Set h2 parameters here, plan to use in pages */
 h2{
     font-weight: bold;
+}
+
+/* Set h3 parameters here, plan to use in pages */
+h3{
+    font-size: 10vw;
 }
 
 /* Set h4 parameters here */
