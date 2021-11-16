@@ -42,7 +42,9 @@ Create 3 fake testimonials, with images of 'clients' or projects Completion by W
 Stretch goal - 1 of the fake testimonials is a short video clip, under 10 seconds.
 
 ### Zachary
-Join Us/ Contact Us - A form from survey123 that will collect the users name, email, and protect type. Done before week 12 lab. 
+Join Us/ Contact Us - A form from survey123 that will collect the users name, email, and protect type. Done before week 12 lab.
+
 A map marker that on hover shows contact information per "office" location. On click it will link to an anchor on Jade's Projects page. Done before week 13 lab. 
+
 Stretch goal - When the user completes the survey the colour of the page should change an element on the page to show "We are excited to work with you!"
 
