@@ -17,6 +17,7 @@ body {
     height: 100%;
 }	
 
+/* Footer styling by Victor */
 footer{
     background-color: #a673b8; 
     text-align: center;
@@ -76,7 +77,7 @@ p .ServInfo {
 
 /* Parameters to contain the hero image*/
 .heroimagecontainer{
-    background-image: url("../images/DEM.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/DEM.jpg");
 	position: relative;
     filter: hue-rotate(90deg);
     height: 100%;
@@ -253,7 +254,7 @@ p .ServInfo {
 }
 
 #active{ /*Assigns attributes to active ID navbar item */
-    background-color: #e08223;
+    background-color: #e07509;
     color: white;
     text-shadow: white;
 }
