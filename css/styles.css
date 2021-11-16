@@ -167,7 +167,7 @@ p .ServInfo {
 }
 
 /* Navbar Styling, owner: Ridley */
-.navbar-flex{
+.navbar-flex{ /*Class for overall navbar */
     margin: 0;
 	display: flex;
 	flex-direction: row;
@@ -176,33 +176,33 @@ p .ServInfo {
     background-color:white;
 }
 
-.navbar-flex-left {  
+.navbar-flex-left {  /*Class for navbar flex containing logo */
 	flex: 40%;
     align-self: center;
 } 
 
-.navbar-flex-right { 
+.navbar-flex-right { /*Class for navbar flex containing navigation buttons */
 
   flex: 60%;
   align-self: center;
   justify-content: right;
 }
 
-.logo-container {
+.logo-container { /*Class for div containing logo */
     display: block;
     margin: 0;
     padding: 0;
     float: left;
 }
 
-.logo {
+.logo { /*Class for logo imaging */
     max-width: 50px;
     max-height: 50px;
     float: left;
     margin: 5px 0 5px;
 }
 
-.navbar-menu {
+.navbar-menu { /*Class for navbar list */
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -216,7 +216,7 @@ p .ServInfo {
     float: right;
 }
 
-.navbar-item {
+.navbar-item { /*Class for individual navbar items */
     display: block;
     width: 100px;
     height: 50px;
@@ -226,31 +226,31 @@ p .ServInfo {
     text-decoration: none;
 }
 
-.navbar-item:hover{
+.navbar-item:hover{ /*Assigns hover attribute to navbar items */
     background-color: #612848;
     color: white;
     transition: background .2s ease-in;
 }
 
-#active{
+#active{ /*Assigns attributes to active ID navbar item */
     background-color: #e08223;
     color: white;
     text-shadow: white;
 }
 
 /* Navbar dropdown styling */
-.dropdown {
+.dropdown { /*Dropdown div class for navbar items with dropdowns*/
     position: relative;
     display: inline-block;
 }
 
-.dropdown-menu {
+.dropdown-menu { /*Dropdown div for dropdown menu links*/
     position: absolute;
     width: 100px;
     z-index: 1; /* Ensures dropdown does not appear behind other elements */
 }
 
-.dropdown-menu a {
+.dropdown-menu a { /*Styling for dropdown links*/
     display: none;
     width: 100px;
     height: 30px;
@@ -263,32 +263,32 @@ p .ServInfo {
     position: relative;
 }
 
-.dropdown-menu a:hover{
+.dropdown-menu a:hover{ /*Hover styling for dropdown links*/
     background-color: #612848;
     color: white;
     transition: background .2s ease-in;
 }
 
 .dropdown:hover .dropdown-menu a{
-    display: block;
+    display: block; /*Turns display of dropdown links on when hovering over dropdown*/
 }
 
-.dropdown:hover .navbar-item{
+.dropdown:hover .navbar-item{ /*Keeps dropdown hover effect on while navigating dropdown list*/
     background-color:#612848;
     transition: background .2s ease-in;
     color: white;
 }
 
-.hamburger {
+.hamburger { /*Styling for hamburger icon*/
     color: #612848;
     height: 50px;
     line-height: 50px;
-    display: none;
+    display: none; /*Keeps hamburger hidden for desktop displays */
     margin: 0 5px;
 }
 
 /* Navbar Dropdown animation styling, based on: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform */
-@keyframes rotateX {
+@keyframes rotateX { /*Sets keyframes for dropdown link animations*/
     0% {
       opacity: 0;
       transform: rotateX(-90deg);
@@ -302,12 +302,12 @@ p .ServInfo {
     }
   }
 
-.dropdown-item1 {
+.dropdown-item1 { /*Sets animation timing and delay for first dropdown link*/
     transform-origin: top-center;
     animation: rotateX 300ms 60ms ease-in-out forwards;
 }
 
-.dropdown-item2 {
+.dropdown-item2 { /*Sets animation timing and delay for second dropdown link*/
     transform-origin: top-center;
     animation: rotateX 300ms 120ms ease-in-out forwards;
 }
@@ -316,24 +316,24 @@ p .ServInfo {
 /*Navbar Mobile Styling, based on w3schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 @media only screen and (max-width: 768px) {
     
-    .navbar-menu{
+    .navbar-menu{ /*Sets navbar in front of other elements for styling*/
         z-index: 1;
     }
-    .navbar-menu > *{
+    .navbar-menu > *{ /*Turns off navbar menu initially*/
         display: none;
     }
-    .navbar-flex > div {
+    .navbar-flex > div { /*Turns off navbar menu initially*/
         width: 100%;
     }
-    a.hamburger{
+    a.hamburger{ /*Displays hamburger for mobile browsers*/
         display: block;
         float: right;
     }
-    .navbar-menu.responsive {
-        flex-direction: column;
+    .navbar-menu.responsive { /*Javascript function appends class 'responsive' to navbar menu when hamburger is clicked*/
+        flex-direction: column; /*This css resizes the navbar menu when the hamburger is clicked*/
         width: 100%;
     }
-    .navbar-menu.responsive > *{
+    .navbar-menu.responsive > *{ /*This css */
         float: none;
         display: block;
         background-color:#612848;
