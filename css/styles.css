@@ -75,7 +75,7 @@ p .ServInfo {
 
 /* Parameters to contain the hero image*/
 .heroimagecontainer{
-    background-image: url("../images/DEM2.jpg");
+    background-image: url("../images/DEM.jpg");
 	position: relative;
     filter: hue-rotate(90deg);
     height: 100%;
