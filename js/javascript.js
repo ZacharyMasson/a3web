@@ -1,5 +1,6 @@
 // Mobile Navbar function, owner: Ridley
 function navBar(){
+    document.getElementByClass("dropblock").style.display = block;
     var nav = document.getElementById("navbarmaster");
     if (nav.className === "navbar-menu") {
         nav.className += " responsive";

@@ -336,15 +336,41 @@ p {
     .navbar-menu{ /*Sets navbar in front of other elements for styling*/
         z-index: 1;
     }
-    .navbar-menu > *{ /*Turns off navbar menu initially*/
-        display: none;
-    }
-    .navbar-flex > div { /*Turns off navbar menu initially*/
+    .navbar-flex > div { /*Centers navbar on screen */
         width: 100%;
     }
     a.hamburger{ /*Displays hamburger for mobile browsers*/
         display: block;
         float: right;
+    }
+    #navbarmaster{ /* STYLING FOR MOBILE NAVBAR MENU ANIMATION */
+        position: relative;
+    }
+    .dropblock { /*Turns off navbar menu initially*/
+        display: none;
+        z-index: 1;
+        opacity: 0;
+        position: relative;
+    }
+    #nav-item1{
+        transform-origin: top-center;
+        animation: rotateX 300ms 60ms ease-in-out forwards;
+    }
+    #nav-item2{
+        transform-origin: top-center;
+        animation: rotateX 300ms 120ms ease-in-out forwards;
+    }    
+    #nav-item3{
+        transform-origin: top-center;
+        animation: rotateX 300ms 180ms ease-in-out forwards;
+    }
+    #nav-item4{
+        transform-origin: top-center;
+        animation: rotateX 300ms 240ms ease-in-out forwards;
+    }
+    #nav-item5{
+        transform-origin: top-center;
+        animation: rotateX 300ms 300ms ease-in-out forwards;
     }
     .navbar-menu.responsive { /*Javascript function appends class 'responsive' to navbar menu when hamburger is clicked*/
         flex-direction: column; /*This css resizes the navbar menu when the hamburger is clicked*/
@@ -352,7 +378,6 @@ p {
     }
     .navbar-menu.responsive > *{ /*This css centers the navbar menu items and gives them styling on mobile*/
         float: none;
-        display: block;
         background-color:#612848;
         color: white;
         width: 100%;
