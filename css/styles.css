@@ -164,13 +164,12 @@ p {
   }
 }
 
-  /* Container for Partners on Team page, Owner: Kerstyne*/
-  .flex-containerPart{
+/* Container for Partners on Team page, Owner: Kerstyne*/
+.flex-containerPart{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;    
     justify-content: center;
-    background-color:rgb(233, 143, 233);
 }
 .flexcontainerPart > div{
     margin: 10px;
