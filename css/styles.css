@@ -170,16 +170,18 @@ p {
     flex-wrap: wrap;
     flex-direction: row;    
     justify-content: center;
+    justify-content: space-around;
+    margin: 50px;
 }
 .flexcontainerPart > div{
     margin: 10px;
     text-align: center;
+    padding: 40px;   
 }
 
-.partnerlogo{
+.PartnerLogos{
     max-width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: auto; 
 }
 
 /* Navbar Styling, owner: Ridley */
