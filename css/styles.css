@@ -482,11 +482,11 @@ margin-top: justify-content;
 .TestimonialBox {
     display: flex;
     background-color: #c397d1;
-    flex-wrap: wrap;
-    flex-direction: row;    
-    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    justify-content: center;
     margin: 20px;
-    border-radius: 15px
+    border-radius: 15px;
+    width: 75%;
   }
 
 .TestimonialBox > div{
