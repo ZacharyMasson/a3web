@@ -9,6 +9,7 @@
   <!-- stylesheet for hamburger menu icon: -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src= "js/javascript.js"></script>
+  <script src="https://kit.fontawesome.com/af2264fdae.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -73,15 +74,16 @@ Owner: Kerstyne -->
       <img class="teamimage" src="images/OllieandMe.jpg" alt="Ollie and I Vibing">
     </div>
     <div class="teaminfocont">
-      <p class="teamname"> Kerstyne Widmeyer</p>
+      <p class="teamname"> Kerstyne Widmeyer  </p>
       <p class="teaminfo"> Stuff about me  </p>
+      <button class="linkedinbutton"> <i class="fab fa-linkedin"></i></button>
     </div>
   </div>
   <div>
     <div>
       <img class="teamimage" src="" alt="">
     </div>
-    <div>
+    <div class="teaminfocont">
       <p class="teamname"> Jade</p>
       <p class="teaminfo"> Stuff about me  </p>
     </div>
@@ -90,7 +92,7 @@ Owner: Kerstyne -->
     <div>
       <img class="teamimage" src="" alt="">
     </div>
-    <div>
+    <div class="teaminfocont">
       <p class="teamname"> Ridley</p>
       <p class="teaminfo"> Stuff about me  </p>
     </div>
@@ -99,7 +101,7 @@ Owner: Kerstyne -->
     <div>
       <img class="teamimage" src="" alt="">
     </div>
-    <div>
+    <div class="teaminfocont">
       <p class="teamname"> Victor</p>
       <p class="teaminfo"> Stuff about me  </p>
     </div>
@@ -108,7 +110,7 @@ Owner: Kerstyne -->
     <div>
       <img class="teamimage" src="" alt="">
     </div>
-    <div>
+    <div class="teaminfocont">
       <p class="teamname"> Zachary</p>
       <p class="teaminfo"> Stuff about me  </p>
     </div>
@@ -136,53 +138,68 @@ Owner: Kerstyne -->
 
 
 <style>
+  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
+.linkedinbutton{
+  transition-duration:0.4s;
+  border-radius:20px;
+  color: white;
+  background-color:#c397d1;
+  border:none;
+  font-size: 2.5vw;
+  float: left;
+}
+.linkedinbutton:hover{
+  color:#0a66c2;
+}
+/* style for teams page flex-boxes Owner: Kerstyne*/
 .flex-teamtitle{
-  font-size: 2.5 vw;
-  justify-content: center;
+  font-size:2vw;
+  justify-content:center;
 }
 .flex-Goteam{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 150px;
-  padding-right: 150px;
-  position: relative;
-}
-.flex-Goteam > div{
-  padding: 30px;
-  height: auto;
-  background-color:#c397d1;
-  border-radius: 15px;
-  margin: 20px;
-  overflow: hidden;
-  position: relative;
-}
-.teamimage{
-  float: left;
-  height: auto;
-  max-width: 100%;
-  padding-right: 30px;
-  padding-bottom: 20px;
-}
-.teamname{
-  font-size: 2vw;
-  font-weight: bold;
-  text-align: left;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content:center;
+  padding-left:150px;
+  padding-right:150px;
   position:relative;
 }
+.flex-Goteam>div{
+  padding:30px;
+  height:auto;
+  background-color:#c397d1;
+  border-radius:15px;
+  margin:20px;
+  overflow:hidden;
+  position:relative;
+}
+.teamimage{
+  float:left;
+  height:auto;
+  max-width:100%;
+  padding-right:30px;
+  padding-bottom:20px;
+}
+.teamname{
+  font-size:2vw;
+  font-weight:bold;
+  text-align:left;
+  position:relative;
+  min-width:fit-content;
+}
 .teaminfo{
-  font-size: 1.5vw;
-  text-align: left;
+  font-size:1.5vw;
+  text-align:left;
 }
 .PartnersTitle{
-  padding-top: 70px;
+  padding-top:70px;
 }
 .teaminfocont{
   width:75%;
 }
-@media screen and(max-width: 500px){
-  .teamimage, .teaminfocont {
+@media screen and(max-width:500px){
+  .teamimage,.teaminfocont{
     width:100%;
   }
 }
