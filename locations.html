@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <!-- Template taken from w3schools and gutted; https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_website&stacked=h -->
+  <title>Lumpy Potato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- stylesheet for hamburger menu icon: -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src= "js/javascript.js"></script>
+</head>
+<body>
+
+<!-- Navbar, Owner: Ridley -->
+<div class="navbar-flex" id = "headerbar">
+  <div class = "navbar-flex-left">
+    <a class = "logo-container" href = 'index.html'>
+      <img class = 'logo' src='images/logo.png' alt = 'Lumpy Potato'>
+    </a>
+    <a class = "hamburger" href = "javascript:void(0);" onclick="navBar()">
+      <i class = "fa fa-bars"></i>
+    </a>
+  </div>
+ <div class="navbar-flex-right">
+   <div class ="navbar-menu" id="navbarmaster">
+    <div class = "dropdown dropblock" id = "nav-item1">
+      <a class = "navbar-item" id = 'active' href="portfolio.html" >Portfolio</a>
+      <div class = "dropdown-menu">
+        <a class = "dropdown-item1" href=portfolio.html#present>Present</a>
+        <a class = "dropdown-item2" href=portfolio.html#past>Past</a>
+      </div>
+    </div>
+    <div class = "dropblock" id = "nav-item2">
+    <a class = "navbar-item" href= "testimonials.html" >Testimonials</a>
+    </div>
+    <div class = "dropblock" id = "nav-item3">
+    <a class = "navbar-item" href="TeamPage.html" >Team</a>
+    </div>
+    <div class = "dropblock dropdown" id = "nav-item4">
+      <a class = "navbar-item" href="contact.html" >Contact</a>
+      <div class = "dropdown-menu">
+        <a class = "dropdown-item1" href=portfolio.html#hireus>Hire Us</a>
+        <a class = "dropdown-item2" href=portfolio.html#joinus>Join Us</a>
+      </div>
+    </div>
+    <div class = "dropblock" id = "nav-item4">    
+    <a class = "navbar-item" id = "nav-item5" href="location.html" >Location</a>
+    </div>
+  </div>
+</div>
+
+<!-- Image Header, Owner: Kerstyne-->
+<div class="heroimagecontainercontainer">
+    <div class="heroimagecontainer">
+      <div class="heroimagetitle">
+      <!-- Image taken from https://surveyinggroup.com/dsm-dem-dtm-elevation-models-in-gis/ -->
+        <h1> Lumpy Potato </h1>  
+      </div>
+    </div>
+</div>
+
+
+</body>
