@@ -12,6 +12,45 @@
   </head>
 <body>
 
+  <!-- Navbar, Owner: Ridley -->
+  <div class="navbar-flex" id = "headerbar">
+    <div class = "navbar-flex-left">
+      <a class = "logo-container" href = 'index.html'>
+        <img class = 'logo' src='images/logo.png' alt = 'Lumpy Potato'>
+      </a>
+      <a class = "hamburger" href = "javascript:void(0);" onclick="navBar()">
+        <i class = "fa fa-bars"></i>
+      </a>
+    </div>
+  <div class="navbar-flex-right">
+    <div class ="navbar-menu" id="navbarmaster">
+      <div class = "dropdown" id = "nav-item1">
+        <a class = "navbar-item" href="portfolio.html" >Portfolio</a>
+        <div class = "dropdown-menu">
+          <a class = "dropdown-item1" href=portfolio.html#present>Present</a>
+          <a class = "dropdown-item2" href=portfolio.html#past>Past</a>
+        </div>
+      </div>
+      <div id = "nav-item2">
+        <a class = "navbar-item" id = "active"  href= "testimonials.html" >Testimonials</a>
+      </div>
+      <div id = "nav-item3">
+        <a class = "navbar-item" href="TeamPage.html" >Team</a>
+      </div>
+      <div class = "dropdown" id = "nav-item4">
+        <a class = "navbar-item" href="contact.html" >Contact</a>
+        <div class = "dropdown-menu">
+          <a class = "dropdown-item1" href=portfolio.html#hireus>Hire Us</a>
+          <a class = "dropdown-item2" href=portfolio.html#joinus>Join Us</a>
+        </div>
+      </div>   
+      <div id = "nav-item5"> 
+        <a class = "navbar-item" href="location.html" >Location</a>
+      </div>
+    </div>
+    </div>
+  </div>
+
 
 <!-- Add Testimonal stuff below here:-->
 
@@ -30,6 +69,31 @@ Testimonials
   <p>"some blurb about how great we are..."</p>
 
 </div>
+
+<!-- Video section using javascript-->
+
+<div class="TestimonialBox"> 
+  <button class="ButtonVideo" onclick="playPause()">Play/Pause</button> 
+  <br><br>
+  <video id="video1" width="420">
+    <source src="testvideo.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+</script> 
+
+<p>Video courtesy of <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank">A Cool Video</a>.</p>
 
 
 <!-- Footer, Owner: Victor-->
