@@ -307,7 +307,7 @@ p {
     transition: background .2s ease-in;
 }
 
-#active{ /*Assigns attributes to active ID navbar item */
+#active{ /*Assigns attributes to active class navbar item */
     background-color: #e07509;
     color: white;
 }
