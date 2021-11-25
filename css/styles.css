@@ -481,16 +481,27 @@ margin-top: justify-content;
 /*Testimonials extra styling section - Owner Victor Toth*/
 .TestimonialBox {
     display: flex;
-    flex-wrap: wrap;
     background-color: #c397d1;
-    justify-content: center;
-    margin: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius: 15px
   }
+
+.TestimonialBox > div{
+    margin: 10px;
+    text-align: center;
+    padding: 20px    
+}
+
 
 .ButtonVideo {
     border: 1px solid #5c5c5c;
+    border-radius: 10px;
+    width: 15vw;
   color: white;
-  padding: 15px 15px;
+  padding: 5px 5px;
   text-align: center;
   color: #000000; 
   font-family: 'Nunito Sans', sans-serif;
