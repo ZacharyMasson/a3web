@@ -59,16 +59,40 @@ Testimonials
 </h2>
 
 <div class="TestimonialBox">
-  <h4>Testimonial 1</h2>
-  <p>"some blurb about how great we are..."</p>
-
+  <div>
+    <h4>Testimonial 1</h2>
+    <p>"some blurb about how great we are..."</p>
+  </div>
+  <div>
+    <h4>Testimonial 1</h2>
+    <p>"some blurb about how great we are..."</p>
+  </div>
 </div>
 
-<div class="TestimonialBox">
-  <h4>Testimonial 2</h2>
-  <p>"some blurb about how great we are..."</p>
 
-</div>
+<!-- Video section using javascript-->
+
+<div class="TestimonialBox"> 
+  <div>
+    <button class="ButtonVideo" onclick="playPause()">Play/Pause</button> 
+  </div>
+    <br><br>
+  <video id="video1" width="420">
+    <source src="images/testvideo.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+</script> 
 
 
 <!-- Footer, Owner: Victor-->

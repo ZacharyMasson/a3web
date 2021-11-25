@@ -48,7 +48,15 @@ function showSlides(n) { // This function controls which slide shows up as the v
 }
 
 
-//Survey123 Js for Iframe. Owner: Zachary Masson
+//Survey123 Js for Iframe. Owner: Zach
 var survey123webform = document.getElementsByName('survey123webform')[0];
 window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data);
 "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
+
+
+//Show pages (test) - owner: Zach
+function show(shown, hidden) {
+    document.getElementById(shown).style.display='block';
+    document.getElementById(hidden).style.display='none';
+    return false;
+}
