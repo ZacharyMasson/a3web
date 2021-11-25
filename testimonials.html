@@ -70,6 +70,31 @@ Testimonials
 
 </div>
 
+<!-- Video section using javascript-->
+
+<div class="TestimonialBox"> 
+  <button class="ButtonVideo" onclick="playPause()">Play/Pause</button> 
+  <br><br>
+  <video id="video1" width="420">
+    <source src="testvideo.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+</script> 
+
+<p>Video courtesy of <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank">A Cool Video</a>.</p>
+
 
 <!-- Footer, Owner: Victor-->
 <footer class="footer">
