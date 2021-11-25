@@ -19,7 +19,7 @@ body {
 
 /* Footer styling by Victor */
 footer{
-    background-color: #a673b8; 
+    background-color: #c397d1; 
     text-align: center;
 }
 
@@ -478,7 +478,7 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
 .TestimonialBox {
     display: flex;
     flex-wrap: wrap;
-    background-color: #a673b8;
+    background-color: #c397d1;
     justify-content: center;
     margin: 30px;
   }
