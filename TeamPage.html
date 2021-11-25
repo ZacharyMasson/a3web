@@ -55,24 +55,6 @@
 </div>
 </div>
 
-<!-- Our Partners section of team page Owner: Kerstyne -->
-<div> 
-    <h2>Our Partners</h2>
-    <p> Blurb about partners</p>
-</div>
-<div class="flex-containerPart">
-    <div>
-        <!-- Image downloaded from https://www.pngkey.com/detail/u2q8o0y3r5r5o0w7_esri-logo-esri-science-of-where-logo/ -->
-        <a href="https://www.esri.com/en-us/home"><img class="PartnerLogos" src="images/ESRI.png" alt="Esri Logo"></a>
-        <p> Proud partners of ESRI</p>
-    </div>
-    <div>
-        <!-- Image downloaded from https://logos-world.net/wp-content/uploads/2021/08/Fleming-College-Logo.png -->
-        <a href="https://flemingcollege.ca/"><img class="PartnerLogos" src="images/FlemingLogo.png" alt="Fleming Logo"></a> 
-        <p> Proud partners of fleming college</p>
-    </div>
-</div>
-
 <!-- Team section of team page! Photo's of us, links to our linkedins and a small blurb
 Owner: Kerstyne -->
 
@@ -81,39 +63,75 @@ Owner: Kerstyne -->
 </div>
 <div class="flex-Goteam">
   <div>
-    <img class="teamimage" src="images/OllieandMe.jpg" alt="Ollie and I Vibing">
-    <p class="teamname"> Kerstyne Widmeyer</p>
-    <p class="teaminfo"> Stuff about me  </p>
+    <div>
+      <img class="teamimage" src="images/OllieandMe.jpg" alt="Ollie and I Vibing">
+    </div>
+    <div class="teaminfocont">
+      <p class="teamname"> Kerstyne Widmeyer</p>
+      <p class="teaminfo"> Stuff about me  </p>
+    </div>
   </div>
   <div>
-    <img class="teamimage" src="" alt="">
-    <p class="teamname"> Jade</p>
-    <p class="teaminfo"> Stuff about me  </p>
+    <div>
+      <img class="teamimage" src="" alt="">
+    </div>
+    <div>
+      <p class="teamname"> Jade</p>
+      <p class="teaminfo"> Stuff about me  </p>
+    </div>
   </div>
   <div>
-    <img class="teamimage" src="" alt="">
-    <p class="teamname"> Ridley</p>
-    <p class="teaminfo"> Stuff about me  </p>
+    <div>
+      <img class="teamimage" src="" alt="">
+    </div>
+    <div>
+      <p class="teamname"> Ridley</p>
+      <p class="teaminfo"> Stuff about me  </p>
+    </div>
   </div>
   <div>
-    <img class="teamimage" src="" alt="">
-    <p class="teamname"> Victor</p>
-    <p class="teaminfo"> Stuff about me  </p>
+    <div>
+      <img class="teamimage" src="" alt="">
+    </div>
+    <div>
+      <p class="teamname"> Victor</p>
+      <p class="teaminfo"> Stuff about me  </p>
+    </div>
   </div>
   <div>
-    <img class="teamimage" src="" alt="">
-    <p class="teamname"> Zachary</p>
-    <p class="teaminfo"> Stuff about me  </p>
+    <div>
+      <img class="teamimage" src="" alt="">
+    </div>
+    <div>
+      <p class="teamname"> Zachary</p>
+      <p class="teaminfo"> Stuff about me  </p>
+    </div>
+  </div>
+</div>
+
+<!-- Our Partners section of team page Owner: Kerstyne -->
+<div> 
+  <h2 class="PartnersTitle">Our Partners</h2>
+  <p> Blurb about partners</p>
+</div>
+<div class="flex-containerPart">
+  <div>
+      <!-- Image downloaded from https://www.pngkey.com/detail/u2q8o0y3r5r5o0w7_esri-logo-esri-science-of-where-logo/ -->
+      <a href="https://www.esri.com/en-us/home"><img class="PartnerLogos" src="images/ESRI.png" alt="Esri Logo"></a>
+      <p> Proud partners of ESRI</p>
+  </div>
+  <div>
+      <!-- Image downloaded from https://logos-world.net/wp-content/uploads/2021/08/Fleming-College-Logo.png -->
+      <a href="https://flemingcollege.ca/"><img class="PartnerLogos" src="images/FlemingLogo.png" alt="Fleming Logo"></a> 
+      <p> Proud partners of fleming college</p>
   </div>
 </div>
 
 
+
 <style>
-.teamtitle{
-  font-size: 3.5vw;
-  border: 4pt solid #c397d1;
-  border-radius: 15px;
-  margin: 100px;
+.flex-teamtitle{
+  font-size: 2.5 vw;
   justify-content: center;
 }
 .flex-Goteam{
@@ -121,7 +139,9 @@ Owner: Kerstyne -->
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  padding: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+  position: relative;
 }
 .flex-Goteam > div{
   padding: 30px;
@@ -129,23 +149,37 @@ Owner: Kerstyne -->
   background-color:#c397d1;
   border-radius: 15px;
   margin: 20px;
+  overflow: hidden;
+  position: relative;
 }
 .teamimage{
   float: left;
   height: auto;
   max-width: 100%;
-  padding-bottom: 10px;
-  text-align: center;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 .teamname{
   font-size: 2vw;
   font-weight: bold;
+  text-align: left;
+  position:relative;
 }
 .teaminfo{
   font-size: 1.5vw;
+  text-align: left;
 }
-
-
+.PartnersTitle{
+  padding-top: 70px;
+}
+.teaminfocont{
+  width:75%;
+}
+@media screen and(max-width: 500px){
+  .teamimage, .teaminfocont {
+    width:100%;
+  }
+}
 
 </style>
 <!-- Footer, Owner: Victor -->
