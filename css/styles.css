@@ -19,7 +19,7 @@ body {
 
 /* Footer styling by Victor */
 footer{
-    background-color: #a673b8; 
+    background-color: #c397d1; 
     text-align: center;
 }
 
@@ -128,6 +128,19 @@ p {
 	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
+}
+
+/*Survery123 CSS - Owner: Zachary*/
+.embed-container {position: relative; height: 0; padding-bottom:80%; max-width: 100%;} 
+.embed-container iframe, 
+.embed-container object, 
+.embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} 
+small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
+
+.test{
+width: 500px;
+height: 400px; 
+margin-top: justify-content;
 }
 
 /*Container for Projects section on landing page, owner: Jade*/
@@ -307,7 +320,7 @@ p {
     transition: background .2s ease-in;
 }
 
-#active{ /*Assigns attributes to active ID navbar item */
+#active{ /*Assigns attributes to active class navbar item */
     background-color: #e07509;
     color: white;
 }
@@ -463,4 +476,36 @@ p {
     .navbar-flex.responsive .hamburger{ /*This css changes the colour of the hamburger on click*/
         color: white;
     }
+}
+
+/*Testimonials extra styling section - Owner Victor Toth*/
+.TestimonialBox {
+    display: flex;
+    background-color: #c397d1;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius: 15px
+  }
+
+.TestimonialBox > div{
+    margin: 10px;
+    text-align: center;
+    padding: 20px    
+}
+
+
+.ButtonVideo {
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+    width: 15vw;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  color: #000000; 
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+
 }
