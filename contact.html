@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <!-- Template taken from w3schools and gutted; https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_website&stacked=h -->
+  <title>Lumpy Potato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- stylesheet for hamburger menu icon: -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src= "js/javascript.js"></script>
+</head>
+<body>
+
+<!-- Navbar, Owner: Ridley 11:09AM, Nov 11, 2021-->
+<div class="navbar-flex" id = "headerbar">
+  <div class = "navbar-flex-left">
+    <a class = "logo-container" href = 'index.html'>
+      <img class = 'logo' src='images/logo.png' alt = 'Lumpy Potato'>
+    </a>
+    <a class = "hamburger" href = "javascript:void(0);" onclick="navBar()">
+      <i class = "fa fa-bars"></i>
+    </a>
+  </div>
+ <div class="navbar-flex-right">
+   <div class ="navbar-menu" id="navbarmaster">
+    <div class = "dropdown" id = "nav-item1">
+      <a class = "navbar-item" id = 'active' href="portfolio.html" >Portfolio</a>
+      <div class = "dropdown-menu">
+        <a class = "dropdown-item1" href=portfolio.html#present>Present</a>
+        <a class = "dropdown-item2" href=portfolio.html#past>Past</a>
+      </div>
+    </div>
+    <a class = "navbar-item" id = "nav-item2" href= "testimonials.html" >Testimonials</a>
+    <a class = "navbar-item" id = "nav-item3" href="TeamPage.html" >Team</a>
+    <div class = "dropdown" id = "nav-item4">
+      <a class = "navbar-item" href="contact.html" >Contact</a>
+      <div class = "dropdown-menu">
+        <a class = "dropdown-item1" href=portfolio.html#hireus>Hire Us</a>
+        <a class = "dropdown-item2" href=portfolio.html#joinus>Join Us</a>
+      </div>
+    </div>    
+    <a class = "navbar-item" id = "nav-item5" href="location.html" >Location</a>
+  </div>
+  </div>
+</div>
+
+<!-- Image Header, Owner: Kerstyne 11:12am-->
+<div class="heroimagecontainercontainer">
+<div class="heroimagecontainer">
+  <div class="heroimagetitle">
+  <!-- Image taken from https://surveyinggroup.com/dsm-dem-dtm-elevation-models-in-gis/ -->
+    <h1> Company Name </h1>  
+  </div>
+</div>
+</div>
+
+<style>.embed-container {position: relative; height: 0; padding-bottom:80%; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe name="survey123webform" width="500" height="400" frameborder="0" marginheight="0" marginwidth="0" title="GroupWebPageZM" src="//survey123.arcgis.com/share/2aa16967394f4e9ca6cb8a8138bb8ea0" allow="geolocation https://survey123.arcgis.com; camera https://survey123.arcgis.com"></iframe></div><script>var survey123webform = document.getElementsByName('survey123webform')[0];window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data);"survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});</script>
+
+
+
+
+<!-- Footer, Owner: Victor November 18, 2021-->
+<footer class="footer">
+  <h4>Headquarters</h4>
+  <p> 123 Fake St. - Toronto, ON</p>
+  <p>Copyright 2021</p>
+
+</footer>
+
+</body>
+</html>
