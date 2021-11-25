@@ -184,6 +184,63 @@ p {
     height: auto; 
 }
 
+/* ******BEGIN PORTFOLIO PAGE STYLING Owner: Ridley****** */
+.present-portfolio{
+    margin: auto;
+    max-width: 1000px;
+    box-shadow:  0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-slideshow { /* Master Slideshow Container */
+    height: 350px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
+
+.slide-img-reg {
+    opacity: 1;
+    left: 0;
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide-img-hover {
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.slide img.slide-img-reg:hover {
+    opacity: 0;
+}
+
+/* Project Title Text */
+.portfolio-title {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: #f1f1f1;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+}
+
+.portfolio-blurb {
+    position: relative;
+    padding: 0;
+}
+
+
+/* ******END PORTFOLIO PAGE STYLING****** */
+
 /* Navbar Styling, owner: Ridley */
 .navbar-flex{ /*Class for overall navbar */
     margin: 0;
