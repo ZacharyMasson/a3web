@@ -464,3 +464,12 @@ p {
         color: white;
     }
 }
+
+/*Testimonials extra styling section - Owner Victor Toth*/
+.TestimonialBox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a673b8;
+    justify-content: center;
+    margin: 30px;
+  }
