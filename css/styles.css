@@ -195,9 +195,11 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
 
 /* ******BEGIN PORTFOLIO PAGE STYLING Owner: Ridley****** */
 .present-portfolio{
+    background-color: #c397d1;
     margin: auto;
     max-width: 1000px;
     box-shadow:  0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
 }
 
 .project-slideshow { /* Master Slideshow Container */
@@ -220,12 +222,13 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
 
 .slide-img-hover {
     left: 0;
-    width: 100%;
+    width: 1000px;
+    height: 100%;
     height: auto;
     position: absolute;
 }
 
-.slide img.slide-img-reg:hover {
+.slide:hover .slide-img-reg {
     opacity: 0;
 }
 
@@ -244,9 +247,73 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
 
 .portfolio-blurb {
     position: relative;
-    padding: 0;
+    padding: 0 3% 2%;
+    text-align: left;
 }
 
+
+/* Next and previous slideshow buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    background-color: thistle;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover{
+    background-color: #c397d1;
+
+}
+
+.prev:hover, .next:hover .slide-img-reg{
+    opacity: 0;
+
+}
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .rotateX {
+    -webkit-animation-name: rotatex;
+    -webkit-animation-duration: 1.5s;
+    animation-name: rotatex;
+    animation-duration: 1.5s;
+  }
 
 /* ******END PORTFOLIO PAGE STYLING****** */
 
