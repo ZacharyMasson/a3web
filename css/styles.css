@@ -339,6 +339,41 @@ margin-top: justify-content;
     animation-duration: 1.5s;
   }
 
+.past-projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DBCCE0;
+    justify-content: center;
+}
+.project-box {
+    background-color: #c397d1;
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+}
+
+.project-thumb {
+    float: left;
+    width: 25%;
+}
+
+.past-blurb {
+    font-size: 1em
+}
+
+/*Portfolio page responsive styling */
+@media only screen and (max-width: 900px) {
+    .project-box{
+        width: 100%;
+    }
+    .project-thumb {
+        float: none;
+        width: 100%;
+    }
+}
+
 /* ******END PORTFOLIO PAGE STYLING****** */
 
 /* Navbar Styling, owner: Ridley */
