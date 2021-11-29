@@ -8,45 +8,38 @@
   <link rel="stylesheet" href="css/styles.css">
   <!-- stylesheet for hamburger menu icon: -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src= "js/javascript.js"></script>
 </head>
 <body>
 
-<!-- Navbar, Owner: Ridley -->
+<!-- Navbar, Owner: Ridley 11:09AM, Nov 11, 2021-->
 <div class="navbar-flex" id = "headerbar">
-  <div class="navbar-flex-left">
-    <a class="logo-container" href='index.html'>
-      <img clas ='logo' src='images/logo.png' alt='Lumpy Potato'>
+  <div class = "navbar-flex-left">
+    <a class = "logo-container" href = 'index.html'>
+      <img class = 'logo' src='images/logo.png' alt = 'Lumpy Potato'>
     </a>
-    <a class="hamburger" href="javascript:void(0);" onclick="navBar()">
-      <i class="fa fa-bars"></i>
+    <a class = "hamburger" href = "javascript:void(0);" onclick="navBar()">
+      <i class = "fa fa-bars"></i>
     </a>
   </div>
  <div class="navbar-flex-right">
-   <div class="navbar-menu" id="navbarmaster">
-    <div class="dropdown" id = "nav-item1">
-      <a class="navbar-item" id = "active" href="portfolio.html" >Portfolio</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item1" href=portfolio.html#present>Present</a>
-        <a class="dropdown-item2" href=portfolio.html#past>Past</a>
+   <div class ="navbar-menu" id="navbarmaster">
+    <div class = "dropdown" id = "nav-item1">
+      <a class = "navbar-item" id='active' href="portfolio.html" >Portfolio</a>
+      <div class = "dropdown-menu">
+        <a class = "dropdown-item1" href="portfolio.html#present">Present</a>
+        <a class = "dropdown-item2" href="portfolio.html#past">Past</a>
       </div>
     </div>
-    <div id="nav-item2">
-      <a class="navbar-item"  href="testimonials.html" >Testimonials</a>
-    </div>
-    <div id="nav-item3">
-      <a class="navbar-item"   href="TeamPage.html" >Team</a>
-    </div>
-    <div class="dropdown" id="nav-item4">
-      <a class="navbar-item" href="contact.html" >Contact</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item1" href=portfolio.html#hireus>Hire Us</a>
-        <a class="dropdown-item2" href=portfolio.html#joinus>Join Us</a>
+    <a class = "navbar-item" id = "nav-item2" href= "testimonials.html" >Testimonials</a>
+    <a class = "navbar-item" id = "nav-item3" href="TeamPage.html" >Team</a>
+    <div class = "dropdown" id = "nav-item4">
+      <a class = "navbar-item" href="contact.html" >Contact</a>
+      <div class = "dropdown-menu">
+        <a class = "dropdown-item1" href="portfolio.html#hireus">Hire Us</a>
+        <a class = "dropdown-item2" href="portfolio.html#joinus">Join Us</a>
       </div>
-    </div>   
-    <div id="nav-item5"> 
-      <a class="navbar-item"  href="location.html" >Location</a>
-    </div>
+    </div>    
+    <a class = "navbar-item" id = "nav-item5" href="location.html" >Location</a>
   </div>
   </div>
 </div>
@@ -56,10 +49,14 @@
     <div class="heroimagecontainer">
       <div class="heroimagetitle">
       <!-- Image taken from https://surveyinggroup.com/dsm-dem-dtm-elevation-models-in-gis/ -->
-        <h1> Company Name </h1>  
+        <h1> Lumpy Potato </h1>  
       </div>
     </div>
   </div>
+
+<h2 id='present'>
+  Ongoing Projects
+</h2>
 
 <div class='present-portfolio'>
   <div class='project-slideshow'>
@@ -82,31 +79,67 @@
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-  <div class='portfolio-blurb rotateX'>
-    <h2>
+  <div class='portfolio-blurb'>
+    <h2 class='fade'>
       Project 1 - <b>Client 1</b>
     </h2>
-    <p>
+    <p class='fade'>
       This is our current project! Yay! We love working. This project will be completed in 2022.
     </p>
   </div>
-  <div class='portfolio-blurb rotateX'>
-    <h2>
+  <div class='portfolio-blurb'>
+    <h2 class='fade'>
       Project 2 - <b>Client 2</b>
     </h2>
-    <p>
+    <p class='fade'>
       This is our current project! Yay! We love working. This project will be completed in 2022.
     </p>
   </div>
-  <div class='portfolio-blurb rotateX'>
-    <h2>
+  <div class='portfolio-blurb'>
+    <h2 class='fade'>
       Project 3 - <b>Client 3</b>
     </h2>
-    <p>
+    <p class='fade'>
       This is our current project! Yay! We love working. This project will be completed in 2022.
     </p>
   </div>
 </div>
 
+<h2 id='past'>
+  Past Projects
+</h2>
 
+<div class='past-projects'>
+  <div class='project-box'>
+    <img class='project-thumb' src = 'images/hettythumb.jpg' alt='Dog'>
+    <h4>Project Title</h4>
+    <div class = 'past-blurb'>
+      This was a project we did, once upon a time, long long ago.
+    </div>
+  </div>
+  <div class='project-box'>
+    <img class='project-thumb' src = 'images/hettythumb.jpg' alt='Dog'>
+    <h4>Project Title</h4>
+    <div class = 'past-blurb'>
+      This was a project we did, once upon a time, long long ago.
+    </div>
+  </div>
+  <div class='project-box'>
+    <img class='project-thumb' src = 'images/hettythumb.jpg' alt='Dog'>
+    <h4>Project Title</h4>
+    <div class = 'past-blurb'>
+      This was a project we did, once upon a time, long long ago.
+    </div>
+  </div>
+</div>
+
+<!-- Footer, Owner: Victor November 18, 2021-->
+<footer class="footer">
+  <h4>Headquarters</h4>
+  <p> 123 Fake St. - Toronto, ON</p>
+  <p>Copyright 2021</p>
+
+</footer>
+
+<script src= "js/javascript.js"></script>
 </body>

@@ -16,13 +16,13 @@ Completion by Week 13 before lab.
 
 ### Ridley
 Portfolio Page - Past and Present projects. Finished by Week 12 Lab. Includes:
-Present Portfolio Items as slideshow carousel
+Present Portfolio Items as slideshow carousel - IN PROGRESS
 
-Past Portfolio items as tile gallery of images with descriptions
+Past Portfolio items as tile gallery of images with descriptions - FINISHED
 
-Responsive styling for both of the above
+Responsive styling for both of the above - IN PROGRESS
 
-Anchor links to parts of page from navbar
+Anchor links to parts of page from navbar - IN PROGRESS - COMPLETE FOR PORTFOLIO, NOT YET FOR CONTACT
 
 
 
@@ -30,8 +30,6 @@ Anchor links to parts of page from navbar
 Finished before Week 13:
 
 Landing Page - Image Carousel
-
-Stretch goal - Logo spins while hovering over it, add animation to mobile navbar
 
 Formalize code commenting and review for bugs
 
