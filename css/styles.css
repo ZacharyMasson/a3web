@@ -236,7 +236,6 @@ margin-top: justify-content;
     border-radius: 15px 15px 0 0;
     opacity: 1;
     left: 0;
-    width: 1000px;
     height: 100%;
     position: absolute;
     transition: opacity 1s ease-in-out;
@@ -245,7 +244,6 @@ margin-top: justify-content;
 .slide-img-hover {
     border-radius: 15px 15px 0 0;
     left: 0;
-    width: 1000px;
     height: 100%;
     height: auto;
     position: absolute;
