@@ -586,6 +586,9 @@ margin-top: justify-content;
     .navbar-flex.responsive .hamburger{ /*This css changes the colour of the hamburger on click*/
         color: white;
     }
+    .navbar-flex.responsive .logo{
+        filter: hue-rotate(90deg);
+    }
 }
 
 /*Testimonials extra styling section - Owner Victor Toth*/
