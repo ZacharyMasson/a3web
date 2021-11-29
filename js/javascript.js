@@ -54,13 +54,6 @@ var survey123webform = document.getElementsByName('survey123webform')[0];
 window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data);
 "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
 
-//LinkeinButton on team page Owner:Kerstyne
-document.getElementById("KerstyneSocial").addEventListener("click", KLinkedin);
-
-function KLinkedin(){
-    window.location.assign('https://www.linkedin.com/in/kerstyne-widmeyer-733010200/')
-}
-
 //Show pages (test) - owner: Zach
 function show(shown, hidden) {
     document.getElementById(shown).style.display='block';
