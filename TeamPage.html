@@ -9,7 +9,6 @@
   <!-- stylesheet for hamburger menu icon: -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/javascript.js"></script>
-  <script src="https://kit.fontawesome.com/af2264fdae.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -76,7 +75,7 @@ Owner: Kerstyne -->
     <div class="teaminfocont">
       <p class="teamname"> Kerstyne Widmeyer  </p>
       <p class="teaminfo"> Stuff about me  </p>
-      <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fab fa-linkedin"></i></button>
+      <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fa fa-linkedin"></i></button>
     </div>
   </div>
   <div>
@@ -141,7 +140,7 @@ Owner: Kerstyne -->
   transition-duration:0.4s;
   color: white;
   background-color:#c397d1;
-  border:none;
+  border: none;
   font-size: 2.5vw;
   float: left;
 }
@@ -149,10 +148,8 @@ Owner: Kerstyne -->
   color:#0a66c2;
   cursor:pointer;
 }
-#KerstyneSocial{
-  border-radius:20px;
-}
-/* style for teams page flex-boxes Owner: Kerstyne*/
+/* style for teams page flex-boxes Owner: Kerstyne
+https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
 .flex-teamtitle{
   font-size:2vw;
   justify-content:center;
@@ -199,6 +196,7 @@ Owner: Kerstyne -->
 .teaminfocont{
   width:75%;
 }
+/* Responsive design so the boxes team boxes adjust properly Owner: Kerstyne*/
 @media screen and(max-width:500px){
   .teamimage,.teaminfocont{
     width:100%;
