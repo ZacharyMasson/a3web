@@ -56,7 +56,7 @@ window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data);
 
 //LinkeinButton on team page Owner:Kerstyne
 function KerstyneSocial() {
-    location.href("https://www.linkedin.com/in/kerstyne-widmeyer-733010200/")
+    window.location="https://www.linkedin.com/in/kerstyne-widmeyer-733010200/";
 }
 
 //Show pages (test) - owner: Zach
