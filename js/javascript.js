@@ -54,8 +54,9 @@ window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data);
 "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
 
 //LinkeinButton on team page Owner:Kerstyne
-document.getElementById("KerstyneSocial").onclick=function(){
-    location.href="www.linkedin.com/in/kerstyne-widmeyer-733010200/";};
+function KerstyneSocial() {
+    location.replace("https://www.linkedin.com/in/kerstyne-widmeyer-733010200/")
+}
 
 //Show pages (test) - owner: Zach
 function show(shown, hidden) {
