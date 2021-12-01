@@ -69,7 +69,9 @@ function getLocation() {
     x.innerHTML = "Geolocation is not supported :'( ";
   }
 }
-// 
+// function that gets X and Y from user (if browser supports it) and enters
+// variables into url
+// NEXT - add the directions
 function MAPTIME(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
