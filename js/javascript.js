@@ -71,6 +71,7 @@ function getLocation() {
 }
 
 function MAPTIME(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
+  var x = position.coords.latitude
+  var y = position.coords.longitude
+  window.open("https://www.google.ca/maps")
 }
