@@ -52,21 +52,16 @@
 </div>
 
 <!-- Image Header, Owner: Kerstyne-->
-<div class="heroimagecontainercontainer">
-<div class="heroimagecontainer">
-  <div class="heroimagetitle">
-  <!-- Image taken from https://surveyinggroup.com/dsm-dem-dtm-elevation-models-in-gis/ -->
-    <h1> Lumpy Potato </h1>  
+<div class="TPheroimagecontainercontainer">
+<div class="TPheroimagecontainer">
+  <div class="TPheroimagetitle">
+  <!-- Image taken from https://i.pinimg.com/564x/10/fd/c9/10fdc97ddabf1d7580a43f6800920f20.jpg -->
+    <h1> About Us</h1>  
   </div>
 </div>
 </div>
-
 <!-- Team section of team page! Photo's of us, links to our linkedins and a small blurb
 Owner: Kerstyne -->
-
-<div class="teamtitle">
-  <h3> Who we are</h3>
-</div>
 <div class="flex-Goteam">
   <div>
     <div>
@@ -74,7 +69,10 @@ Owner: Kerstyne -->
     </div>
     <div class="teaminfocont">
       <p class="teamname"> Kerstyne Widmeyer  </p>
-      <p class="teaminfo"> Stuff about me  </p>
+      <p class="teaminfo"> Kerstyne has a bachelors degree in Zoology/ Ecology and an Environmental
+        Technician diploma. She's currently working towards a graduate ceritifcate in GIS at Fleming
+        College. With a passion for coding, spatial analysis and the environment, she's ready to
+        help you implement your environmental geospatial projects. </p>
       <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fa fa-linkedin"></i></button>
     </div>
   </div>
@@ -150,10 +148,6 @@ Owner: Kerstyne -->
 }
 /* style for teams page flex-boxes Owner: Kerstyne
 https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
-.flex-teamtitle{
-  font-size:1.5vw;
-  justify-content:center;
-}
 .flex-Goteam{
   display:flex;
   flex-wrap:wrap;
@@ -164,7 +158,7 @@ https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
   position:relative;
 }
 .flex-Goteam>div{
-  padding:30px;
+  padding:25px;
   height:auto;
   background-color:#c397d1;
   border-radius:15px;
@@ -176,15 +170,18 @@ https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
   float:left;
   height:auto;
   max-width:100%;
-  padding-right:30px;
-  padding-bottom:20px;
+  padding-right:25px;
+  padding-bottom:10px;
+}
+.teaminfocont{
+  min-width:300px;
+  display:flex;
+  flex-wrap:wrap;
 }
 .teamname{
   font-size:2vw;
   font-weight:bold;
   text-align:left;
-  position:relative;
-  min-width:fit-content;
 }
 .teaminfo{
   font-size:1.5vw;
@@ -193,16 +190,34 @@ https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
 .PartnersTitle{
   padding-top:70px;
 }
-.teaminfocont{
-  width:75%;
+/* Parameters to have Team Page title over hero image*/
+.TPheroimagetitle {
+	position:absolute;
+	left:0;
+	bottom:0
 }
-/* Responsive design so the boxes team boxes adjust properly Owner: Kerstyne*/
-@media screen and(max-width:500px){
-  .teamimage,.teaminfocont{
-    width:100%;
-  }
+.TPheroimagecontainercontainer{
+    height: 500px;
 }
-
+/* Parameters to contain the Team Page hero image*/
+.TPheroimagecontainer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/AerialPattern.jpg");
+	position: relative;
+    filter: hue-rotate(90deg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+    
+    h1{ /*Sets page title smaller for smaller devices*/
+        font-size: 40px;
+    }
+    .TPheroimagecontainercontainer{
+        height: 250px;
+    }
+}
 </style>
 <!-- Footer, Owner: Victor -->
 <footer class="footer">
