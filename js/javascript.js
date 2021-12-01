@@ -19,31 +19,35 @@ function navBar(){
 var slideIndex = 1; //Sets initial slide to slide 1 when user lands on page
 
 function showSlides(n) { // This function controls which slide shows up as the variable slide index changes
-  var i; //Set up variation for iteration
-  var slides = document.getElementsByClassName("slide"); //Sets var slides to elements of class 'slide'
-//   var dots = document.getElementsByClassName("dot"); //For dots, currently not implemented
-  var blurbs = document.getElementsByClassName("portfolio-blurb")
+  var i; //Set up variable for iteration
+  var slides = document.getElementsByClassName("slide"); //Sets var slides, dots, and blurbs to relevant element classes
+  var dots = document.getElementsByClassName("dot");
+  var blurbs = document.getElementsByClassName("portfolio-blurb");
   if (n > slides.length) {slideIndex=1} //If n increases beyond slidelength, loop back to slideIndex 1
   if (n < 1) {slideIndex=slides.length} //If n decreases below 1, loop around to maximum slideIndex.
   for (i = 0; i < slides.length; i++) { // Set all slides to display = none
       slides[i].style.display = "none";
   }
-  for (i = 0; i < blurbs.length; i++) { // Set all blurbs to display = none TO FIX
+  for (i = 0; i < blurbs.length; i++) { // Set all blurbs to display = none initially
     blurbs[i].style.display = "none";
 }
-//   for (i = 0; i < dots.length; i++) { //For dots, currently not implemented
-//       dots[i].className = dots[i].className.replace(" active", "");
-//   }
-  slides[slideIndex-1].style.display = "block"; //Set slideIndex slide to display = block
+for (i = 0; i < dots.length; i++) { //For dots, currently not implemented
+  dots[i].className = dots[i].className.replace(" active", "");
+}
+  slides[slideIndex-1].style.display = "block"; //Set slideIndex to display relevant slide and blurb, and set associated dot to 'active' class.
   blurbs[slideIndex-1].style.display = "block";
-//   dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " active";
 }
 
-showSlides(slideIndex);
+showSlides(slideIndex); // Execute showSlides function
 
 // Next/previous controls
 function plusSlides(n) { // This function enables control of slides through next and previous button
   showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n)
 }
 
 // Button to external application, owner: Ridley
