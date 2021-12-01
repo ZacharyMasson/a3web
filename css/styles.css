@@ -374,6 +374,27 @@ margin-top: justify-content;
     }
 }
 
+.button {
+    background-color: #e07509;
+    border: 1px solid #e07509;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    float: right;
+    margin-top: 30px;
+}
+
+.try-it:hover{
+    background-color: white;
+    color: #e07509;
+}
+
 /* ******END PORTFOLIO PAGE STYLING****** */
 
 /* Navbar Styling, owner: Ridley */

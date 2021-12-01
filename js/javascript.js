@@ -46,6 +46,10 @@ function plusSlides(n) { // This function enables control of slides through next
   showSlides(slideIndex += n);
 }
 
+// Button to external application, owner: Ridley
+function appLink() {
+  var myWindow=window.open("https://arcg.is/1uDiH80");
+}
 
 //END Portfolio slideshow code
 
