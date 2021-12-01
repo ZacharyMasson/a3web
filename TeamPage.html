@@ -8,8 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <!-- stylesheet for hamburger menu icon: -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src= "js/javascript.js"></script>
-  <script src="https://kit.fontawesome.com/af2264fdae.js" crossorigin="anonymous"></script>
+  <script src="js/javascript.js"></script>
 </head>
 <body>
 
@@ -76,7 +75,7 @@ Owner: Kerstyne -->
     <div class="teaminfocont">
       <p class="teamname"> Kerstyne Widmeyer  </p>
       <p class="teaminfo"> Stuff about me  </p>
-      <button id="KerstyneSocial"class="linkedinbutton"> <i class="fab fa-linkedin"></i></button>
+      <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fa fa-linkedin"></i></button>
     </div>
   </div>
   <div>
@@ -135,16 +134,13 @@ Owner: Kerstyne -->
   </div>
 </div>
 
-
-
 <style>
   /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
 .linkedinbutton{
   transition-duration:0.4s;
-  border-radius:20px;
   color: white;
   background-color:#c397d1;
-  border:none;
+  border: none;
   font-size: 2.5vw;
   float: left;
 }
@@ -152,9 +148,10 @@ Owner: Kerstyne -->
   color:#0a66c2;
   cursor:pointer;
 }
-/* style for teams page flex-boxes Owner: Kerstyne*/
+/* style for teams page flex-boxes Owner: Kerstyne
+https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
 .flex-teamtitle{
-  font-size:2vw;
+  font-size:1.5vw;
   justify-content:center;
 }
 .flex-Goteam{
@@ -199,6 +196,7 @@ Owner: Kerstyne -->
 .teaminfocont{
   width:75%;
 }
+/* Responsive design so the boxes team boxes adjust properly Owner: Kerstyne*/
 @media screen and(max-width:500px){
   .teamimage,.teaminfocont{
     width:100%;

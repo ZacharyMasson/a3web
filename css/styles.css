@@ -215,11 +215,11 @@ margin-top: justify-content;
 
 /* ******BEGIN PORTFOLIO PAGE STYLING Owner: Ridley****** */
 .present-portfolio{
-    background-color: #c397d1;
+    background-color: white;
     margin: auto;
     max-width: 1000px;
     box-shadow:  0 4px 12px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 .project-slideshow { /* Master Slideshow Container */
@@ -229,20 +229,22 @@ margin-top: justify-content;
     margin: auto;
   }
 
-
+.slide {
+    display: none;
+}
 
 .slide-img-reg {
+    border-radius: 15px 15px 0 0;
     opacity: 1;
     left: 0;
-    width: 1000px;
     height: 100%;
     position: absolute;
     transition: opacity 1s ease-in-out;
 }
 
 .slide-img-hover {
+    border-radius: 15px 15px 0 0;
     left: 0;
-    width: 1000px;
     height: 100%;
     height: auto;
     position: absolute;
@@ -269,6 +271,7 @@ margin-top: justify-content;
     position: relative;
     padding: 0 3% 2%;
     text-align: left;
+    display: none;
 }
 
 
@@ -310,7 +313,7 @@ margin-top: justify-content;
 }
 
 
-/* Fading animation */
+/* Slideshow animations */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -319,21 +322,49 @@ margin-top: justify-content;
   }
   
   @-webkit-keyframes fade {
-    from {opacity: .4}
+    from {opacity: 0.4}
     to {opacity: 1}
   }
   
   @keyframes fade {
-    from {opacity: .4}
+    from {opacity: 0.4}
     to {opacity: 1}
   }
 
-  .rotateX {
-    -webkit-animation-name: rotatex;
-    -webkit-animation-duration: 1.5s;
-    animation-name: rotatex;
-    animation-duration: 1.5s;
-  }
+.past-projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DBCCE0;
+    justify-content: center;
+}
+.project-box {
+    background-color: #c397d1;
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+}
+
+.project-thumb {
+    float: left;
+    width: 25%;
+}
+
+.past-blurb {
+    font-size: 1em
+}
+
+/*Portfolio page responsive styling */
+@media only screen and (max-width: 900px) {
+    .project-box{
+        width: 100%;
+    }
+    .project-thumb {
+        float: none;
+        width: 100%;
+    }
+}
 
 /* ******END PORTFOLIO PAGE STYLING****** */
 
@@ -403,7 +434,7 @@ margin-top: justify-content;
     transition: background .2s ease-in;
 }
 
-#active{ /*Assigns attributes to active class navbar item */
+#active{ /*Assigns attributes to active ID navbar item */
     background-color: #e07509;
     color: white;
 }
@@ -459,6 +490,12 @@ margin-top: justify-content;
 }
 
 /* Navbar Dropdown animation styling, based on: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform */
+.rotateX { /* Testing mobile navbar animation */
+    -webkit-animation-name: rotatex;
+    -webkit-animation-duration: 1.5s;
+    animation-name: rotatex;
+    animation-duration: 1.5s;
+  }
 @keyframes rotateX { /*Sets keyframes for dropdown link animations*/
     0% {
       opacity: 0;
@@ -490,41 +527,18 @@ margin-top: justify-content;
     .navbar-menu{ /*Sets navbar in front of other elements for styling*/
         z-index: 1;
     }
-    .navbar-flex > div { /*Centers navbar on screen */
+    .navbar-menu > *{ /*Turns off navbar menu initially*/
+        display: none;
+    }
+    .navbar-flex > div { /*Turns off navbar menu initially*/
         width: 100%;
+        position: absolute;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.7);
     }
     a.hamburger{ /*Displays hamburger for mobile browsers*/
         display: block;
         float: right;
-    }
-    #navbarmaster{ /* STYLING FOR MOBILE NAVBAR MENU ANIMATION */
-        position: relative;
-    }
-    .dropblock { /*Turns off navbar menu initially*/
-        display: none;
-        z-index: 1;
-        opacity: 0;
-        position: relative;
-    }
-    #nav-item1{
-        transform-origin: top-center;
-        animation: rotateX 300ms 60ms ease-in-out forwards;
-    }
-    #nav-item2{
-        transform-origin: top-center;
-        animation: rotateX 300ms 120ms ease-in-out forwards;
-    }    
-    #nav-item3{
-        transform-origin: top-center;
-        animation: rotateX 300ms 180ms ease-in-out forwards;
-    }
-    #nav-item4{
-        transform-origin: top-center;
-        animation: rotateX 300ms 240ms ease-in-out forwards;
-    }
-    #nav-item5{
-        transform-origin: top-center;
-        animation: rotateX 300ms 300ms ease-in-out forwards;
     }
     .navbar-menu.responsive { /*Javascript function appends class 'responsive' to navbar menu when hamburger is clicked*/
         flex-direction: column; /*This css resizes the navbar menu when the hamburger is clicked*/
@@ -532,11 +546,13 @@ margin-top: justify-content;
     }
     .navbar-menu.responsive > *{ /*This css centers the navbar menu items and gives them styling on mobile*/
         float: none;
+        display: block;
         background-color:#612848;
         color: white;
         width: 100%;
         text-align: center;
         border-bottom: 1px solid white;
+        border-top: 1px solid white;
     }
     .navbar-menu.responsive a{ /*This css styles the links within the navbar menu items and centers the text within them*/
         float: none;
@@ -552,12 +568,25 @@ margin-top: justify-content;
     }
     .navbar-flex { /*This css centers the navbar menu and logo and changes the flex direction to vertical*/
         flex-direction: column;
+        position: fixed;
+        z-index: 1;
     }
     .navbar-flex.responsive > div { /*This css changes the colour of the navbar on hamburger click*/
         background-color:#612848;
+        position: absolute;
+    }
+    .navbar-flex.responsive .navbar-flex-right{
+        top: 50px;
+        z-index: 1;
+    }
+    .navbar-flex.responsive .navbar-flex-left{
+        z-index: 1;
     }
     .navbar-flex.responsive .hamburger{ /*This css changes the colour of the hamburger on click*/
         color: white;
+    }
+    .navbar-flex.responsive .logo{
+        filter: hue-rotate(90deg);
     }
 }
 
