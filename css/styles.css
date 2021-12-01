@@ -129,22 +129,23 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
 }
-.flex-containerServ2 {
+.flex-containerContact{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     background-color: #DBCCE0;
     justify-content: center;
 }
-.flex-containerServ2 > div {
+.flex-containerContact > div {
     background-color: #c397d1;
-    width: 33%;
+    width: 40%;
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
-    border-radius: 20%;
+    border-radius: 25%;
     padding: 10px;
     height: auto;
 }
+
 
 /*Survery123 CSS - Owner: Zachary*/
 .embed-container {position: relative; height: 0; padding-bottom:80%; max-width: 100%;} 
