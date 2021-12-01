@@ -60,3 +60,20 @@ function show(shown, hidden) {
     document.getElementById(hidden).style.display='none';
     return false;
 }
+
+// Get users location and enter it in url to Google Maps directions - Owner: Zach WORK IN PROGRESS
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(MAPTIME);
+  } else { 
+    x.innerHTML = "Geolocation is not supported :'( ";
+  }
+}
+// function that gets X and Y from user (if browser supports it) and enters
+// variables into url
+// NEXT - add the directions
+function MAPTIME(position) {
+  var x = position.coords.latitude
+  var y = position.coords.longitude
+  window.open("https://www.google.ca/maps/@"+x+","+y+"")
+}
