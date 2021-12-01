@@ -216,36 +216,44 @@ margin-top: justify-content;
 .present-portfolio{
     background-color: white;
     margin: auto;
+    display: flex;
+    flex-direction: column;
     max-width: 1000px;
+    height: auto;
     box-shadow:  0 4px 12px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 }
 
-.project-slideshow { /* Master Slideshow Container */
-    height: 350px;
-    max-width: 1000px;
+.project-slideshow { /* Slideshow Container */
+    height: auto;
+    margin: 0;
     position: relative;
-    margin: auto;
   }
+
+
 
 .slide {
     display: none;
+    position:relative;
 }
 
 .slide-img-reg {
-    border-radius: 15px 15px 0 0;
+
     opacity: 1;
     left: 0;
+    border-radius: 15px 15px 0 0;
     height: 100%;
-    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
     transition: opacity 1s ease-in-out;
 }
 
 .slide-img-hover {
-    border-radius: 15px 15px 0 0;
     left: 0;
-    height: 100%;
-    height: auto;
+    border-radius: 15px 15px 0 0;
+    max-height: 100%;
+    max-width: 100%;
     position: absolute;
 }
 
@@ -267,7 +275,6 @@ margin-top: justify-content;
 }
 
 .portfolio-blurb {
-    position: relative;
     padding: 0 3% 2%;
     text-align: left;
     display: none;
@@ -278,8 +285,9 @@ margin-top: justify-content;
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    align-self: center;
     width: auto;
+    top: 50%;
     margin-top: -22px;
     padding: 16px;
     color: white;
