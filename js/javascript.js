@@ -69,9 +69,9 @@ function getLocation() {
     x.innerHTML = "Geolocation is not supported :'( ";
   }
 }
-
+// 
 function MAPTIME(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
-  window.open("https://www.google.ca/maps")
+  window.open("https://www.google.ca/maps/@"+x+","+y+"")
 }
