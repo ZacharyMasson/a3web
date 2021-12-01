@@ -60,3 +60,17 @@ function show(shown, hidden) {
     document.getElementById(hidden).style.display='none';
     return false;
 }
+
+// Get users location and enter it in url to Google Maps directions - Owner: Zach WORK IN PROGRESS
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(MAPTIME);
+  } else { 
+    x.innerHTML = "Geolocation is not supported :'( ";
+  }
+}
+
+function MAPTIME(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
