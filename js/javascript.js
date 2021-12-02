@@ -101,3 +101,12 @@ function LinkedinKW(){
 function LinkedinJL(){
   window.open('https://www.linkedin.com/in/jade-lacsamana-a7224b131/')
 }
+function LinkedinRS(){
+  window.open('https://www.linkedin.com/in/ridley-soudack-1757081b4/')
+}
+function LinkedinVT(){
+  window.open('')
+}
+function LinkedinZM(){
+  window.open('')
+}
