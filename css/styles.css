@@ -92,9 +92,11 @@ p {
 
 /* Parameters for mission statement on landing page*/
 .missionstatement{
-	text-align: center;
 	padding-top: 20px;
-	padding-bottom: 40px; 
+	padding-bottom: 40px;
+    margin-left: 100px;
+    margin-right:100px;
+    text-align:justify; 
 }
 
 /*Container for Services section on landing page. Owner: Zachary Masson*/
@@ -146,6 +148,19 @@ p {
     height: auto;
 }
 
+.button2 {
+    background-color: #e07509;
+    border: 1px solid #e07509;
+    border-radius: 4px;
+    color: white;
+    font-weight: regular;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
 
 /*Survery123 CSS - Owner: Zachary*/
 .embed-container {position: relative; height: 0; padding-bottom:80%; max-width: 100%;} 
@@ -644,7 +659,7 @@ margin-top: justify-content;
 }
 
 /*Testimonials extra styling section - Owner Victor Toth*/
-.TestimonialBox {
+.flex-TestimonialBox {
     display: flex;
     background-color: #c397d1;
     flex-wrap: wrap; 
@@ -654,7 +669,7 @@ margin-top: justify-content;
     width: 75%;
   }
 
-.TestimonialBox > div{
+.flex-TestimonialBox > div{
     margin: 10px;
     text-align: center;
     padding: 20px    
@@ -673,4 +688,91 @@ margin-top: justify-content;
   font-size: 16px;
   cursor: pointer;
 
+}
+  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
+  .linkedinbutton{
+    transition-duration:0.4s;
+    color: white;
+    background-color:#c397d1;
+    border: none;
+    font-size: 25px;
+    float: left;
+  }
+  .linkedinbutton:hover{
+    color:#0a66c2;
+    cursor:pointer;
+  }
+  /* style for teams page flex-boxes Owner: Kerstyne
+  https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
+  .flex-Goteam{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:70px;
+  }
+  .flex-Goteam>div{
+    padding:25px;
+    height:auto;
+    background-color:#c397d1;
+    border-radius:15px;
+    margin:20px;
+  }
+  .teamimage{
+    float:left;
+    height:auto;
+    max-width:100%;
+    padding-right:25px;
+    padding-bottom:10px;
+  }
+  /* Such a simple solution for what I wanted and it still took me a few hours to do
+  because I was overcomplicating it *flips table* - Kerstyne*/
+  .teaminfocont{
+    min-width:300px;
+    display:flex;
+    flex-wrap:wrap;
+    max-width:900px;
+  }
+  .teamname{
+    font-size:18pt;
+    font-weight:bold;
+    text-align:left;
+  }
+  .teaminfo{
+    font-size:12pt;
+    text-align:left;
+  }
+  .PartnersTitle{
+    padding-top:70px;
+  }
+  /* Parameters to have Team Page title over hero image*/
+  .TPheroimagetitle {
+      position:absolute;
+      left:0;
+      bottom:0
+  }
+  .TPheroimagecontainercontainer{
+      height: 500px;
+  }
+  /* Parameters to contain the Team Page hero image*/
+  .TPheroimagecontainer{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/AerialPattern.jpg");
+        position: relative;
+      filter: hue-rotate(90deg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  @media only screen and (max-width: 768px) {
+      
+      h1{ /*Sets page title smaller for smaller devices*/
+          font-size: 40px;
+      }
+      .TPheroimagecontainercontainer{
+          height: 250px;
+      }
+  }
+.missionstatementtitle{
+    text-align: center;
 }

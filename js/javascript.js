@@ -77,11 +77,21 @@ function getLocation() {
     x.innerHTML = "Geolocation is not supported :'( ";
   }
 }
-// function that gets X and Y from user (if browser supports it) and enters
-// variables into url
-// NEXT - add the directions
 function MAPTIME(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
-  window.open("https://www.google.ca/maps/@"+x+","+y+"")
+  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/CN+Tower,+290+Bremner+Blvd,+Toronto,+ON+M5V+3L9/@44.5406709,-77.6423411,8z")
 }
+function getLocation2() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(MAPTIME2);
+  } else { 
+    x.innerHTML = "Geolocation is not supported :'( ";
+  }
+}
+function MAPTIME2(position) {
+  var x = position.coords.latitude
+  var y = position.coords.longitude
+  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former+Craig+Pumping+Station,+2000+Avenue+Viger+E,+Montreal,+Quebec/@45.4817221,-73.6295888,12540m")
+}
+
