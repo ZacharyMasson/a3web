@@ -664,15 +664,15 @@ margin-top: justify-content;
     background-color: #c397d1;
     flex-wrap: wrap; 
     justify-content: center;
-    margin: 20px;
+    margin: 100px;
     border-radius: 15px;
-    width: 75%;
-  }
+
+}
 
 .flex-TestimonialBox > div{
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    padding: 20px    
+    padding: 10px    
 }
 
 
@@ -680,13 +680,13 @@ margin-top: justify-content;
     border: 1px solid #5c5c5c;
     border-radius: 10px;
     width: 15vw;
-  color: white;
-  padding: 5px 5px;
-  text-align: center;
-  color: #000000; 
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
-  cursor: pointer;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    color: #000000; 
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
 
 }
   /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
