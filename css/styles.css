@@ -664,7 +664,7 @@ margin-top: justify-content;
     background-color: #c397d1;
     flex-wrap: wrap; 
     justify-content: center;
-    margin: 100px;
+    margin: 10%;
     border-radius: 15px;
 
 }
@@ -675,6 +675,14 @@ margin-top: justify-content;
     padding: 10px    
 }
 
+.VideoBox {
+    background-color: #c397d1;
+    justify-content: center;
+    margin: 10%;
+    border-radius: 15px;
+    padding: 10px
+
+}
 
 .ButtonVideo {
     border: 1px solid #5c5c5c;
