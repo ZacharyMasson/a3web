@@ -98,3 +98,15 @@ function MAPTIME2(position) {
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
 }
+function LinkedinJL(){
+  window.open('https://www.linkedin.com/in/jade-lacsamana-a7224b131/')
+}
+function LinkedinRS(){
+  window.open('https://www.linkedin.com/in/ridley-soudack-1757081b4/')
+}
+function LinkedinVT(){
+  window.open('https://www.linkedin.com/in/victor-toth-b750172b/')
+}
+function LinkedinZM(){
+  window.open('')
+}
