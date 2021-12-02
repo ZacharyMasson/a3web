@@ -108,5 +108,5 @@ function LinkedinVT(){
   window.open('https://www.linkedin.com/in/victor-toth-b750172b/')
 }
 function LinkedinZM(){
-  window.open('')
+  window.open('https://www.linkedin.com/in/zachary-masson-495227198/?originalSubdomain=ca')
 }
