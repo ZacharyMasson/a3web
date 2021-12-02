@@ -92,6 +92,6 @@ function getLocation2() {
 function MAPTIME2(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
-  window.open("https://www.google.ca/maps/dir/"+x+","+y+",15z/Saint+Joseph's+Oratory+of+Mount+Royal,+3800+Queen+Mary+Rd,+Montreal,+Quebec+H3V+1H6/@45.4669553,-73.6619269,13z")
+  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Saint+Joseph's+Oratory+of+Mount+Royal,+3800+Queen+Mary+Rd,+Montreal,+Quebec+H3V+1H6/@45.4669553,-73.6619269,13z")
 }
 
