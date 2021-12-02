@@ -95,3 +95,6 @@ function MAPTIME2(position) {
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former+Craig+Pumping+Station,+2000+Avenue+Viger+E,+Montreal,+Quebec/@45.4817221,-73.6295888,12540m")
 }
 
+function LinkedinKW(){
+  window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
+}
