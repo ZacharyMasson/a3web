@@ -415,7 +415,7 @@ margin-top: justify-content;
 
 .button {
     background-color: #e07509;
-    border: 1px solid #e07509;
+    border: 3px solid #e07509;
     border-radius: 4px;
     color: white;
     font-weight: bold;
@@ -429,7 +429,7 @@ margin-top: justify-content;
     margin-top: 30px;
 }
 
-.try-it:hover{
+.button:hover{
     background-color: white;
     color: #e07509;
 }
@@ -659,7 +659,7 @@ margin-top: justify-content;
 }
 
 /*Testimonials extra styling section - Owner Victor Toth*/
-.TestimonialBox {
+.flex-TestimonialBox {
     display: flex;
     background-color: #c397d1;
     flex-wrap: wrap; 
@@ -669,7 +669,7 @@ margin-top: justify-content;
     width: 75%;
   }
 
-.TestimonialBox > div{
+.flex-TestimonialBox > div{
     margin: 10px;
     text-align: center;
     padding: 20px    
