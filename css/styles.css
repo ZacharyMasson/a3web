@@ -659,7 +659,7 @@ margin-top: justify-content;
 }
 
 /*Testimonials extra styling section - Owner Victor Toth*/
-.TestimonialBox {
+.flex-TestimonialBox {
     display: flex;
     background-color: #c397d1;
     flex-wrap: wrap; 
@@ -669,7 +669,7 @@ margin-top: justify-content;
     width: 75%;
   }
 
-.TestimonialBox > div{
+.flex-TestimonialBox > div{
     margin: 10px;
     text-align: center;
     padding: 20px    
