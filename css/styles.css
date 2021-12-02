@@ -729,14 +729,15 @@ margin-top: justify-content;
     min-width:300px;
     display:flex;
     flex-wrap:wrap;
+    max-width:900px;
   }
   .teamname{
-    font-size:2vw;
+    font-size:18pt;
     font-weight:bold;
     text-align:left;
   }
   .teaminfo{
-    font-size:1.5vw;
+    font-size:12pt;
     text-align:left;
   }
   .PartnersTitle{

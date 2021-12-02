@@ -83,6 +83,7 @@ Owner: Kerstyne -->
     <div class="teaminfocont">
       <p class="teamname">Jade Lacsamana</p>
       <p class="teaminfo"> Stuff about me  </p>
+      <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fa fa-linkedin"></i></button>
     </div>
   </div>
   <div>
@@ -92,6 +93,7 @@ Owner: Kerstyne -->
     <div class="teaminfocont">
       <p class="teamname"> Ridley Soudack </p>
       <p class="teaminfo"> Stuff about me  </p>
+      <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fa fa-linkedin"></i></button>
     </div>
   </div>
   <div>
@@ -101,6 +103,7 @@ Owner: Kerstyne -->
     <div class="teaminfocont">
       <p class="teamname">Victor Toth</p>
       <p class="teaminfo">Stuff about me  </p>
+      <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fa fa-linkedin"></i></button>
     </div>
   </div>
   <div>
@@ -110,6 +113,7 @@ Owner: Kerstyne -->
     <div class="teaminfocont">
       <p class="teamname">Zachary Masson</p>
       <p class="teaminfo"> Stuff about me  </p>
+      <button class="linkedinbutton" onclick="location.href='https://www.linkedin.com/in/kerstyne-widmeyer-733010200'"> <i class="fa fa-linkedin"></i></button>
     </div>
   </div>
 </div>
@@ -117,7 +121,12 @@ Owner: Kerstyne -->
 <!-- Our Partners section of team page Owner: Kerstyne -->
 <div> 
   <h2 class="PartnersTitle">Our Partners</h2>
-  <p>Blurb about partners</p>
+  <p class="partnerparagraphs">Proudly supported by one of the largest geospatial techonolgy companies in the world. Our associates excel at ArcGIS Pro
+    and ArcMap which they utilize to solve or implement our clients needs.
+  </p>
+  <p class="partnerparagraphs"> All associates are future Fleming College grads and look fondly on the challenges and learning opportunities
+    that presented themselves while taking the GIS: Applications Specialist post grad program.
+  </p>
 </div>
 <div class="flex-containerPart">
   <div>
@@ -128,93 +137,15 @@ Owner: Kerstyne -->
   <div>
       <!-- Image downloaded from https://logos-world.net/wp-content/uploads/2021/08/Fleming-College-Logo.png -->
       <a href="https://flemingcollege.ca/"><img class="PartnerLogos" src="images/FlemingLogo.png" alt="Fleming Logo"></a> 
-      <p> Proud partners of fleming college</p>
+      <p> Proud partners of Fleming College</p>
   </div>
 </div>
 
 <style>
-  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
-.linkedinbutton{
-  transition-duration:0.4s;
-  color: white;
-  background-color:#c397d1;
-  border: none;
-  font-size: 2.5vw;
-  float: left;
-}
-.linkedinbutton:hover{
-  color:#0a66c2;
-  cursor:pointer;
-}
-/* style for teams page flex-boxes Owner: Kerstyne
-https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
-.flex-Goteam{
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  justify-content:space-around;
-  margin:70px;
-}
-.flex-Goteam>div{
-  padding:25px;
-  height:auto;
-  background-color:#c397d1;
-  border-radius:15px;
-  margin:20px;
-}
-.teamimage{
-  float:left;
-  height:auto;
-  max-width:100%;
-  padding-right:25px;
-  padding-bottom:10px;
-}
-/* Such a simple solution for what I wanted and it still took me a few hours to do
-because I was overcomplicating it *flips table* - Kerstyne*/
-.teaminfocont{
-  min-width:300px;
-  display:flex;
-  flex-wrap:wrap;
-}
-.teamname{
-  font-size:2vw;
-  font-weight:bold;
-  text-align:left;
-}
-.teaminfo{
-  font-size:1.5vw;
-  text-align:left;
-}
-.PartnersTitle{
-  padding-top:70px;
-}
-/* Parameters to have Team Page title over hero image*/
-.TPheroimagetitle {
-	position:absolute;
-	left:0;
-	bottom:0
-}
-.TPheroimagecontainercontainer{
-    height: 500px;
-}
-/* Parameters to contain the Team Page hero image*/
-.TPheroimagecontainer{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/AerialPattern.jpg");
-	  position: relative;
-    filter: hue-rotate(90deg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-@media only screen and (max-width: 768px) {
-    
-    h1{ /*Sets page title smaller for smaller devices*/
-        font-size: 40px;
-    }
-    .TPheroimagecontainercontainer{
-        height: 250px;
-    }
+/*Style for partner paragraphs, needed margins to go with the websites theme*/
+.partnerparagraphs{
+  margin-left:100px;
+  margin-right:100px;
 }
 </style>
 <!-- Footer, Owner: Victor -->
