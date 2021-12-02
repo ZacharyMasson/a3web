@@ -105,7 +105,7 @@ function LinkedinRS(){
   window.open('https://www.linkedin.com/in/ridley-soudack-1757081b4/')
 }
 function LinkedinVT(){
-  window.open('')
+  window.open('https://www.linkedin.com/in/victor-toth-b750172b/')
 }
 function LinkedinZM(){
   window.open('')
