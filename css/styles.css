@@ -389,28 +389,20 @@ margin-top: justify-content;
     margin: 10px;
     border-radius: 10px;
     padding: 10px;
-    height: auto;
+    height: 300px;
 }
 
 .project-thumb {
     float: left;
-    width: 25%;
+    width: 35%;
+    height: 100%;
+    object-fit: none;
 }
 
 .past-blurb {
     font-size: 1em
 }
 
-/*Portfolio page responsive styling */
-@media only screen and (max-width: 900px) {
-    .project-box{
-        width: 100%;
-    }
-    .project-thumb {
-        float: none;
-        width: 100%;
-    }
-}
 
 .button {
     background-color: #e07509;
@@ -424,6 +416,9 @@ margin-top: justify-content;
     font-size: 16px;
     cursor: pointer;
     transition-duration: 0.3s;
+}
+
+.try-it{
     float: right;
     margin-top: 30px;
 }
@@ -432,6 +427,27 @@ margin-top: justify-content;
     background-color: white;
     color: #e07509;
 }
+
+/*Portfolio page responsive styling */
+@media only screen and (max-width: 768px) {
+    .project-box{
+        width: 100%;
+        margin: 5%;
+        height: auto;
+
+    }
+    .project-thumb {
+        float: none;
+        width: 94%;
+        object-fit: none;
+        margin: 3%;
+        height: 50%;
+    }
+    .try-it{
+     float:none;   
+    }
+}
+
 
 /* ******END PORTFOLIO PAGE STYLING****** */
 
