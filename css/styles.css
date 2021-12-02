@@ -35,12 +35,12 @@ h1 {
 
 /* Set h2 parameters here, plan to use in pages */
 h2{
-    font-weight: bold;
+    font-size: 36px;
 }
 
 /* Set h3 parameters here, plan to use in pages */
 h3{
-    font-size: 10vw;
+    font-size: 24px;
 }
 
 /* Set h4 parameters here */
@@ -233,7 +233,7 @@ margin-top: justify-content;
     margin: auto;
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    max-width: 1200px;
     height: auto;
     box-shadow:  0 4px 12px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -667,22 +667,18 @@ margin-top: justify-content;
     border-radius: 15px;
 
 }
-
 .flex-TestimonialBox > div{
     margin: 5px;
     text-align: center;
     padding: 10px    
 }
-
 .VideoBox {
     background-color: #c397d1;
     justify-content: center;
     margin: 10%;
     border-radius: 15px;
     padding: 10px
-
 }
-
 .ButtonVideo {
     border: 1px solid #5c5c5c;
     border-radius: 10px;
@@ -694,7 +690,6 @@ margin-top: justify-content;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     cursor: pointer;
-
 }
   /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
   .linkedinbutton{
