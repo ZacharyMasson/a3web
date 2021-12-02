@@ -98,3 +98,6 @@ function MAPTIME2(position) {
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
 }
+function LinkedinJL(){
+  window.open('https://www.linkedin.com/in/jade-lacsamana-a7224b131/')
+}
