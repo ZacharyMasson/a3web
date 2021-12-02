@@ -358,6 +358,10 @@ margin-top: justify-content;
     background-color: #e07509;
 }
 
+.present-list{
+    list-style-type: square;
+}
+
 
 /* Slideshow animations */
 .fade {
