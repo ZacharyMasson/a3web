@@ -92,9 +92,11 @@ p {
 
 /* Parameters for mission statement on landing page*/
 .missionstatement{
-	text-align: center;
 	padding-top: 20px;
-	padding-bottom: 40px; 
+	padding-bottom: 40px;
+    margin-left: 200px;
+    margin-right:200px;
+    text-align:justify; 
 }
 
 /*Container for Services section on landing page. Owner: Zachary Masson*/
