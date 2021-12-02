@@ -60,28 +60,33 @@
 
 <div class='present-portfolio'>
   <div class='project-slideshow'>
-    <div class='slide fade'>
-      <img class='slide-img-hover' src = 'images/MountainFilt.jpg' alt='Mountain'>
-      <img class='slide-img-reg' src = 'images/Mountain.jpg' alt='Mountain' >
-      <div class='portfolio-title'>Portfolio Item 1</div>
-    </div>
-    <div class='slide fade'>
-      <img class='slide-img-hover' src = 'images/MountainFilt.jpg' alt='Mountain'>
-      <img class='slide-img-reg' src = 'images/Mountain.jpg' alt='Mountain' >
-      <div class='portfolio-title'>Portfolio Item 2</div>
-    </div>
-    <div class='slide fade'>
-      <img class='slide-img-hover' src = 'images/MountainFilt.jpg' alt='Mountain'>
-      <img class='slide-img-reg' src = 'images/Mountain.jpg' alt='Mountain' >
-      <div class='portfolio-title'>Portfolio Item 3</div>
-    </div>
+      <div class='slide fade'>
+        <img class='slide-img-hover' src = 'images/MountainFilt.jpg' alt='Mountain'>
+        <img class='slide-img-reg' src = 'images/Mountain.jpg' alt='Mountain' >
+        <div class='portfolio-title'>Portfolio Item 1</div>
+      </div>
+      <div class='slide fade'>
+        <img class='slide-img-hover' src = 'images/MountainFilt.jpg' alt='Mountain'>
+        <img class='slide-img-reg' src = 'images/Mountain.jpg' alt='Mountain' >
+        <div class='portfolio-title'>Portfolio Item 2</div>
+      </div>
+      <div class='slide fade'>
+        <img class='slide-img-hover' src = 'images/MountainFilt.jpg' alt='Mountain'>
+        <img class='slide-img-reg' src = 'images/Mountain.jpg' alt='Mountain' >
+        <div class='portfolio-title'>Portfolio Item 3</div>
+      </div>
     <!--Next and Previous Buttons-->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class='dot-box'>
+      <span class='dot' onclick="currentSlide(1)"></span>
+      <span class='dot' onclick="currentSlide(2)"></span>
+      <span class='dot' onclick="currentSlide(3)"></span>
+    </div>
   </div>
   <div class='portfolio-blurb'>
     <h2 class='fade'>
-      Project 1 - <b>Client 1</b>
+      Project 1 - Client 1
     </h2>
     <p class='fade'>
       This is our current project! Yay! We love working. This project will be completed in 2022.
@@ -111,11 +116,12 @@
 
 <div class='past-projects'>
   <div class='project-box'>
-    <img class='project-thumb' src = 'images/hettythumb.jpg' alt='Dog'>
+    <img class='project-thumb' src = 'images/houstonthumb.png' alt='Dog'>
     <h4>Project Title</h4>
     <div class = 'past-blurb'>
       This was a project we did, once upon a time, long long ago.
     </div>
+    <button type='button' class='button' onclick='appLink()'>Try it!</button>
   </div>
   <div class='project-box'>
     <img class='project-thumb' src = 'images/hettythumb.jpg' alt='Dog'>
