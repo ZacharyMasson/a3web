@@ -667,13 +667,11 @@ margin-top: justify-content;
     border-radius: 15px;
 
 }
-
 .flex-TestimonialBox > div{
     margin: 5px;
     text-align: center;
     padding: 10px    
 }
-
 .VideoBox {
     background-color: #c397d1;
     justify-content: center;
@@ -681,7 +679,6 @@ margin-top: justify-content;
     border-radius: 15px;
     padding: 10px
 }
-
 .ButtonVideo {
     border: 1px solid #5c5c5c;
     border-radius: 10px;
@@ -693,7 +690,6 @@ margin-top: justify-content;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     cursor: pointer;
-
 }
   /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
   .linkedinbutton{
