@@ -146,6 +146,19 @@ p {
     height: auto;
 }
 
+.button2 {
+    background-color: #e07509;
+    border: 1px solid #e07509;
+    border-radius: 4px;
+    color: white;
+    font-weight: regular;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
 
 /*Survery123 CSS - Owner: Zachary*/
 .embed-container {position: relative; height: 0; padding-bottom:80%; max-width: 100%;} 
