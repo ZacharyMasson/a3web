@@ -621,3 +621,86 @@ margin-top: justify-content;
   cursor: pointer;
 
 }
+  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
+  .linkedinbutton{
+    transition-duration:0.4s;
+    color: white;
+    background-color:#c397d1;
+    border: none;
+    font-size: 2.5vw;
+    float: left;
+  }
+  .linkedinbutton:hover{
+    color:#0a66c2;
+    cursor:pointer;
+  }
+  /* style for teams page flex-boxes Owner: Kerstyne
+  https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
+  .flex-Goteam{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:70px;
+  }
+  .flex-Goteam>div{
+    padding:25px;
+    height:auto;
+    background-color:#c397d1;
+    border-radius:15px;
+    margin:20px;
+  }
+  .teamimage{
+    float:left;
+    height:auto;
+    max-width:100%;
+    padding-right:25px;
+    padding-bottom:10px;
+  }
+  /* Such a simple solution for what I wanted and it still took me a few hours to do
+  because I was overcomplicating it *flips table* - Kerstyne*/
+  .teaminfocont{
+    min-width:300px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .teamname{
+    font-size:2vw;
+    font-weight:bold;
+    text-align:left;
+  }
+  .teaminfo{
+    font-size:1.5vw;
+    text-align:left;
+  }
+  .PartnersTitle{
+    padding-top:70px;
+  }
+  /* Parameters to have Team Page title over hero image*/
+  .TPheroimagetitle {
+      position:absolute;
+      left:0;
+      bottom:0
+  }
+  .TPheroimagecontainercontainer{
+      height: 500px;
+  }
+  /* Parameters to contain the Team Page hero image*/
+  .TPheroimagecontainer{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/AerialPattern.jpg");
+        position: relative;
+      filter: hue-rotate(90deg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  @media only screen and (max-width: 768px) {
+      
+      h1{ /*Sets page title smaller for smaller devices*/
+          font-size: 40px;
+      }
+      .TPheroimagecontainercontainer{
+          height: 250px;
+      }
+  }
