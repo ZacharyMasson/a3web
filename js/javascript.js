@@ -77,11 +77,21 @@ function getLocation() {
     x.innerHTML = "Geolocation is not supported :'( ";
   }
 }
-// function that gets X and Y from user (if browser supports it) and enters
-// variables into url
-// NEXT - add the directions
 function MAPTIME(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
   window.open("https://www.google.ca/maps/@"+x+","+y+"")
 }
+function getLocation2() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(MAPTIME2);
+  } else { 
+    x.innerHTML = "Geolocation is not supported :'( ";
+  }
+}
+function MAPTIME2(position) {
+  var x = position.coords.latitude
+  var y = position.coords.longitude
+  window.open("https://www.google.ca/maps/@"+x+","+y+"Saint+Joseph's+Oratory+of+Mount+Royal,+3800+Queen+Mary+Rd,+Montreal,+Quebec+H3V+1H6/@45.4669553,-73.6619269,13z/")
+}
+
