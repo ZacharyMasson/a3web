@@ -94,8 +94,8 @@ p {
 .missionstatement{
 	padding-top: 20px;
 	padding-bottom: 40px;
-    margin-left: 200px;
-    margin-right:200px;
+    margin-left: 100px;
+    margin-right:100px;
     text-align:justify; 
 }
 
@@ -773,6 +773,6 @@ margin-top: justify-content;
           height: 250px;
       }
   }
-.missionstatmenttitle{
+.missionstatementtitle{
     text-align: center;
 }
