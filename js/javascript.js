@@ -80,7 +80,7 @@ function getLocation() {
 function MAPTIME(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
-  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/CN+Tower,+290+Bremner+Blvd,+Toronto,+ON+M5V+3L9/@44.5406709,-77.6423411,8z")
+  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/43.6304209,-79.4269947,809")
 }
 function getLocation2() {
   if (navigator.geolocation) {
@@ -95,3 +95,6 @@ function MAPTIME2(position) {
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former+Craig+Pumping+Station,+2000+Avenue+Viger+E,+Montreal,+Quebec/@45.4817221,-73.6295888,12540m")
 }
 
+function LinkedinKW(){
+  window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
+}
