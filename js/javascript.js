@@ -56,18 +56,11 @@ function appLink() {
 }
 
 //END Portfolio slideshow code
-
-//Survey123 Js for Iframe. Owner: Zach
+// Start Survey123 JS
 var survey123webform = document.getElementsByName('survey123webform')[0];
-window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data);
-"survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
+window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data)
+  "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
 
-//Show pages (test) - owner: Zach
-function show(shown, hidden) {
-    document.getElementById(shown).style.display='block';
-    document.getElementById(hidden).style.display='none';
-    return false;
-}
 
 // Get users location and enter it in url to Google Maps directions - Owner: Zach WORK IN PROGRESS
 function getLocation() {
