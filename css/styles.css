@@ -6,7 +6,6 @@ Web page for Assignment 3
 /* referencing custom google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-
 /* Most of the general CSS settings were set by Victor */
 /* Setting the background colour, all text is aligned centre */
 body {
@@ -16,13 +15,11 @@ body {
     margin: 0;
     height: 100%;
 }	
-
 /* Footer styling by Victor */
 footer{
     background-color: #c397d1; 
     text-align: center;
 }
-
 /* Set h1 parameters here */
 h1 {
 	color: #ffffff; 
@@ -32,43 +29,35 @@ h1 {
 	text-shadow: 2px 2px 5px #000000;
     margin: 25px;
 } 
-
 /* Set h2 parameters here, plan to use in pages */
 h2{
     font-size: 36px;
 }
-
 /* Set h3 parameters here, plan to use in pages */
 h3{
     font-size: 24px;
 }
-
 /* Set h4 parameters here */
 h4 {
 	color: #ffffff; 
 	text-shadow: 2px 2px 5px #000000;
     font-size: 20px;
 }
-
 /* Set p parameters here */
 p {
 	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
     font: 12px
 }
-
-
 /* Parameters to have Company Name overtop of hero image*/
 .heroimagetitle {
 	position:absolute;
 	left:0;
 	bottom:0
 }
-
 .heroimagecontainercontainer{
     height: 500px;
 }
-
 /* Parameters to contain the hero image*/
 .heroimagecontainer{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/DEM.jpg");
@@ -79,9 +68,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 768px) {   
     h1{ /*Sets page title smaller for smaller devices*/
         font-size: 40px;
     }
@@ -89,7 +76,6 @@ p {
         height: 250px;
     }
 }
-
 /* Parameters for mission statement on landing page*/
 .missionstatement{
 	padding-top: 20px;
@@ -98,7 +84,6 @@ p {
     margin-right:100px;
     text-align:justify; 
 }
-
 /*Container for Services section on landing page. Owner: Zachary Masson*/
 .flex-containerServ {
     display: flex;
@@ -136,8 +121,6 @@ p {
     flex-direction: row;
     background-color: #DBCCE0;
     justify-content: center;
-
-
 }
 .flex-containerProjectForm > div {
     width: 65%;
@@ -147,7 +130,6 @@ p {
     border-radius: 25%;
     padding: 10px;
     height: auto;
-
 }
 .flex-containerContact{
     display: flex;
@@ -178,7 +160,6 @@ p {
     cursor: pointer;
     transition-duration: 0.3s;
 }
-
 /* Survey123 Project form - Owner Zachary Masson */
 .embed-container {
     position: relative; 
@@ -188,8 +169,6 @@ p {
 } 
 .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} 
 small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
-
-
 /*Container for Projects section on landing page, owner: Jade*/
 .flex-containerProjects {
     display: flex;
@@ -197,8 +176,7 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     background-color: #DBCCE0;
     justify-content: center;
     margin: 30px;
-  }
-  
+}
 .flex-containerProjects > div {
     background-color: #f1f1f1;
     width: 10%;
@@ -208,14 +186,12 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     font-size: 10px;
     flex-wrap: wrap;
     border-radius: 30%;
-  }
-
+}
 .ProjectsImg {
       max-width: 100%;
       height: auto;
       filter:hue-rotate(90deg);
-  }
-
+}
 /*Responsive styling for projects section, owner: Jade*/
 @media only screen and (max-width: 900px) {
 	.flex-containerProjects > div {
@@ -223,7 +199,6 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     margin: 10px;
   }
 }
-
 /* Container for Partners on Team page, Owner: Kerstyne*/
 .flex-containerPart{
     display: flex;
@@ -232,18 +207,15 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     justify-content: space-around;
     margin: 50px;
 }
-
 .flexcontainerPart > div{
     margin: 10px;
     text-align: center;
     padding: 40px;   
 }
-
 .PartnerLogos{
     max-width: 100%;
     height: auto; 
 }
-
 /* ******BEGIN PORTFOLIO PAGE STYLING Owner: Ridley****** */
 .present-portfolio{
     background-color: white;
@@ -255,20 +227,15 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     box-shadow:  0 4px 12px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 }
-
 .project-slideshow { /* Slideshow Container */
     height: auto;
     margin: 0;
     position: relative;
-  }
-
-
-
+}
 .slide {
     display: none;
     position:relative;
 }
-
 .slide-img-reg {
 
     opacity: 1;
@@ -280,7 +247,6 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     position: relative;
     transition: opacity 1s ease-in-out;
 }
-
 .slide-img-hover {
     left: 0;
     border-radius: 15px 15px 0 0;
@@ -288,11 +254,9 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     max-width: 100%;
     position: absolute;
 }
-
 .slide:hover .slide-img-reg {
     opacity: 0;
 }
-
 /* Project Title Text */
 .portfolio-title {
     display: inline-block;
@@ -306,14 +270,11 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     font-size: 40px;
     text-align: left;
 }
-
 .portfolio-blurb {
     padding: 0 3% 2%;
     text-align: left;
     display: none;
 }
-
-
 /* Next and previous slideshow buttons */
 .prev, .next {
     cursor: pointer;
@@ -331,27 +292,20 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     border-radius: 0 3px 3px 0;
     user-select: none;
     z-index: 1;
-  }
-
+}
 .prev {
     left: 0;
 }
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-  
+} 
 .prev:hover, .next:hover{
     background-color: #c297cf;
-
 }
-
 .prev:hover, .next:hover .slide-img-reg{
     opacity: 0;
-
 }
-
 .dot-box{
     text-align: center;
     position: absolute;
@@ -359,7 +313,6 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     top: 0;
     padding: 10px 0; /* Added some padding so that image fade effect isn't annoying when switching slides */
 }
-
 .dot {
     cursor: pointer;
     width: 12px;
@@ -370,39 +323,31 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     display: inline-block; /* Lets us set a width and height on elements that will behave as inline */
     transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
     background-color: #e07509;
 }
-
 .project-title {
     font-size: 30px;
     font-weight: bold;
 }
-
 .present-list{
     list-style-type: square;
 }
-
-
 /* Slideshow animations */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
+  } 
   @-webkit-keyframes fade {
     from {opacity: 0.4}
     to {opacity: 1}
-  }
-  
+  } 
   @keyframes fade {
     from {opacity: 0.4}
     to {opacity: 1}
   }
-
 .past-projects {
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +362,6 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     padding: 10px;
     height: 300px;
 }
-
 .project-thumb {
     float: left;
     width: 35%;
@@ -425,13 +369,10 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     object-fit: cover;
     margin-right: 10px;
 }
-
 .past-blurb {
     font-size: 1em;
     text-align: left;
 }
-
-
 .button {
     background-color: #e07509;
     border: 3px solid #e07509;
@@ -445,16 +386,13 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     cursor: pointer;
     transition-duration: 0.3s;
 }
-
 .try-it{
     margin-top: 30px;
 }
-
 .button:hover{
     background-color: white;
     color: #e07509;
 }
-
 /*Portfolio page responsive styling */
 @media only screen and (max-width: 1200px) {
     .project-box{
@@ -474,16 +412,13 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
         margin: 10px;
     }
 }
-
 @media only screen and (max-width: 768px) {
     .prev, .next{
         background-color: rgba(0, 0, 0, 0);
         top: 10%;
     }
 }
-
 /* ******END PORTFOLIO PAGE STYLING****** */
-
 /* Navbar Styling, owner: Ridley */
 .navbar-flex{ /*Class for overall navbar */
     margin: 0;
@@ -493,33 +428,28 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     height: auto;
     background-color:white;
 }
-
 .navbar-flex-left {  /*Class for navbar flex containing logo */
 	flex: 40%;
     align-self: center;
 } 
-
 .navbar-flex-right { /*Class for navbar flex containing navigation buttons */
 
   flex: 60%;
   align-self: center;
   justify-content: right;
 }
-
 .logo-container { /*Class for div containing logo */
     display: block;
     margin: 0;
     padding: 0;
     float: left;
 }
-
 .logo { /*Class for logo imaging */
     max-width: 50px;
     max-height: 50px;
     float: left;
     margin: 0 1px;
 }
-
 .navbar-menu { /*Class for navbar list */
     list-style-type: none;
     padding: 0;
@@ -533,7 +463,6 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     align-items: center;
     float: right;
 }
-
 .navbar-item { /*Class for individual navbar items */
     display: block;
     width: 100px;
@@ -543,30 +472,25 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     color: black;
     text-decoration: none;
 }
-
 .navbar-item:hover{ /*Assigns hover attribute to navbar items */
     background-color: #612848;
     color: white;
     transition: background .2s ease-in;
 }
-
 #active{ /*Assigns attributes to active ID navbar item */
     background-color: #e07509;
     color: white;
 }
-
 /* Navbar dropdown styling */
 .dropdown { /*Dropdown div class for navbar items with dropdowns*/
     position: relative;
     display: inline-block;
 }
-
 .dropdown-menu { /*Dropdown div for dropdown menu links*/
     position: absolute;
     width: 100px;
     z-index: 1; /* Ensures dropdown does not appear behind other elements */
 }
-
 .dropdown-menu a { /*Styling for dropdown links*/
     display: none;
     width: 100px;
@@ -579,23 +503,19 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     opacity: 0;
     position: relative;
 }
-
 .dropdown-menu a:hover{ /*Hover styling for dropdown links*/
     background-color: #612848;
     color: white;
     transition: background .2s ease-in;
 }
-
 .dropdown:hover .dropdown-menu a{
     display: block; /*Turns display of dropdown links on when hovering over dropdown*/
 }
-
 .dropdown:hover .navbar-item{ /*Keeps dropdown hover effect on while navigating dropdown list*/
     background-color:#612848;
     transition: background .2s ease-in;
     color: white;
 }
-
 .hamburger { /*Styling for hamburger icon*/
     color: #612848;
     font-size: 25px;
@@ -604,14 +524,13 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     display: none; /*Keeps hamburger hidden for desktop displays */
     margin: 0 5px;
 }
-
 /* Navbar Dropdown animation styling, based on: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform */
 .rotateX { /* Testing mobile navbar animation */
     -webkit-animation-name: rotatex;
     -webkit-animation-duration: 1.5s;
     animation-name: rotatex;
     animation-duration: 1.5s;
-  }
+}
 @keyframes rotateX { /*Sets keyframes for dropdown link animations*/
     0% {
       opacity: 0;
@@ -624,19 +543,15 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
       opacity: 1;
       transform: rotateX(0deg);
     }
-  }
-
+}
 .dropdown-item1 { /*Sets animation timing and delay for first dropdown link*/
     transform-origin: top-center;
     animation: rotateX 300ms 60ms ease-in-out forwards;
 }
-
 .dropdown-item2 { /*Sets animation timing and delay for second dropdown link*/
     transform-origin: top-center;
     animation: rotateX 300ms 120ms ease-in-out forwards;
 }
-
-
 /*Navbar Mobile Styling, based on w3schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 @media only screen and (max-width: 768px) { 
     .navbar-menu{ /*Sets navbar in front of other elements for styling*/
@@ -703,8 +618,7 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     .navbar-flex.responsive .logo{
         filter: hue-rotate(90deg);
     }
-} 
-
+}
 /*Testimonials extra styling section - Owner Victor Toth*/
 .flex-TestimonialBox {
     display: flex;
@@ -739,90 +653,96 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     font-size: 16px;
     cursor: pointer;
 }
-  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
-  .linkedinbutton{
-    transition-duration:0.4s;
+ /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
+.linkedinbutton{
+    transition-duration: 0.4s;
     color: white;
     background-color:#c397d1;
     border: none;
     font-size: 25px;
     float: left;
-  }
-  .linkedinbutton:hover{
-    color:#0a66c2;
-    cursor:pointer;
-  }
-  /* style for teams page flex-boxes Owner: Kerstyne
-  https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
-  .flex-Goteam{
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    justify-content:space-around;
-    margin:70px;
-  }
-  .flex-Goteam>div{
-    padding:25px;
-    height:auto;
-    background-color:#c397d1;
-    border-radius:15px;
-    margin:20px;
-  }
-  .teamimage{
-    float:left;
-    height:auto;
-    max-width:100%;
-    padding-right:25px;
-    padding-bottom:10px;
-  }
-  /* Such a simple solution for what I wanted and it still took me a few hours to do
-  because I was overcomplicating it *flips table* - Kerstyne*/
-  .teaminfocont{
-    min-width:300px;
-    display:flex;
-    flex-wrap:wrap;
-    max-width:900px;
-  }
-  .teamname{
-    font-size:18pt;
-    font-weight:bold;
-    text-align:left;
-  }
-  .teaminfo{
-    font-size:12pt;
-    text-align:left;
-  }
-  .PartnersTitle{
-    padding-top:70px;
-  }
-  /* Parameters to have Team Page title over hero image*/
-  .TPheroimagetitle {
-      position:absolute;
-      left:0;
-      bottom:0
-  }
-  .TPheroimagecontainercontainer{
-      height: 500px;
-  }
-  /* Parameters to contain the Team Page hero image*/
-  .TPheroimagecontainer{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/AerialPattern.jpg");
-        position: relative;
-      filter: hue-rotate(90deg);
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  @media only screen and (max-width: 768px) {
+}
+.linkedinbutton:hover{
+    color: #0a66c2;
+    cursor: pointer;
+}
+/* style for teams page flex-boxes Owner: Kerstyne
+https://www.w3schools.com/css/css3_flexbox.asp - ideas taken from here*/
+.flex-Goteam{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px;
+}
+.flex-Goteam>div{
+    padding: 25px;
+    height: auto;
+    background-color: #c397d1;
+    border-radius: 15px;
+    margin: 20px;
+}
+.teamimage{
+    float: left;
+    height: auto;
+    max-width: 100%;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+/* Such a simple solution for what I wanted and it still took me a few hours to do
+because I was overcomplicating it *flips table* - Kerstyne*/
+.teaminfocont{
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+.teamname{
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: left;
+}
+.teaminfo{
+    font-size: 12pt;
+    text-align: left;
+}
+.PartnersTitle{
+    padding-top: 70px;
+}
+/* Parameters to have Team Page title over hero image*/
+.TPheroimagetitle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.TPheroimagecontainercontainer{
+    height: 500px;
+}
+/* Parameters to contain the Team Page hero image*/
+.TPheroimagecontainer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/AerialPattern.jpg");
+    position: relative;
+    filter: hue-rotate(90deg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 768px) {
       
-      h1{ /*Sets page title smaller for smaller devices*/
-          font-size: 40px;
-      }
-      .TPheroimagecontainercontainer{
-          height: 250px;
-      }
-  }
+    h1{ /*Sets page title smaller for smaller devices*/
+        font-size: 40px;
+    }
+    .TPheroimagecontainercontainer{
+        height: 250px;
+    }
+}
+/*Style for mission statement title on index page*/
 .missionstatementtitle{
     text-align: center;
 }
+/*Style for partner paragraphs, needed margins to go with the websites theme*/
+.partnerparagraphs{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
