@@ -30,7 +30,7 @@ h1 {
 	font-size: 80px;
 	font-weight: lighter;
 	text-shadow: 2px 2px 5px #000000;
-    margin: 25px
+    margin: 25px;
 } 
 
 /* Set h2 parameters here, plan to use in pages */
@@ -307,8 +307,7 @@ margin-top: justify-content;
     margin-top: -22px;
     padding: 16px;
     color: white;
-    background-color: thistle;
-    opacity: 0.9;
+    background-color: rgb(216, 191, 216, 0.7);
     font-weight: bold;
     font-size: 24px;
     transition: 0.6s ease;
@@ -326,7 +325,7 @@ margin-top: justify-content;
 }
   
 .prev:hover, .next:hover{
-    background-color: #c397d1;
+    background-color: #c297cf;
 
 }
 
@@ -400,11 +399,13 @@ margin-top: justify-content;
     float: left;
     width: 35%;
     height: 100%;
-    object-fit: none;
+    object-fit: cover;
+    margin-right: 10px;
 }
 
 .past-blurb {
-    font-size: 1em
+    font-size: 1em;
+    text-align: left;
 }
 
 
@@ -423,7 +424,6 @@ margin-top: justify-content;
 }
 
 .try-it{
-    float: right;
     margin-top: 30px;
 }
 
@@ -433,7 +433,7 @@ margin-top: justify-content;
 }
 
 /*Portfolio page responsive styling */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .project-box{
         width: 100%;
         margin: 5%;
@@ -443,15 +443,21 @@ margin-top: justify-content;
     .project-thumb {
         float: none;
         width: 94%;
-        object-fit: none;
-        margin: 3%;
-        height: 50%;
+        object-fit: cover;
+        margin: 0 3%;
+        height: 200px;
     }
-    .try-it{
-     float:none;   
+    .past-title{
+        margin: 10px;
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .prev, .next{
+        background-color: rgba(0, 0, 0, 0);
+        top: 10%;
+    }
+}
 
 /* ******END PORTFOLIO PAGE STYLING****** */
 
@@ -609,8 +615,7 @@ margin-top: justify-content;
 
 
 /*Navbar Mobile Styling, based on w3schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 768px) { 
     .navbar-menu{ /*Sets navbar in front of other elements for styling*/
         z-index: 1;
     }
@@ -675,7 +680,7 @@ margin-top: justify-content;
     .navbar-flex.responsive .logo{
         filter: hue-rotate(90deg);
     }
-}
+} 
 
 /*Testimonials extra styling section - Owner Victor Toth*/
 .flex-TestimonialBox {
