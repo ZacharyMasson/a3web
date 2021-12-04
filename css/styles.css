@@ -217,6 +217,12 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     height: auto; 
 }
 /* ******BEGIN PORTFOLIO PAGE STYLING Owner: Ridley****** */
+
+#porthero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/portfolioaerial.jpg");
+    filter: none;
+}
+
 .present-portfolio{
     background-color: white;
     margin: auto;
