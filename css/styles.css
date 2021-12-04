@@ -130,6 +130,7 @@ p {
     border-radius: 25%;
     padding: 10px;
     height: auto;
+    align-self: center;
 }
 .flex-containerContact{
     display: flex;
