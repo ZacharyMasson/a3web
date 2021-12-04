@@ -73,7 +73,7 @@ function getLocation() {
 function MAPTIME(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
-  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/43.6304209,-79.4269947,809")
+  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/CN+Tower")
 }
 function getLocation2() {
   if (navigator.geolocation) {

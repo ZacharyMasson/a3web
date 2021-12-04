@@ -139,8 +139,8 @@ p {
     justify-content: center;
 }
 .flex-containerContact > div {
-    width: 40%;
-    margin: 10px;
+    width: 50%;
+    margin: 5px;
     text-align: center;
     font-size: 1.5vw;
     border-radius: 10%;
