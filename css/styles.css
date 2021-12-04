@@ -43,6 +43,11 @@ h4 {
 	text-shadow: 2px 2px 5px #000000;
     font-size: 20px;
 }
+
+h5 {
+    font-size: 16px;
+    margin: 5px 0;
+}
 /* Set p parameters here */
 p {
 	color: #000000; 
@@ -101,6 +106,7 @@ p {
     padding: 10px;
     height: auto;
 }
+
 .ServTitle {
     color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
@@ -169,6 +175,7 @@ p {
 } 
 .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} 
 small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
+
 /*Container for Projects section on landing page, owner: Jade*/
 .flex-containerProjects {
     display: flex;
@@ -185,17 +192,22 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     text-align: center;
     font-size: 10px;
     flex-wrap: wrap;
-    border-radius: 30%;
+    border-radius: 20%;
 }
 .ProjectsImg {
-      max-width: 100%;
-      height: auto;
-      filter:hue-rotate(90deg);
+      max-width:100%;
+      height:auto;
+      border: 1px solid #a5d097; /*Colour here set because hue rotate effects border colour too - using this colour results in desired colour for border.*/
+      border-radius:50%;
+      filter:hue-rotate(180deg);
 }
 /*Responsive styling for projects section, owner: Jade*/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
+    .flex-containerProjects {
+        margin: 0;
+    }
 	.flex-containerProjects > div {
-    width: 40%;
+    width: 30%;
     margin: 10px;
   }
 }
@@ -291,7 +303,7 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     margin-top: -22px;
     padding: 16px;
     color: white;
-    background-color: rgb(216, 191, 216, 0.7);
+    background-color: rgb(216, 191, 216, 0.9);
     font-weight: bold;
     font-size: 24px;
     transition: 0.6s ease;
@@ -309,9 +321,7 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
 .prev:hover, .next:hover{
     background-color: #c297cf;
 }
-.prev:hover, .next:hover .slide-img-reg{
-    opacity: 0;
-}
+
 .dot-box{
     text-align: center;
     position: absolute;
@@ -362,11 +372,12 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
 }
 .project-box {
     background-color: #c397d1;
-    width: 40%;
+    width: 45%;
+    max-width: 700px;
     margin: 10px;
     border-radius: 10px;
     padding: 10px;
-    height: 300px;
+    height: 250px;
 }
 .project-thumb {
     float: left;
@@ -374,7 +385,12 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
     height: 100%;
     object-fit: cover;
     margin-right: 10px;
+    border-radius: 10px;
 }
+.past-title {
+    margin-top: 0;
+}
+
 .past-blurb {
     font-size: 1em;
     text-align: left;
@@ -418,12 +434,7 @@ small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
         margin: 10px;
     }
 }
-@media only screen and (max-width: 768px) {
-    .prev, .next{
-        background-color: rgba(0, 0, 0, 0);
-        top: 10%;
-    }
-}
+
 /* ******END PORTFOLIO PAGE STYLING****** */
 /* Navbar Styling, owner: Ridley */
 .navbar-flex{ /*Class for overall navbar */
