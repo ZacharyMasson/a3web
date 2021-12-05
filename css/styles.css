@@ -96,6 +96,7 @@ p {
     flex-wrap: wrap;
     background-color: #DBCCE0;
     justify-content: center;
+    margin: 30px;
 }
 .flex-containerServ > div {
     background-color: #c397d1;
@@ -103,7 +104,7 @@ p {
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
-    border-radius: 25%;
+    border-radius: 10%;
     padding: 10px;
     height: auto;
 }
@@ -122,7 +123,13 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
 }
-/*Hero image for project form/ offices*/
+@media only screen and (max-width: 800) {
+    .flex-containerServ{
+        flex-direction: column;
+
+    }
+}
+/*Hero image for project form/ offices owner-Zachary*/
 .heroimageProjOf{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Hope_BB.jpg");
 	position: relative;
@@ -733,13 +740,13 @@ p {
 .ButtonVideo {
     border: 1px solid #5c5c5c;
     border-radius: 10px;
-    max-width: 17vw;
+    max-width: 300px;
     color: white;
     padding: 5px 5px;
     text-align: center;
     color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
 }
  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
