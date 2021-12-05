@@ -156,9 +156,10 @@ p {
     background-color: #DBCCE0;
     justify-content: center;
     margin: 15px;
+    padding: 10px;
 }
 .projectformdesc {
-    flex:50%;
+    flex:30%;
     margin: 10px;
     text-align: center;
     padding: 10px;
