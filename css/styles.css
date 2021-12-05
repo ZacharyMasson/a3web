@@ -135,8 +135,6 @@ p {
     flex:50%;
     margin: 10px;
     text-align: center;
-    font-size: 1.5vw;
-    border-radius: 25%;
     padding: 10px;
     height: auto;
 }
@@ -172,8 +170,15 @@ p {
     padding: 10px;
     height: auto;
 }
+.officesText {
+    width:auto;
+    margin: 5px;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px;
+}
 /*second button style, just smaller to fit better in each flexbox*/
-.button2 {
+.button2tor {
     background-color: #e07509;
     border: 1px solid #e07509;
     border-radius: 4px;
@@ -185,6 +190,21 @@ p {
     font-size: 10px;
     cursor: pointer;
     transition-duration: 0.3s;
+    z-index: 99;
+}
+.button2mtl {
+    background-color: #e07509;
+    border: 1px solid #e07509;
+    border-radius: 4px;
+    color: white;
+    font-weight: regular;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 99;
 }
 /* Survey123 Project form - Owner Zachary Masson 
     embed container is the class that containes the iframe and its 'children'*/
