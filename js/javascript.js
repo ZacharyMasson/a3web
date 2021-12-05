@@ -143,17 +143,17 @@ document.getElementById("button2tor").addEventListener("click touchstart", MAPTI
 document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
 
 function LinkedinKW(){
-  window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
+  window.open('https://www.linkedin.com/in/kerstyne%2Dwidmeyer%2D733010200');
 }
 function LinkedinJL(){
-  window.open('https://www.linkedin.com/in/jade-lacsamana-a7224b131/')
+  window.open('https://www.linkedin.com/in/jade%2Dlacsamana%2Da7224b131/')
 }
 function LinkedinRS(){
-  window.open('https://www.linkedin.com/in/ridley-soudack-1757081b4/')
+  window.open('https://www.linkedin.com/in/ridley%2Dsoudack%2D1757081b4/')
 }
 function LinkedinVT(){
-  window.open('https://www.linkedin.com/in/victor-toth-b750172b/')
+  window.open('https://www.linkedin.com/in/victor%2Dtoth%2Db750172b/')
 }
 function LinkedinZM(){
-  window.open('https://www.linkedin.com/in/zachary-masson-495227198/?originalSubdomain=ca')
+  window.open('https://www.linkedin.com/in/zachary%2Dmasson%2D495227198/%3ForiginalSubdomain%3Dca')
 }
