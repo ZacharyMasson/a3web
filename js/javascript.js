@@ -130,13 +130,11 @@ function getLocation2() {
   }
 }
 function MAPTIME(position) {
-  navigator.geolocation.getCurrentPosition()
   var x = position.coords.latitude
   var y = position.coords.longitude
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/CN+Tower")
 }
 function MAPTIME2(position) {
-  navigator.geolocation.getCurrentPosition()
   var x = position.coords.latitude
   var y = position.coords.longitude
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former+Craig+Pumping+Station,+2000+Avenue+Viger+E,+Montreal,+Quebec/@45.4817221,-73.6295888,12540m")
