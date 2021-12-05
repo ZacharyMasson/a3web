@@ -10,38 +10,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<!-- Navbar, Owner: Ridley 11:09AM, Nov 11, 2021-->
-<div class="navbar-flex" id="headerbar">
-  <div class="navbar-flex-left">
-    <a class="logo-container" href='index.html'>
-      <img class='logo' src='images/logo.png' alt='Lumpy Potato'>
-    </a>
-    <a class="hamburger" href="javascript:void(0);" onclick="navBar()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
- <div class="navbar-flex-right">
-   <div class="navbar-menu" id="navbarmaster">
-    <div class="dropdown" id="nav-item1">
-      <a class="navbar-item" href="portfolio.html">Portfolio</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item1" href='portfolio.html#present'>Present</a>
-        <a class="dropdown-item2" href='portfolio.html#past'>Past</a>
+
+  <!-- Navbar, Owner: Ridley -->
+  <div class="navbar-flex" id = "headerbar"> <!-- This flex contains the two sides of the header - the logo, and the navbar buttons-->
+    <div class="navbar-flex-left">
+      <a class="logo-container" href = 'index.html'>
+        <img class='logo' src='images/logo.png' alt = 'Lumpy Potato'>
+      </a> <!-- The hamburger icon will only appear for mobile screens-->
+      <a class="hamburger" href = "javascript:void(0);" onclick="navBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="navbar-flex-right"> <!-- This flexbox contains the navbar buttons. It is accessible on mobile through the hamburger menu.-->
+      <div class="navbar-menu" id="navbarmaster"> <!--The general design of the navbar is based on: https://www.w3schools.com/css/css_navbar_horizontal.asp but is heavily modified.-->
+        <div class="dropdown">
+          <a class="navbar-item" href="portfolio.html" >Portfolio</a>
+          <div class="dropdown-menu"> <!-- Two of our navbar items have dropdown menus. The coding and animation for these dropdowns is based on: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform-->
+            <a class="dropdown-item1" href="portfolio.html#present">Present</a>
+            <a class="dropdown-item2" href="portfolio.html#past">Past</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="testimonials.html" >Testimonials</a>
+        <a class="navbar-item" href="TeamPage.html" >Team</a>
+        <div class="dropdown">
+          <a class="navbar-item" href="contact.html" >Contact</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item1" href="contact.html#ProjForm">Project Form</a>
+            <a class="dropdown-item2" href="contact.html#Offices">Offices</a>
+          </div>
+        </div>    
+        <a class = "navbar-item" href="location.html" >Location</a>
       </div>
     </div>
-    <a class="navbar-item" id="nav-item2" href="testimonials.html">Testimonials</a>
-    <a class="navbar-item" id="nav-item3" href="TeamPage.html" >Team</a>
-    <div class="dropdown" id="nav-item4">
-      <a class="navbar-item" href="contact.html">Contact</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item1" href='portfolio.html#hireus'>Hire Us</a>
-        <a class="dropdown-item2" href='portfolio.html#joinus'>Join Us</a>
-      </div>
-    </div>    
-    <a class="navbar-item" id="nav-item5" href="location.html">Location</a>
   </div>
-  </div>
-</div>
 <!-- Image Header, Owner: Kerstyne 11:12am-->
 <div class="heroimagecontainercontainer">
 <div class="heroimagecontainer">

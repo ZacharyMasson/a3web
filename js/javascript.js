@@ -49,8 +49,7 @@ modal.style.display = "none";
 };
 
 // Mobile Navbar function, owner: Ridley
-// Mobile Navbar function, owner: Ridley
-function navBar(){
+function navBar(){ // This function appends the 'responsive' class to navbar elements when the hamburger menu is clicked, to adjust menu styling
     var nav = document.getElementById("navbarmaster");
     if (nav.className === "navbar-menu") {
         nav.className += " responsive";
@@ -96,7 +95,7 @@ function plusSlides(n) { // This function enables control of slides through next
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function currentSlide(n) { // This function enables control of slides through the slideshow dots
   showSlides(slideIndex = n)
 }
 
@@ -109,9 +108,7 @@ function appLink() {
 // Start Survey123 JS
 var survey123webform = document.getElementsByName('survey123webform')[0];
 window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data)
-  "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
-
-
+  "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
 // Get users location and enter it in url to Google Maps directions - Owner: Zachary
 // gets location from the user and if not allowed in browswer show error message
 // first function is for toronto, second is montreal. 
@@ -141,7 +138,6 @@ function MAPTIME2(position) {
 }
 document.getElementById("button2tor").addEventListener("click touchstart", MAPTIME());
 document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
-
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne%2Dwidmeyer%2D733010200');
 }
