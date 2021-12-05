@@ -112,7 +112,9 @@ window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data)
   "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
 
 
-// Get users location and enter it in url to Google Maps directions - Owner: Zach WORK IN PROGRESS
+// Get users location and enter it in url to Google Maps directions - Owner: Zachary
+// gets location from the user and if not allowed in browswer show error message
+// first function is for toronto, second is montreal. 
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(MAPTIME);

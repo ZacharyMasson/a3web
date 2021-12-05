@@ -89,7 +89,8 @@ p {
     margin-right:100px;
     text-align:justify; 
 }
-/*Container for Services section on landing page. Owner: Zachary Masson*/
+/*Container for Services section on landing page. 
+    as well as classes for the elements within it. Owner: Zachary Masson*/
 .flex-containerServ {
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +107,6 @@ p {
     padding: 10px;
     height: auto;
 }
-
 .ServTitle {
     color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
@@ -122,17 +122,17 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
 }
+/*Flex contianer for project form - Owner Zachary
+    UNSURE ABOUT THIS. need to make it more responsive*/
 .flex-containerProjectForm{
     display: flex;
     flex-direction: row;
     background-color: #DBCCE0;
     justify-content: center;
-    margin: 30px;
-
+    margin: 15px;
 }
 .projectformdesc {
     flex:50%;
-    width: 85%;
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
@@ -142,7 +142,6 @@ p {
 }
 .projectformsurv {
     flex:50%;
-    width: 85%;
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
@@ -150,19 +149,22 @@ p {
     padding: 10px;
     height: auto;
 }
+/*Responsive for project flex box. Owner - Zachary*/
 @media only screen and (max-width: 800px) {
     .projectformdesc, .projectformsurv {
       flex: 100%;
     }
-  }
-.flex-containerContact{
+}
+/*flex container for offices*/
+.flex-containeroffice{
     display: flex;
     flex-direction: row;
     background-color: #DBCCE0;
     justify-content: center;
 }
-.flex-containerContact > div {
-    width: 40%;
+/*style all divs in office flex box*/
+.flex-containeroffice > div {
+    width: 50%;
     margin: 5px;
     text-align: center;
     font-size: 1.5vw;
@@ -170,6 +172,7 @@ p {
     padding: 10px;
     height: auto;
 }
+/*second button style, just smaller to fit better in each flexbox*/
 .button2 {
     background-color: #e07509;
     border: 1px solid #e07509;
@@ -183,13 +186,15 @@ p {
     cursor: pointer;
     transition-duration: 0.3s;
 }
-/* Survey123 Project form - Owner Zachary Masson */
+/* Survey123 Project form - Owner Zachary Masson 
+    embed container is the class that containes the iframe and its 'children'*/
 .embed-container {
     position: relative; 
     height: 0; 
     padding-bottom:100%; 
     max-width: 100%;
-} 
+}
+/*styling for the elements inside the iframe*/
 .embed-container object, .embed-container iframe{
     overflow: hidden; 
     position: absolute; 
