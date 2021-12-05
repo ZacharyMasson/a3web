@@ -598,7 +598,10 @@ iframe{
     background-color: #c397d1;
     flex-wrap: wrap; 
     justify-content: center;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 15px;
 }
 .flex-TestimonialBox > div{
@@ -608,7 +611,8 @@ iframe{
 .VideoBox {
     background-color: #c397d1;
     justify-content: center;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 15px;
     padding: 5px
 }
