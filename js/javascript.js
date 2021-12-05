@@ -74,13 +74,13 @@ function showSlides(n) { // This function controls which slide shows up as the v
   if (n > slides.length) {slideIndex=1} //If n increases beyond slidelength, loop back to slideIndex 1
   if (n < 1) {slideIndex=slides.length} //If n decreases below 1, loop around to maximum slideIndex.
   for (i = 0; i < slides.length; i++) { // Set all slides to display = none
-      slides[i].style.display = "none";
+    slides[i].style.display = "none";
   }
   for (i = 0; i < blurbs.length; i++) { // Set all blurbs to display = none initially
     blurbs[i].style.display = "none";
 }
-for (i = 0; i < dots.length; i++) { //Sets active dot styling
-  dots[i].className = dots[i].className.replace(" active", "");
+  for (i = 0; i < dots.length; i++) { //Sets active dot styling
+    dots[i].className = dots[i].className.replace(" active", "");
 }
   slides[slideIndex-1].style.display = "block"; //Set slideIndex to display relevant slide and blurb, and set associated dot to 'active' class.
   blurbs[slideIndex-1].style.display = "block";
