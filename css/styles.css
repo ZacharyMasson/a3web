@@ -165,12 +165,12 @@ p {
 }
 /*style all divs in office flex box*/
 .flex-containeroffice > div {
-    width: 40%;
+    width: 35%;
     margin: 5px;
     text-align: center;
     font-size: 1.5vw;
     border-radius: 10%;
-    padding: 10px;
+    padding: 40px;
     height: auto;
 }
 .officesText {
