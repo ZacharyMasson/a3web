@@ -153,3 +153,22 @@ function LinkedinVT(){
 function LinkedinZM(){
   window.open('https://www.linkedin.com/in/zachary%2Dmasson%2D495227198/%3ForiginalSubdomain%3Dca')
 }
+// Video player section - Victor Toth
+//javascript used to define the functions of the button for video 1
+
+function playPause() { 
+  var myVideo=document.getElementById("video1"); 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+//javascript used to define the functions of the button for video 2
+
+function playPause2() { 
+  var myVideo2=document.getElementById("video2"); 
+  if (myVideo2.paused) 
+    myVideo2.play(); 
+  else 
+    myVideo2.pause(); 
+} 
