@@ -150,7 +150,10 @@ p {
 /*Responsive for project flex box. Owner - Zachary*/
 @media only screen and (max-width: 800px) {
     .projectformdesc, .projectformsurv {
-      flex: 100%;
+      width: 100%;
+    }
+    .flex-containerProjectForm{
+        flex-direction: column;
     }
 }
 /*flex container for offices*/
