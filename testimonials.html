@@ -83,12 +83,20 @@
 <!-- Video section using javascript-->
 
 <div class="VideoBox"> 
+  <p>Video messages from one of our partners.</p>
   <div>
     <button class="ButtonVideo" onclick="playPause()">Play/Pause</button> 
   </div>
-  <p>A video message from one of our partners.</p>
+  <div>
+    <button class="ButtonVideo" onclick="playPause2()">Play/Pause</button> 
+  </div>
+  
     <br><br>
   <video id="video1" width="420">
+    <source src="images/testvideo.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+  </video>
+  <video id="video2" width="420">
     <source src="images/testvideo.mp4" type="video/mp4">
         Your browser does not support HTML video.
   </video>
@@ -96,7 +104,6 @@
 
 <script> 
 var myVideo = document.getElementById("video1"); 
-
 function playPause() { 
   if (myVideo.paused) 
     myVideo.play(); 
@@ -105,6 +112,15 @@ function playPause() {
 } 
 </script> 
 
+<script> 
+var myVideo2 = document.getElementById("video2"); 
+function playPause2() { 
+  if (myVideo2.paused) 
+    myVideo2.play(); 
+  else 
+    myVideo2.pause(); 
+} 
+</script> 
 
 <!-- Footer, Owner: Victor-->
 <footer class="footer">
