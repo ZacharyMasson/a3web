@@ -415,14 +415,8 @@ p {
 }
 /* Slideshow animations - fade */
 .fade {
-    -webkit-animation-name: fade; /* webkit sections add greater browser support, particularly for Safari */
-    -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  } 
-  @-webkit-keyframes fade {
-    from {opacity: 0.4}
-    to {opacity: 1}
   } 
   @keyframes fade {
     from {opacity: 0.4}
@@ -607,8 +601,6 @@ p {
 }
 /* Navbar Dropdown animation styling, based on: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform */
 .rotateX { /* Testing mobile navbar animation */
-    -webkit-animation-name: rotatex;
-    -webkit-animation-duration: 1.5s;
     animation-name: rotatex;
     animation-duration: 1.5s;
 }
