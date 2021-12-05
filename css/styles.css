@@ -204,7 +204,7 @@ p {
     border: 1px solid #e07509;
     border-radius: 4px;
     color: white;
-    font-weight: regular;
+    font-weight:normal;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -218,7 +218,7 @@ p {
     border: 1px solid #e07509;
     border-radius: 4px;
     color: white;
-    font-weight: regular;
+    font-weight: normal;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
