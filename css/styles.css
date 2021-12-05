@@ -763,3 +763,102 @@ because I was overcomplicating it *flips table* - Kerstyne*/
     margin-left: 100px;
     margin-right: 100px;
   }
+
+/*Locations page styling - Owner: Jade*/
+#locationhero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/BuildingsToronto.jpg");
+    filter: hue-rotate(90deg);
+}
+
+.locationwrapper {
+	display: block;
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mapbutt {
+	width: 45%;
+	height: auto;
+	float: left;
+	justify-content: center;
+	padding: 5px;
+	margin: 20px;
+	background-color: #DBCCE0;
+	border: none;
+}
+
+.mapbutt img {
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+	box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mapbutt img:hover{
+	cursor: pointer;
+	transform: scale(1.03,1.03);
+	transition: .3s transform;
+}
+
+.locationdesc {
+	display: flex;
+	background-color: #c397d1;
+	border-radius: 15px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom:50px;
+	justify-content: center;
+}
+
+.maps {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#contactlink {
+	text-decoration: none; 
+	color: #000000;
+	font-weight: bold;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20%; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #c397d1;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 15px;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

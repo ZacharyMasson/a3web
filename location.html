@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <!-- stylesheet for hamburger menu icon: -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src= "js/javascript.js"></script>
+  <script src="js/javascript.js"></script>
 </head>
 <body>
 
@@ -25,40 +25,96 @@
  <div class="navbar-flex-right">
    <div class ="navbar-menu" id="navbarmaster">
     <div class = "dropdown" id = "nav-item1">
-      <a class = "navbar-item" href="portfolio.html" >Portfolio</a>
+      <a class = "navbar-item" id = 'active' href="portfolio.html" >Portfolio</a>
       <div class = "dropdown-menu">
         <a class = "dropdown-item1" href=portfolio.html#present>Present</a>
         <a class = "dropdown-item2" href=portfolio.html#past>Past</a>
       </div>
     </div>
-    <div id = "nav-item2">
-      <a class = "navbar-item"  href= "testimonials.html" >Testimonials</a>
-    </div>
-    <div id = "nav-item3">
-      <a class = "navbar-item"   href="TeamPage.html" >Team</a>
-    </div>
+    <a class = "navbar-item" id = "nav-item2" href= "testimonials.html" >Testimonials</a>
+    <a class = "navbar-item" id = "nav-item3" href="TeamPage.html" >Team</a>
     <div class = "dropdown" id = "nav-item4">
       <a class = "navbar-item" href="contact.html" >Contact</a>
       <div class = "dropdown-menu">
         <a class = "dropdown-item1" href=portfolio.html#hireus>Hire Us</a>
         <a class = "dropdown-item2" href=portfolio.html#joinus>Join Us</a>
       </div>
-    </div>   
-    <div id = "nav-item5"> 
-      <a class = "navbar-item" id = "active" href="location.html" >Location</a>
-    </div>
+    </div>    
+    <a class = "navbar-item" id = "nav-item5" href="location.html" >Location</a>
   </div>
   </div>
 </div>
 
 <!-- Image Header, Owner: Kerstyne-->
 <div class="heroimagecontainercontainer">
-<div class="heroimagecontainer">
+<div class="heroimagecontainer" id="locationhero">
   <div class="heroimagetitle">
-  <!-- Image taken from https://surveyinggroup.com/dsm-dem-dtm-elevation-models-in-gis/ -->
-    <h1> Lumpy Potato </h1>  
+  <!-- Image taken from https://www.pexels.com/photo/aerial-view-of-city-buildings-4204112/ -->
+    <h1> Location </h1>  
   </div>
 </div>
 </div>
+
+<!-- Location Section, Owner: Jade -->
+
+<div class='locationwrapper'>
+
+	<!-- Google static maps with formatting fix -->
+	<div class="maps">
+		<button class="mapbutt myBtn_multi">
+			<img src="https://maps.googleapis.com/maps/api/staticmap?center=Toronto&zoom=9&size=600x600&maptype=roadmap&markers=color:red%7CToronto,Ontario&style=feature:road%7Celement:labels%7Cvisibility:off&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" alt="Toronto Google Static Map" width="450" height="450">
+		</button>
+		
+		<button class="mapbutt myBtn_multi">
+			<img src="https://maps.googleapis.com/maps/api/staticmap?center=Montreal&zoom=9&size=600x600&maptype=roadmap&markers=color:red%7CMontreal&style=feature:road%7Celement:labels%7Cvisibility:off&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" alt="Montreal Google Static Map" width="450" height="450">
+		</button>
+		
+	</div>
+	
+	<!-- paragraph text under Google static maps -->
+	<div class="locationdesc">
+		<p>Although we are currently based out of Toronto and Montreal, the Lumpy Potato team has experience working in areas all over Canada and we are always looking for new challenges and experiences.
+		Check out our <a id="contactlink" href="contact.html">Contact page</a> for more information on our head offices or to submit your projects.
+		</p>
+	</div>
+	
+	<!-- Tor Modal -->
+	<div class="modal modal_multi">
+
+		<!-- Tor Modal content -->
+		<div class="modal-content">
+			<span class="close close_multi">&times;</span>
+			<p>Toronto is Lumpy Potato's first home base, where it all started.
+			<br>
+			Jade, Kerstyne, Ridley and Victor operate out of Toronto and the surrounding area for most of the year.
+			
+			</p>
+		</div>
+	</div>
+	
+	<!-- Mtl Modal -->
+	<div class="modal modal_multi">
+
+		<!-- Mtl Modal content -->
+		<div class="modal-content">
+			<span class="close close_multi">&times;</span>
+			<p>The Montreal Office is Lumpy Potato's newest addition.
+			<br>			
+			Zach spearheads projects coming out of our Montreal location.
+			
+			</p>
+		</div>
+	</div>
+	
+</div>
+
+	<!-- Footer, Owner: Victor -->
+	<footer class="footer">
+		<h4>Headquarters</h4>
+		<p> 123 Fake St. - Toronto, ON</p>
+		<p>Copyright 2021</p>
+	</footer>
+
+<script src="js/javascript.js"></script>
 
 </body>
