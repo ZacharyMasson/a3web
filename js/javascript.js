@@ -151,5 +151,5 @@ function LinkedinVT(){
   window.open('https://www.linkedin.com/in/victor%2Dtoth%2Db750172b/')
 }
 function LinkedinZM(){
-  window.open('https://www.linkedin.com/in/zachary%2Dmasson%2D495227198/%3ForiginalSubdomain%3Dca')
+  window.open('https://www.linkedin.com/in/zachary%2Dmasson%2D495227198/')
 }
