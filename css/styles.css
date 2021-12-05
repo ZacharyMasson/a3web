@@ -165,7 +165,7 @@ p {
 }
 /*style all divs in office flex box*/
 .flex-containeroffice > div {
-    width: 50%;
+    width: 40%;
     margin: 5px;
     text-align: center;
     font-size: 1.5vw;
@@ -177,7 +177,7 @@ p {
     width:auto;
     margin: 5px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 10px;
 }
 /*second button style, just smaller to fit better in each flexbox*/
