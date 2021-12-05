@@ -686,16 +686,15 @@ p {
 
 }
 .flex-TestimonialBox > div{
-    margin: 5px;
     text-align: center;
-    padding: 10px    
+    padding: 5px    
 }
 .VideoBox {
     background-color: #c397d1;
     justify-content: center;
     margin: 10%;
     border-radius: 15px;
-    padding: 10px
+    padding: 5px
 }
 .ButtonVideo {
     border: 1px solid #5c5c5c;
