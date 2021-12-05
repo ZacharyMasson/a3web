@@ -711,10 +711,16 @@ p {
     border-radius: 15px;
     padding: 5px
 }
+.video1 {
+    max-width: 75%;
+}
+.video2 {
+    max-width: 75%;
+}
 .ButtonVideo {
     border: 1px solid #5c5c5c;
     border-radius: 10px;
-    width: 15vw;
+    max-width: 17vw;
     color: white;
     padding: 5px 5px;
     text-align: center;
