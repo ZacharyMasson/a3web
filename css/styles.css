@@ -122,6 +122,16 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
 }
+/*Hero image for project form/ offices*/
+.heroimageProjOf{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Hope_BB.jpg");
+	position: relative;
+    filter: hue-rotate(90deg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Flex contianer for project form - Owner Zachary
     UNSURE ABOUT THIS. need to make it more responsive*/
 .flex-containerProjectForm{
