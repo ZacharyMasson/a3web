@@ -132,6 +132,12 @@ p {
         width: 90%;
         border-radius: 5%;
     }
+    .ServTitle {
+        font-size: 2em;
+    }
+    .ServInfo {
+        font-size: 1.5em;
+    }
 }
 /*Hero image for project form/ offices owner-Zachary*/
 .heroimageProjOf{
@@ -143,8 +149,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*Flex contianer for project form - Owner Zachary
-    UNSURE ABOUT THIS. need to make it more responsive*/
+/*Flex contianer for project form - Owner Zachary*/
 .flex-containerProjectForm{
     display: flex;
     flex-direction: row;
