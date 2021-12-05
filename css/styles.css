@@ -124,10 +124,13 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
 }
-@media only screen and (max-width: 800) {
+@media only screen and (max-width: 800px) {
     .flex-containerServ{
         flex-direction: column;
-
+    }
+    .flex-containerServ > div{
+        width: 90%;
+        border-radius: 5%;
     }
 }
 /*Hero image for project form/ offices owner-Zachary*/
@@ -936,4 +939,14 @@ because I was overcomplicating it *flips table* - Kerstyne*/
     width: 10%;
     height: auto;
 
+}
+
+.locationimg {
+    width: 100%;
+    height: auto;
+}
+
+div.locationimg img {
+    width: 30%;
+    height: auto;
 }
