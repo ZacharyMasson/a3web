@@ -733,13 +733,6 @@ because I was overcomplicating it *flips table* - Kerstyne*/
     filter: hue-rotate(90deg);
 }
 
-.locationwrapper {
-	display: block;
-	margin-top: 3%;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
 .mapbutt {
 	width: 45%;
 	height: auto;
@@ -767,6 +760,7 @@ because I was overcomplicating it *flips table* - Kerstyne*/
 .locationdesc {
 	display: flex;
 	background-color: #c397d1;
+    width: 100%;
 	border-radius: 15px;
 	padding: 20px;
 	margin-top: 30px;
