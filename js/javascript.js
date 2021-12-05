@@ -108,9 +108,7 @@ function appLink() {
 // Start Survey123 JS
 var survey123webform = document.getElementsByName('survey123webform')[0];
 window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data)
-  "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style.height=t.contentHeight+"px")&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
-
-
+  "survey123:onFormLoaded"===t.event&&t.contentHeight&&(survey123webform.parentNode.style["padding-bottom"]="unset")}});
 // Get users location and enter it in url to Google Maps directions - Owner: Zachary
 // gets location from the user and if not allowed in browswer show error message
 // first function is for toronto, second is montreal. 
@@ -140,7 +138,6 @@ function MAPTIME2(position) {
 }
 document.getElementById("button2tor").addEventListener("click touchstart", MAPTIME());
 document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
-
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne%2Dwidmeyer%2D733010200');
 }
