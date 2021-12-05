@@ -139,8 +139,8 @@ function MAPTIME2(position) {
   var y = position.coords.longitude
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former+Craig+Pumping+Station,+2000+Avenue+Viger+E,+Montreal,+Quebec/@45.4817221,-73.6295888,12540m")
 }
-document.getElementById("button2tor").addEventListener("click", getLocation());
-document.getElementById("button2mtl").addEventListener("click", getLocation2());
+document.getElementById("button2tor").addEventListener("click touchstart", MAPTIME());
+document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
 
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
