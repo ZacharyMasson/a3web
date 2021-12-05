@@ -96,6 +96,7 @@ p {
     flex-wrap: wrap;
     background-color: #DBCCE0;
     justify-content: center;
+    margin: 30px;
 }
 .flex-containerServ > div {
     background-color: #c397d1;
@@ -103,7 +104,7 @@ p {
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
-    border-radius: 25%;
+    border-radius: 10%;
     padding: 10px;
     height: auto;
 }
@@ -121,6 +122,22 @@ p {
 	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
+}
+@media only screen and (max-width: 800) {
+    .flex-containerServ{
+        flex-direction: column;
+
+    }
+}
+/*Hero image for project form/ offices owner-Zachary*/
+.heroimageProjOf{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Hope_BB.jpg");
+	position: relative;
+    filter: hue-rotate(90deg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*Flex contianer for project form - Owner Zachary
     UNSURE ABOUT THIS. need to make it more responsive*/
@@ -165,19 +182,19 @@ p {
 }
 /*style all divs in office flex box*/
 .flex-containeroffice > div {
-    width: 50%;
+    width: 35%;
     margin: 5px;
     text-align: center;
     font-size: 1.5vw;
     border-radius: 10%;
-    padding: 10px;
+    padding: 40px;
     height: auto;
 }
 .officesText {
     width:auto;
     margin: 5px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 10px;
 }
 /*second button style, just smaller to fit better in each flexbox*/
@@ -714,16 +731,22 @@ p {
     border-radius: 15px;
     padding: 5px
 }
+.video1 {
+    max-width: 75%;
+}
+.video2 {
+    max-width: 75%;
+}
 .ButtonVideo {
     border: 1px solid #5c5c5c;
     border-radius: 10px;
-    width: 15vw;
+    max-width: 300px;
     color: white;
     padding: 5px 5px;
     text-align: center;
     color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
 }
  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
