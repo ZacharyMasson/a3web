@@ -132,28 +132,28 @@ function getLocation2() {
 function MAPTIME(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
-  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/CN+Tower")
+  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/CN%2BTower")
 }
 function MAPTIME2(position) {
   var x = position.coords.latitude
   var y = position.coords.longitude
-  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former+Craig+Pumping+Station,+2000+Avenue+Viger+E,+Montreal,+Quebec/@45.4817221,-73.6295888,12540m")
+  window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former%2BCraig%2BPumping%2BStation%2C%2B2000%2BAvenue%2BViger%2BE%2C%2BMontreal%2C%2BQuebec/%4045%2E4817221%2C%2D73%2E6295888%2C12540m")
 }
 document.getElementById("button2tor").addEventListener("click touchstart", MAPTIME());
 document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
 
 function LinkedinKW(){
-  window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
+  window.open('https://www.linkedin.com/in/kerstyne%2Dwidmeyer%2D733010200');
 }
 function LinkedinJL(){
-  window.open('https://www.linkedin.com/in/jade-lacsamana-a7224b131/')
+  window.open('https://www.linkedin.com/in/jade%2Dlacsamana%2Da7224b131/')
 }
 function LinkedinRS(){
-  window.open('https://www.linkedin.com/in/ridley-soudack-1757081b4/')
+  window.open('https://www.linkedin.com/in/ridley%2Dsoudack%2D1757081b4/')
 }
 function LinkedinVT(){
-  window.open('https://www.linkedin.com/in/victor-toth-b750172b/')
+  window.open('https://www.linkedin.com/in/victor%2Dtoth%2Db750172b/')
 }
 function LinkedinZM(){
-  window.open('https://www.linkedin.com/in/zachary-masson-495227198/?originalSubdomain=ca')
+  window.open('https://www.linkedin.com/in/zachary%2Dmasson%2D495227198/%3ForiginalSubdomain%3Dca')
 }
