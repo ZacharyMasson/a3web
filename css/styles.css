@@ -19,6 +19,7 @@ body {
 footer{
     background-color: #c397d1; 
     text-align: center;
+    padding-bottom: 1px;
 }
 /* Set h1 parameters here */
 h1 {
