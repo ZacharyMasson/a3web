@@ -918,3 +918,10 @@ because I was overcomplicating it *flips table* - Kerstyne*/
   text-decoration: none;
   cursor: pointer;
 }
+
+/* Images in modal boxes */
+.modalimage {
+    width: 10%;
+    height: auto;
+
+}
