@@ -237,6 +237,9 @@ p {
 }
 /* Survey123 Project form - Owner Zachary Masson 
     embed container is the class that containes the iframe and its 'children'*/
+iframe{
+    border: none;
+}
 .embed-container {
     position: relative; 
     height: 0; 
@@ -251,8 +254,6 @@ p {
     left: 0; 
     width: 100%; 
     height: 100%;} 
-
-
 /*Container for Projects section on landing page, owner: Jade*/
 .flex-containerProjects {
     display: flex;
@@ -415,14 +416,8 @@ p {
 }
 /* Slideshow animations - fade */
 .fade {
-    -webkit-animation-name: fade; /* webkit sections add greater browser support, particularly for Safari */
-    -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  } 
-  @-webkit-keyframes fade {
-    from {opacity: 0.4}
-    to {opacity: 1}
   } 
   @keyframes fade {
     from {opacity: 0.4}
@@ -607,8 +602,6 @@ p {
 }
 /* Navbar Dropdown animation styling, based on: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform */
 .rotateX { /* Testing mobile navbar animation */
-    -webkit-animation-name: rotatex;
-    -webkit-animation-duration: 1.5s;
     animation-name: rotatex;
     animation-duration: 1.5s;
 }
