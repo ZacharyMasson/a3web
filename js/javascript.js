@@ -49,8 +49,7 @@ modal.style.display = "none";
 };
 
 // Mobile Navbar function, owner: Ridley
-// Mobile Navbar function, owner: Ridley
-function navBar(){
+function navBar(){ // This function appends the 'responsive' class to navbar elements when the hamburger menu is clicked, to adjust menu styling
     var nav = document.getElementById("navbarmaster");
     if (nav.className === "navbar-menu") {
         nav.className += " responsive";
@@ -96,7 +95,7 @@ function plusSlides(n) { // This function enables control of slides through next
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function currentSlide(n) { // This function enables control of slides through the slideshow dots
   showSlides(slideIndex = n)
 }
 
