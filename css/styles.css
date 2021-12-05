@@ -139,7 +139,7 @@ p {
         font-size: 1.5em;
     }
 }
-/*Hero image for project form/ offices owner-Zachary*/
+/*Hero image for project form/ offices. Image taken by Zachary in June 2021 in Hope British Columbia owner-Zachary*/
 .heroimageProjOf{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Hope_BB.jpg");
 	position: relative;
@@ -156,9 +156,10 @@ p {
     background-color: #DBCCE0;
     justify-content: center;
     margin: 15px;
+    padding: 10px;
 }
 .projectformdesc {
-    flex:50%;
+    flex:30%;
     margin: 10px;
     text-align: center;
     padding: 10px;
@@ -207,7 +208,7 @@ p {
     padding: 10px;
 }
 /*second button style, just smaller to fit better in each flexbox*/
-.button2tor {
+.button2 {
     background-color: #e07509;
     border: 1px solid #e07509;
     border-radius: 4px;
@@ -219,21 +220,6 @@ p {
     font-size: 10px;
     cursor: pointer;
     transition-duration: 0.3s;
-    z-index: 99;
-}
-.button2mtl {
-    background-color: #e07509;
-    border: 1px solid #e07509;
-    border-radius: 4px;
-    color: white;
-    font-weight: normal;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 10px;
-    cursor: pointer;
-    transition-duration: 0.3s;
-    z-index: 99;
 }
 /* Survey123 Project form - Owner Zachary Masson 
     embed container is the class that containes the iframe and its 'children'*/
