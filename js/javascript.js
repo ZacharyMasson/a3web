@@ -115,32 +115,20 @@ window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data)
 // Get users location and enter it in url to Google Maps directions - Owner: Zachary
 // gets location from the user and if not allowed in browswer show error message
 // first function is for toronto, second is montreal. 
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(MAPTIME);
-  } else { 
-    x.innerHTML = "Geolocation is not supported :'( ";
-  }
-}
-function getLocation2() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(MAPTIME2);
-  } else { 
-    x.innerHTML = "Geolocation is not supported :'( ";
-  }
-}
 function MAPTIME(position) {
+  navigator.geolocation.getCurrentPosition()
   var x = position.coords.latitude
   var y = position.coords.longitude
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/CN+Tower")
 }
 function MAPTIME2(position) {
+  navigator.geolocation.getCurrentPosition()
   var x = position.coords.latitude
   var y = position.coords.longitude
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former+Craig+Pumping+Station,+2000+Avenue+Viger+E,+Montreal,+Quebec/@45.4817221,-73.6295888,12540m")
 }
-document.getElementById("button2tor").addEventListener("click touchstart", getLocation());
-document.getElementById("button2mtl").addEventListener("click touchstart", getLocation2());
+document.getElementById("button2tor").addEventListener("click touchstart", MAPTIME());
+document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
 
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne-widmeyer-733010200');
