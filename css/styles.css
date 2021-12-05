@@ -732,9 +732,11 @@ p {
 }
 .video1 {
     max-width: 75%;
+    border-radius: 15px;
 }
 .video2 {
     max-width: 75%;
+    border-radius: 15px;
 }
 /* sets styles for video play button */
 .ButtonVideo {
