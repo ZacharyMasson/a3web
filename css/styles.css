@@ -135,8 +135,6 @@ p {
     flex:50%;
     margin: 10px;
     text-align: center;
-    font-size: 1.5vw;
-    border-radius: 25%;
     padding: 10px;
     height: auto;
 }
@@ -171,6 +169,13 @@ p {
     border-radius: 10%;
     padding: 10px;
     height: auto;
+}
+.officesText {
+    width:auto;
+    margin: 5px;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px;
 }
 /*second button style, just smaller to fit better in each flexbox*/
 .button2 {
