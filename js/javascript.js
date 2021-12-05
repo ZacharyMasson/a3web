@@ -64,9 +64,8 @@ function navBar(){ // This function appends the 'responsive' class to navbar ele
     }
 }
 
-//Portfolio page slideshow, owner: Ridley
+//Portfolio page slideshow, owner: Ridley, JS based off of: https://www.w3schools.com/howto/howto_js_slideshow.asp 
 var slideIndex = 1; //Sets initial slide to slide 1 when user lands on page
-
 function showSlides(n) { // This function controls which slide shows up as the variable slide index changes
   var i; //Set up variable for iteration
   var slides = document.getElementsByClassName("slide"); //Sets var slides, dots, and blurbs to relevant element classes
@@ -80,25 +79,20 @@ function showSlides(n) { // This function controls which slide shows up as the v
   for (i = 0; i < blurbs.length; i++) { // Set all blurbs to display = none initially
     blurbs[i].style.display = "none";
 }
-for (i = 0; i < dots.length; i++) { //For dots, currently not implemented
+for (i = 0; i < dots.length; i++) { //Sets active dot styling
   dots[i].className = dots[i].className.replace(" active", "");
 }
   slides[slideIndex-1].style.display = "block"; //Set slideIndex to display relevant slide and blurb, and set associated dot to 'active' class.
   blurbs[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-showSlides(slideIndex); // Execute showSlides function
-
 // Next/previous controls
 function plusSlides(n) { // This function enables control of slides through next and previous button
   showSlides(slideIndex += n);
 }
-
 function currentSlide(n) { // This function enables control of slides through the slideshow dots
   showSlides(slideIndex = n)
 }
-
 // Button to external application, owner: Ridley
 function appLink() {
   var myWindow=window.open("https://arcg.is/1uDiH80");
