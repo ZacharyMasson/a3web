@@ -132,6 +132,12 @@ p {
         width: 90%;
         border-radius: 5%;
     }
+    .ServTitle {
+        font-size: 2em;
+    }
+    .ServInfo {
+        font-size: 1.5em;
+    }
 }
 /*Hero image for project form/ offices owner-Zachary*/
 .heroimageProjOf{
@@ -143,8 +149,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*Flex contianer for project form - Owner Zachary
-    UNSURE ABOUT THIS. need to make it more responsive*/
+/*Flex contianer for project form - Owner Zachary*/
 .flex-containerProjectForm{
     display: flex;
     flex-direction: row;
@@ -189,7 +194,7 @@ p {
     width: 35%;
     margin: 5px;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     border-radius: 10%;
     padding: 40px;
     height: auto;
@@ -939,4 +944,14 @@ because I was overcomplicating it *flips table* - Kerstyne*/
     width: 10%;
     height: auto;
 
+}
+
+.locationimg {
+    width: 100%;
+    height: auto;
+}
+
+div.locationimg img {
+    width: 30%;
+    height: auto;
 }
