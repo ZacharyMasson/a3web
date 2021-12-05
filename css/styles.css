@@ -281,12 +281,12 @@ p {
 }
 /* ******BEGIN PORTFOLIO PAGE STYLING Owner: Ridley****** */
 
-#porthero {
+#porthero { /* Sets hero image for portfolio page*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/portfolioaerial.jpg");
     filter: none;
 }
 
-.present-portfolio{
+.present-portfolio{ /* This is the overall styling for the present project slideshow box.*/
     background-color: white;
     margin: auto;
     display: flex;
@@ -296,55 +296,42 @@ p {
     box-shadow:  0 4px 12px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 }
-.project-slideshow { /* Slideshow Container */
+/*Slideshow  javascript and CSS based on: https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.project-slideshow { /* This is the container for the slide images specifically */
     height: auto;
     margin: 0;
     position: relative;
 }
-.slide {
+.slide { /* The slides are turned off initially, and positioned to fill the top of the portfolio box */
     display: none;
     position:relative;
 }
-.slide-img-reg {
-
+.slide-img-reg { /* This class is for the slide image that appears initially, and fades out when hovered over. */
     opacity: 1;
     left: 0;
     border-radius: 15px 15px 0 0;
-    height: 100%;
-    max-height: 100%;
+    height: auto;
     max-width: 100%;
     position: relative;
     transition: opacity 1s ease-in-out;
 }
-.slide-img-hover {
+.slide-img-hover { /* This class is for the image underneath the above image, that becomes visible when hovered over. */
     left: 0;
     border-radius: 15px 15px 0 0;
-    max-height: 100%;
+    height: auto;
     max-width: 100%;
     position: absolute;
 }
-.slide:hover .slide-img-reg {
+.slide:hover .slide-img-reg { /* This changes the opacity of the first image when hovered over */
     opacity: 0;
 }
-/* Project Title Text */
-.portfolio-title {
-    display: inline-block;
-    width: 500px;
-    position: absolute;
-    bottom: 0px;
-    left: 20px;
-    color: #f1f1f1;
-    width: 100%;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: left;
-}
-.portfolio-blurb {
+
+.portfolio-blurb { /* This sets styling for each blurb, and changes display to none, which will be changed by the javascript slideshow function */
     padding: 0 3% 2%;
     text-align: left;
     display: none;
 }
-/* Next and previous slideshow buttons */
+/* Next and previous slideshow button styling and positioning */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -369,18 +356,18 @@ p {
     right: 0;
     border-radius: 3px 0 0 3px;
 } 
-.prev:hover, .next:hover{
+.prev:hover, .next:hover{ /* Adds a hover effect to slideshow buttons */
     background-color: #c297cf;
 }
 
-.dot-box{
+.dot-box{ /* Positioning for slideshow dots */
     text-align: center;
     position: absolute;
     width: 100%;
     top: 0;
-    padding: 10px 0; /* Added some padding so that image fade effect isn't annoying when switching slides */
+    padding: 10px 0; /* Added some padding so that image fade effect doesn't happen when hovering over the dots */
 }
-.dot {
+.dot { /* Styling for slideshow dots */
     cursor: pointer;
     width: 12px;
     height: 12px;
@@ -390,19 +377,19 @@ p {
     display: inline-block; /* Lets us set a width and height on elements that will behave as inline */
     transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+.active, .dot:hover { /* Adds colour to active dot and dot being hovered over. */
     background-color: #e07509;
 }
-.project-title {
+.project-title { /* Styling for slideshow blurb title */
     font-size: 30px;
     font-weight: bold;
 }
-.present-list{
+.present-list{ /* Styling for slideshow blurb list section */
     list-style-type: square;
 }
-/* Slideshow animations */
+/* Slideshow animations - fade */
 .fade {
-    -webkit-animation-name: fade;
+    -webkit-animation-name: fade; /* webkit sections add greater browser support, particularly for Safari */
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
@@ -415,13 +402,13 @@ p {
     from {opacity: 0.4}
     to {opacity: 1}
   }
-.past-projects {
+.past-projects { /* Sets styling for flex container of past projects */
     display: flex;
     flex-wrap: wrap;
     background-color: #DBCCE0;
     justify-content: center;
 }
-.project-box {
+.project-box { /* Sets styling for flexboxes of past projects */
     background-color: #c397d1;
     width: 45%;
     max-width: 700px;
@@ -430,7 +417,7 @@ p {
     padding: 10px;
     height: 250px;
 }
-.project-thumb {
+.project-thumb { /* Sets styling for image within each past project */
     float: left;
     width: 35%;
     height: 100%;
@@ -438,15 +425,15 @@ p {
     margin-right: 10px;
     border-radius: 10px;
 }
-.past-title {
+.past-title { /* Sets styling for past project titles */
     margin-top: 0;
 }
 
-.past-blurb {
+.past-blurb { /* Sets styling for past project blurbs */
     font-size: 1em;
     text-align: left;
 }
-.button {
+.button { /* General styling for buttons, used across multiple pages. */
     background-color: #e07509;
     border: 3px solid #e07509;
     border-radius: 4px;
@@ -459,16 +446,16 @@ p {
     cursor: pointer;
     transition-duration: 0.3s;
 }
-.try-it{
+.try-it{ /* Adds specific styling for button on portfolio page. */
     margin-top: 30px;
 }
-.button:hover{
+.button:hover{ /* Sets hover styling for button. */
     background-color: white;
     color: #e07509;
 }
 /*Portfolio page responsive styling */
 @media only screen and (max-width: 1200px) {
-    .project-box{
+    .project-box{ /* Sets responsive styling for past projects */
         width: 100%;
         margin: 10px 5%;
         height: auto;
@@ -512,13 +499,13 @@ p {
     padding: 0;
     float: left;
 }
-.logo { /*Class for logo imaging */
+.logo { /*Class for logo image */
     max-width: 50px;
     max-height: 50px;
     float: left;
     margin: 0 1px;
 }
-.navbar-menu { /*Class for navbar list */
+.navbar-menu { /*Class for list of navbar buttons */
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -535,7 +522,7 @@ p {
     display: block;
     width: 100px;
     height: 50px;
-    line-height: 50px; /* vertically centers text */
+    line-height: 50px; /* Setting line height here vertically centers text */
     font-weight: bold;
     color: black;
     text-decoration: none;
@@ -545,7 +532,7 @@ p {
     color: white;
     transition: background .2s ease-in;
 }
-#active{ /*Assigns attributes to active ID navbar item */
+#active{ /*Assigns colour to active navbar item */
     background-color: #e07509;
     color: white;
 }
@@ -642,7 +629,7 @@ p {
         flex-direction: column; /*This css resizes the navbar menu when the hamburger is clicked*/
         width: 100%;
     }
-    .navbar-menu.responsive > *{ /*This css centers the navbar menu items and gives them styling on mobile*/
+    .navbar-menu.responsive > *{ /*This css turns the navbar itmes on when clicked, and centers the navbar menu items and gives them styling on mobile*/
         float: none;
         display: block;
         background-color:#612848;
@@ -664,7 +651,7 @@ p {
     .navbar-menu.responsive .dropdown-menu{ /*This css turns off the dropdowns for mobile*/
         display: none;
     }
-    .navbar-flex { /*This css centers the navbar menu and logo and changes the flex direction to vertical*/
+    .navbar-flex { /*This css centers the navbar menu and logo and changes the flex direction to vertical. It also affixes the navbar to the top when the page is scrolled.*/
         flex-direction: column;
         position: fixed;
         z-index: 1;
@@ -673,17 +660,17 @@ p {
         background-color:#612848;
         position: absolute;
     }
-    .navbar-flex.responsive .navbar-flex-right{
+    .navbar-flex.responsive .navbar-flex-right{  /*This css sets the navbar menu below the hamburger icon and logo, when it opens*/
         top: 50px;
         z-index: 1;
     }
-    .navbar-flex.responsive .navbar-flex-left{
+    .navbar-flex.responsive .navbar-flex-left{ /*This css sets the logo and hamburger icon on top of other elements on the page, so they are not visible*/
         z-index: 1;
     }
     .navbar-flex.responsive .hamburger{ /*This css changes the colour of the hamburger on click*/
         color: white;
     }
-    .navbar-flex.responsive .logo{
+    .navbar-flex.responsive .logo{ /* When mobile navbar is open, changes hue of logo, just for fun.*/
         filter: hue-rotate(90deg);
     }
 }
