@@ -19,6 +19,7 @@ body {
 footer{
     background-color: #c397d1; 
     text-align: center;
+    padding-bottom: 1px;
 }
 /* Set h1 parameters here */
 h1 {
@@ -96,6 +97,7 @@ p {
     flex-wrap: wrap;
     background-color: #DBCCE0;
     justify-content: center;
+    margin: 30px;
 }
 .flex-containerServ > div {
     background-color: #c397d1;
@@ -103,7 +105,7 @@ p {
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
-    border-radius: 25%;
+    border-radius: 10%;
     padding: 10px;
     height: auto;
 }
@@ -121,6 +123,22 @@ p {
 	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
+}
+@media only screen and (max-width: 800) {
+    .flex-containerServ{
+        flex-direction: column;
+
+    }
+}
+/*Hero image for project form/ offices owner-Zachary*/
+.heroimageProjOf{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Hope_BB.jpg");
+	position: relative;
+    filter: hue-rotate(90deg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*Flex contianer for project form - Owner Zachary
     UNSURE ABOUT THIS. need to make it more responsive*/
@@ -165,19 +183,19 @@ p {
 }
 /*style all divs in office flex box*/
 .flex-containeroffice > div {
-    width: 50%;
+    width: 35%;
     margin: 5px;
     text-align: center;
     font-size: 1.5vw;
     border-radius: 10%;
-    padding: 10px;
+    padding: 40px;
     height: auto;
 }
 .officesText {
     width:auto;
     margin: 5px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 10px;
 }
 /*second button style, just smaller to fit better in each flexbox*/
@@ -675,12 +693,11 @@ p {
     }
 }
 /*Testimonials extra styling section - Owner Victor Toth*/
-
 #TestimonialHero {
-    background-image: url("../images/15.jpg");
-    filter: hue-rotate(270deg);
+    background-image: url("../images/15.jpg"); /* sets background hero image */
+    filter: hue-rotate(270deg);                /* cool filter that changes image colour to match page theme */
 }
-
+/* sets styles for testimonials box */
 .flex-TestimonialBox {
     display: flex;
     background-color: #c397d1;
@@ -688,7 +705,6 @@ p {
     justify-content: center;
     margin: 10%;
     border-radius: 15px;
-
 }
 .flex-TestimonialBox > div{
     text-align: center;
@@ -701,16 +717,25 @@ p {
     border-radius: 15px;
     padding: 5px
 }
+.video1 {
+    max-width: 75%;
+    border-radius: 15px;
+}
+.video2 {
+    max-width: 75%;
+    border-radius: 15px;
+}
+/* sets styles for video play button */
 .ButtonVideo {
     border: 1px solid #5c5c5c;
     border-radius: 10px;
-    width: 15vw;
+    max-width: 300px;
     color: white;
     padding: 5px 5px;
     text-align: center;
     color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
 }
  /* style for linkedin buttons, colour blue is the exact one from linkedin Owner: Kerstyne*/
@@ -871,7 +896,7 @@ because I was overcomplicating it *flips table* - Kerstyne*/
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 20%; /* Location of the box */
+  padding-top: 10%; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -904,4 +929,11 @@ because I was overcomplicating it *flips table* - Kerstyne*/
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Images in modal boxes */
+.modalimage {
+    width: 10%;
+    height: auto;
+
 }

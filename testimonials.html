@@ -11,7 +11,6 @@
     <script src= "js/javascript.js"></script>
   </head>
 <body>
-
   <!-- Navbar, Owner: Ridley -->
   <div class="navbar-flex" id="headerbar"> <!-- This flex contains the two sides of the header - the logo, and the navbar buttons-->
     <div class="navbar-flex-left">
@@ -45,81 +44,80 @@
     </div>
   </div>
 
-
-
-<!-- Hero Image, modified from Kerstyne-->
-<div class="heroimagecontainercontainer">
-  <div class="heroimagecontainer" id="TestimonialHero">
-    <div class="heroimagetitle">
-    <!-- Image taken from Victor's work in Northern Quebec -->
-      <h1> Testimonials </h1>  
+  <!-- Hero Image, modified from Kerstyne-->
+  <div class="heroimagecontainercontainer">
+    <div class="heroimagecontainer" id="TestimonialHero">
+      <div class="heroimagetitle">
+      <!-- Image taken from Victor's work in Northern Quebec -->
+        <h1> Testimonials </h1>  
+      </div>
     </div>
-  </div>
   </div>
 
   <!-- Add Testimonal stuff below here:-->
+  <!-- Completely non-fake testimonials from actual people, not paid actors.-->
+  <div class="flex-TestimonialBox">
+    <div>
+      <h4>Reliability</h4>
+      <p>"Lump Potato always meets deadlines seldomly needing revisions. This is the kind of reliability that astounds us."</p>
+      <p>J-L. Picard, Enterprise Geospatial</p>
+    </div>
 
-<div class="flex-TestimonialBox">
-  <div>
-    <h4>Reliability</h4>
-    <p>"Lump Potato always meets deadlines seldomly needing revisions. This is the kind of reliability that astounds us."</p>
-    <p>J-L. Picard, Enterprise Geospatial</p>
+    <div>
+      <h4>Trustworthy</h4>
+      <p>"If you need someone at your side, throughout the long journey of your project, whom always has your back, that is Lumpy Potato."</p>
+      <p>A. Elessar, CEO - Gondor Geomatics</p>
+    </div>
   </div>
 
-  <div>
-    <h4>Trustworthy</h4>
-    <p>"If you need someone at your side, throughout the long journey of your project, whom always has your back, that is Lumpy Potato."</p>
-    <p>A. Elessar, CEO - Gondor Geomatics</p>
-  </div>
-</div>
+  <!-- Video section using javascript-->
+  <!-- div box that contains 2 videos and the play/pause buttons for each.-->
+  <!-- onclick="playpause" calls the jscript function to control the video.-->
+  <div class="VideoBox"> 
+    <p>Video messages from one of our partners.</p>
+    <div>
+      <button class="ButtonVideo" onclick="playPause()">Play/Pause</button> 
+    </div>
+    <video class="video1" id="video1">
+      <source src="images/video1.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+    </video>
+    <div>
+      <button class="ButtonVideo" onclick="playPause2()">Play/Pause</button> 
+    </div>
+    <video class="video2" id="video2">
+      <source src="images/video2.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+    </video>
+  </div> 
 
-<!-- Video section using javascript-->
+  <!--javascript used to define the functions of the button for video 1-->
+  <script> 
+  var myVideo=document.getElementById("video1"); 
+  function playPause() { 
+    if (myVideo.paused) 
+      myVideo.play(); 
+    else 
+      myVideo.pause(); 
+  } 
+  </script> 
 
-<div class="VideoBox"> 
-  <p>Video messages from one of our partners.</p>
-  <div>
-    <button class="ButtonVideo" onclick="playPause()">Play/Pause</button> 
-  </div>
-  <video id="video1" width="480">
-    <source src="images/video1.mp4" type="video/mp4">
-        Your browser does not support HTML video.
-  </video>
-  <div>
-    <button class="ButtonVideo" onclick="playPause2()">Play/Pause</button> 
-  </div>
-  <video id="video2" width="480">
-    <source src="images/video2.mp4" type="video/mp4">
-        Your browser does not support HTML video.
-  </video>
-</div> 
+  <!--javascript used to define the functions of the button for video 2-->
+  <script> 
+  var myVideo2=document.getElementById("video2"); 
+  function playPause2() { 
+    if (myVideo2.paused) 
+      myVideo2.play(); 
+    else 
+      myVideo2.pause(); 
+  } 
+  </script> 
 
-<script> 
-var myVideo = document.getElementById("video1"); 
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); 
-} 
-</script> 
-
-<script> 
-var myVideo2 = document.getElementById("video2"); 
-function playPause2() { 
-  if (myVideo2.paused) 
-    myVideo2.play(); 
-  else 
-    myVideo2.pause(); 
-} 
-</script> 
-
-<!-- Footer, Owner: Victor-->
-<footer class="footer">
-    <h4>Headquarters</h4>
-    <p> 123 Fake St. - Toronto, ON</p>
-    <p>Copyright 2021</p>
-  
+  <!-- Footer, Owner: Victor-->
+  <footer class="footer">
+      <h4>Headquarters</h4>
+      <p> 123 Fake St. - Toronto, ON</p>
+      <p>Copyright 2021</p>  
   </footer>
-
 </body>
 </html>    
