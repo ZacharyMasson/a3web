@@ -937,3 +937,13 @@ because I was overcomplicating it *flips table* - Kerstyne*/
     height: auto;
 
 }
+
+.locationimg {
+    width: 100%;
+    height: auto;
+}
+
+div.locationimg img {
+    width: 30%;
+    height: auto;
+}
