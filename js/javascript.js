@@ -132,6 +132,7 @@ function MAPTIME2(position) {
 }
 document.getElementById("button2tor").addEventListener("click touchstart", MAPTIME());
 document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
+// Javascript used to call linkedin pages of each person on teams page Owner: Kerstyne
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne%2Dwidmeyer%2D733010200');
 }
