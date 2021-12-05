@@ -127,17 +127,34 @@ p {
     flex-direction: row;
     background-color: #DBCCE0;
     justify-content: center;
+    margin: 30px;
+
 }
-.flex-containerProjectForm > div {
-    width: 65%;
+.projectformdesc {
+    flex:50%;
+    width: 85%;
     margin: 10px;
     text-align: center;
     font-size: 1.5vw;
     border-radius: 25%;
     padding: 10px;
     height: auto;
-    align-self: center;
 }
+.projectformsurv {
+    flex:50%;
+    width: 85%;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+    border-radius: 25%;
+    padding: 10px;
+    height: auto;
+}
+@media only screen and (max-width: 800px) {
+    .projectformdesc, .projectformsurv {
+      flex: 100%;
+    }
+  }
 .flex-containerContact{
     display: flex;
     flex-direction: row;
@@ -170,11 +187,17 @@ p {
 .embed-container {
     position: relative; 
     height: 0; 
-    padding-bottom:80%; 
+    padding-bottom:100%; 
     max-width: 100%;
 } 
-.embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} 
-small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
+.embed-container object, .embed-container iframe{
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;} 
+
 
 /*Container for Projects section on landing page, owner: Jade*/
 .flex-containerProjects {
