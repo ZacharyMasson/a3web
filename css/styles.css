@@ -124,10 +124,13 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5vw;
 }
-@media only screen and (max-width: 800) {
+@media only screen and (max-width: 800px) {
     .flex-containerServ{
         flex-direction: column;
-
+    }
+    .flex-containerServ > div{
+        width: 90%;
+        border-radius: 5%;
     }
 }
 /*Hero image for project form/ offices owner-Zachary*/
@@ -204,7 +207,7 @@ p {
     border: 1px solid #e07509;
     border-radius: 4px;
     color: white;
-    font-weight: regular;
+    font-weight:normal;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -218,7 +221,7 @@ p {
     border: 1px solid #e07509;
     border-radius: 4px;
     color: white;
-    font-weight: regular;
+    font-weight: normal;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
