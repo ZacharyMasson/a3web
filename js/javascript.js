@@ -115,6 +115,20 @@ window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data)
 // Get users location and enter it in url to Google Maps directions - Owner: Zachary
 // gets location from the user and if not allowed in browswer show error message
 // first function is for toronto, second is montreal. 
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(MAPTIME);
+  } else { 
+    x.innerHTML = "Geolocation is not supported :'( ";
+  }
+}
+function getLocation2() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(MAPTIME2);
+  } else { 
+    x.innerHTML = "Geolocation is not supported :'( ";
+  }
+}
 function MAPTIME(position) {
   navigator.geolocation.getCurrentPosition()
   var x = position.coords.latitude
