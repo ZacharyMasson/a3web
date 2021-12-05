@@ -665,6 +665,12 @@ p {
     }
 }
 /*Testimonials extra styling section - Owner Victor Toth*/
+
+#TestimonialHero {
+    background-image: url("../images/15.jpg");
+    filter: hue-rotate(270deg);
+}
+
 .flex-TestimonialBox {
     display: flex;
     background-color: #c397d1;
