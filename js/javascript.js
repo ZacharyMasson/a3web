@@ -130,8 +130,6 @@ function MAPTIME2(position) {
   var y = position.coords.longitude
   window.open("https://www.google.ca/maps/dir/"+x+","+y+"/Former%2BCraig%2BPumping%2BStation%2C%2B2000%2BAvenue%2BViger%2BE%2C%2BMontreal%2C%2BQuebec/%4045%2E4817221%2C%2D73%2E6295888%2C12540m")
 }
-document.getElementById("button2tor").addEventListener("click touchstart", MAPTIME());
-document.getElementById("button2mtl").addEventListener("click touchstart", MAPTIME2());
 // Javascript used to call linkedin pages of each person on teams page Owner: Kerstyne
 function LinkedinKW(){
   window.open('https://www.linkedin.com/in/kerstyne%2Dwidmeyer%2D733010200');
