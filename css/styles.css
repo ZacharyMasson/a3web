@@ -114,7 +114,7 @@ p {
     background-repeat: no-repeat; background-size: cover;
 }
 /*Flex contianer for project form - Owner Zachary*/
-.flex-containerProjectForm{display: flex; flex-direction: row; background-color: #DBCCE0; justify-content: center; margin: 15px; padding: 10px;
+.flex-containerProjectForm{display: flex; flex-direction: row; background-color: #DBCCE0; justify-content: center; margin: 15px; padding: 10px;align-items: center;
 }
 .projectformdesc {flex:30%;margin:10px;text-align:center;padding:10px;height: auto;
 }
@@ -129,7 +129,7 @@ p {
     .flex-containerProjectForm{flex-direction: column;}
 }
 /*flex container for offices*/
-.flex-containeroffice{display: flex;flex-direction: row;background-color: #DBCCE0;justify-content: center;
+.flex-containeroffice{display: flex;flex-direction: row;background-color: #DBCCE0;justify-content: center; align-items: center;
 }
 /*style all divs in office flex box*/
 .flex-containeroffice > div {width: 35%;margin: 5px;text-align: center;font-size: 1.25vw;border-radius: 10%;padding: 40px;height: auto;
@@ -138,6 +138,10 @@ p {
 }
 /*second button style, just smaller to fit better in each flexbox*/
 .button2 {background-color: #e07509;border: 1px solid #e07509;border-radius: 4px;color: white;font-weight:normal;padding: 8px 16px;text-align: center;text-decoration: none;font-size: 10px;cursor: pointer;transition-duration: 0.3s;
+}
+/*Responsive for office flex box. Owner - Zachary*/
+@media only screen and (max-width: 400px) {
+    .flex-containeroffice{flex-direction: column;}
 }
 /* Survey123 Project form - Owner Zachary Masson 
     embed container is the class that containes the iframe and its 'children'*/
