@@ -42,8 +42,11 @@ if (event.target === modalparent[event.target.getAttribute('data-index')]) {
 modalparent[event.target.getAttribute('data-index')].style.display = "none";
 }
 };
-
-// Mobile Navbar function, owner: Ridley
+////////////////////
+// Owner : Ridley Soudack
+// Date  : Dec 6
+////////////////////
+// Mobile Navbar function - based off of: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 function navBar(){ // This function appends the 'responsive' class to navbar elements when the hamburger menu is clicked, to adjust menu styling
     var nav = document.getElementById("navbarmaster");
     if (nav.className === "navbar-menu") {
@@ -58,8 +61,7 @@ function navBar(){ // This function appends the 'responsive' class to navbar ele
         bar.className = "navbar-flex";
     }
 }
-
-//Portfolio page slideshow, owner: Ridley, JS based off of: https://www.w3schools.com/howto/howto_js_slideshow.asp 
+//Portfolio page slideshow JS based off of: https://www.w3schools.com/howto/howto_js_slideshow.asp 
 var slideIndex = 1; //Sets initial slide to slide 1 when user lands on page
 function showSlides(n) { // This function controls which slide shows up as the variable slide index changes
   var i; //Set up variable for iteration
@@ -92,8 +94,7 @@ function currentSlide(n) { // This function enables control of slides through th
 function appLink() {
   var myWindow=window.open("https://arcg.is/1uDiH80");
 }
-
-//END Portfolio slideshow code
+// End Owner: Shawn Morgan
 // Start Survey123 JS
 var survey123webform = document.getElementsByName('survey123webform')[0];
 window.addEventListener("message",e=>{if(e.data){var t=JSON.parse(e.data)

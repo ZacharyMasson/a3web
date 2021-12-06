@@ -200,8 +200,12 @@ iframe{
     max-width: 100%;
     height: auto; 
 }
-/* ******BEGIN PORTFOLIO PAGE STYLING Owner: Ridley****** */
 
+/******************
+PORTFOLIO PAGE STYLING 
+Owner: Ridley Soudack
+Date: Dec 6
+******************/
 #porthero { /* Sets hero image for portfolio page*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/portfolioaerial.jpg");
     filter: none;
@@ -388,8 +392,12 @@ iframe{
     }
 }
 
-/* ******END PORTFOLIO PAGE STYLING****** */
-/* Navbar Styling, owner: Ridley */
+/* ******END PORTFOLIO PAGE STYLING*******/
+/******************
+NAVBAR PAGE STYLING 
+Owner: Ridley Soudack
+Date: Dec 6
+******************/
 .navbar-flex{ /*Class for overall navbar */
     margin: 0;
 	display: flex;
@@ -587,6 +595,8 @@ iframe{
         filter: hue-rotate(90deg);
     }
 }
+
+/* End owner: Ridley */
 /*Testimonials extra styling section - Owner Victor Toth*/
 #TestimonialHero {
     background-image: url("../images/15.jpg"); /* sets background hero image */
