@@ -55,7 +55,7 @@ p {
     font-family: 'Nunito Sans', sans-serif;
     font: 12px
 }
-/* Parameters to have Company Name overtop of hero image*/
+/* Parameters to have Company Name overtop of hero image, Owner Kerstyne*/
 .heroimagetitle {
 	position:absolute;
 	left:0;
@@ -89,7 +89,7 @@ p {
     margin-left: 100px;
     margin-right:100px;
     text-align:justify; 
-}
+} /* End of this portion of Owner: Kerstyne */
 /*Container for Services section on landing page. 
     as well as classes for the elements within it. Owner: Zachary Masson*/
 .flex-containerServ {display:flex;flex-wrap:wrap;background-color:#DBCCE0;justify-content:center;margin:30px;
@@ -199,8 +199,7 @@ iframe{
 .PartnerLogos{
     max-width: 100%;
     height: auto; 
-}
-
+}/* End of this portion of Owner: Kerstyne*/
 /******************
 PORTFOLIO PAGE STYLING 
 Owner: Ridley Soudack
@@ -739,7 +738,7 @@ because I was overcomplicating it *flips table* - Kerstyne*/
 .partnerparagraphs{
     margin-left: 100px;
     margin-right: 100px;
-  }
+} /* End of this portion of Owner:Kerstyne*/
 
 /*Locations page styling - Owner: Jade*/
 #locationhero {
@@ -774,11 +773,9 @@ because I was overcomplicating it *flips table* - Kerstyne*/
 .locationdesc {
 	display: flex;
 	background-color: #c397d1;
-    width: 100%;
 	border-radius: 15px;
-	padding: 20px 0;
-	margin-top: 30px;
-	margin-bottom:50px;
+	padding: 20px;
+	margin: 50px;
 	justify-content: center;
 }
 
