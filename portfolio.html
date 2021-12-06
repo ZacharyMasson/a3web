@@ -12,34 +12,34 @@
 <body>
 
   <!-- Navbar, Owner: Ridley -->
-  <div class="navbar-flex" id = "headerbar"> <!-- This flex contains the two sides of the header - the logo, and the navbar buttons-->
+  <div class="navbar-flex" id="headerbar"> <!-- This flex contains the two sides of the header - the logo, and the navbar buttons-->
     <div class="navbar-flex-left">
-      <a class="logo-container" href = 'index.html'>
-        <img class='logo' src='images/logo.png' alt = 'Lumpy Potato'>
+      <a class="logo-container" href='index.html'>
+        <img class='logo' src='images/logo.png' alt='Lumpy Potato'>
       </a> <!-- The hamburger icon will only appear for mobile screens-->
-      <a class="hamburger" href = "javascript:void(0);" onclick="navBar()">
+      <a class="hamburger" href="javascript:void(0);" onclick="navBar()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
     <div class="navbar-flex-right"> <!-- This flexbox contains the navbar buttons. It is accessible on mobile through the hamburger menu.-->
       <div class="navbar-menu" id="navbarmaster"> <!--The general design of the navbar is based on: https://www.w3schools.com/css/css_navbar_horizontal.asp but is heavily modified.-->
         <div class="dropdown">
-          <a class="navbar-item" id='active' href="portfolio.html" >Portfolio</a>
+          <a class="navbar-item" id='active' href="portfolio.html">Portfolio</a>
           <div class="dropdown-menu"> <!-- Two of our navbar items have dropdown menus. The coding and animation for these dropdowns is based on: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform-->
             <a class="dropdown-item1" href="portfolio.html#present">Present</a>
             <a class="dropdown-item2" href="portfolio.html#past">Past</a>
           </div>
         </div>
-        <a class="navbar-item" href="testimonials.html" >Testimonials</a>
-        <a class="navbar-item" href="TeamPage.html" >Team</a>
-        <div class="dropdown" >
-          <a class="navbar-item" href="contact.html" >Contact</a>
+        <a class="navbar-item" href="testimonials.html">Testimonials</a>
+        <a class="navbar-item" href="TeamPage.html">Team</a>
+        <div class="dropdown">
+          <a class="navbar-item" href="contact.html">Contact</a>
           <div class="dropdown-menu">
             <a class="dropdown-item1" href="contact.html#ProjForm">Project Form</a>
             <a class="dropdown-item2" href="contact.html#Offices">Offices</a>
           </div>
         </div>    
-        <a class = "navbar-item" href="location.html" >Location</a>
+        <a class="navbar-item" href="location.html">Location</a>
       </div>
     </div>
   </div>
@@ -61,16 +61,16 @@
 <div class='present-portfolio'> <!-- This div contains the slideshow for the 'Present Projects' section of our slideshow-->
   <div class='project-slideshow'> <!-- This div contains images and buttons for the slideshow-->
     <div class='slide fade'> <!-- Each of these slide divs contains a discrete slide-->
-      <img class='slide-img-hover' src='images/portfolio/mapfade.jpg' alt='Mountain'> <!-- This image is a version of the image below with a Sobel filter applied with PCI Catalyst -->
-      <img class='slide-img-reg' src='images/portfolio/mapinit.png' alt='Mountain' > <!--Images sourced from ArtHouse Studio: https://www.pexels.com/photo/old-map-of-iceland-on-wall-4338273/ -->
+      <img class='slide-img-hover' src='images/portfolio/mapfade.jpg' alt='Iceland Map'> <!-- This image is a version of the image below with a Sobel filter applied with PCI Catalyst -->
+      <img class='slide-img-reg' src='images/portfolio/mapinit.png' alt='Iceland Map Filter'> <!--Images sourced from ArtHouse Studio: https://www.pexels.com/photo/old-map-of-iceland-on-wall-4338273/ -->
     </div>
     <div class='slide fade'>
       <img class='slide-img-hover' src='images/portfolio/IOfade.png' alt='Image of Io'> <!-- Images courtesy of Victor Toth, from previous project work. -->
-      <img class='slide-img-reg' src='images/portfolio/ioinit.png' alt='Io Spectral Analysis' > <!--Images sourced from NASA: https://www.nasa.gov/planetarymissions/io-volcano-observer -->
+      <img class='slide-img-reg' src='images/portfolio/ioinit.png' alt='Io Spectral Analysis'> <!--Images sourced from NASA: https://www.nasa.gov/planetarymissions/io-volcano-observer -->
     </div>
     <div class='slide fade'>
-      <img class='slide-img-hover' src = 'images/portfolio/orchardfadev2.png' alt='Mountain'> <!-- Images courtesy of Victor Toth, from previous project work. -->
-      <img class='slide-img-reg' src = 'images/portfolio/orchardinit.png' alt='Mountain' > <!-- Image courtesy of Victor Toth, from previous project work. -->
+      <img class='slide-img-hover' src='images/portfolio/orchardfadev2.png' alt='Orchard DEM Image'> <!-- Images courtesy of Victor Toth, from previous project work. -->
+      <img class='slide-img-reg' src='images/portfolio/orchardinit.png' alt='Orchard Image'> <!-- Image courtesy of Victor Toth, from previous project work. -->
     </div>
     <!--Next and Previous Buttons, and navigation dots. These are positioned on top of the slide images. The javascript functions change the slide being displayed-->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -132,7 +132,7 @@
 
 <div class='past-projects'> <!-- This flexbox contains info on past projects.-->
   <div class='project-box' id='Houston'> <!-- This flexbox contains info on past projects Each flexbox contains an image with positioing that adjusts based on mobile/desktop screensize.-->
-    <img class='project-thumb' src = 'images/portfolio/houstonthumbv2.png' alt='Map of Houston, TX'> <!-- Image courtesy of Ridley Soudack-->
+    <img class='project-thumb' src='images/portfolio/houstonthumbv2.png' alt='Map of Houston, TX'> <!-- Image courtesy of Ridley Soudack-->
     <h4 class='past-title'>Houston Hurricane Risk</h4>
     <div class='past-blurb'>
       The city of Houston contracted Lumpy Potato to analyze areas of highest risk for hurricane. We created an analysis based on vehicle possession and distance to hurricane evactuation routes, now available to the public.
@@ -140,23 +140,23 @@
     <button type='button' class='button try-it' onclick='appLink()'>Try it!</button> <!-- This button links out to an externally hosted web app, to demontrate functionality.-->
   </div>
   <div class='project-box' id='TreeDB'>
-    <img class='project-thumb' src = 'images/portfolio/codethumb.jpg' alt='Computer Screen with Code'>  <!-- Image sourced from Luis Gomes: https://www.pexels.com/photo/close-up-photo-of-programming-of-codes-546819/-->
+    <img class='project-thumb' src='images/portfolio/codethumb.jpg' alt='Computer Screen with Code'>  <!-- Image sourced from Luis Gomes: https://www.pexels.com/photo/close-up-photo-of-programming-of-codes-546819/-->
     <h4 class='past-title'>World Tree Observation Database</h4>
-    <div class = 'past-blurb'>
+    <div class='past-blurb'>
       In 2016, in collaboration with the United Nations, Lumpy Potato worked to create a global database management system with the end goal of tracking the species and location of every tree on the planet. The database is complete, but data collection is ongoing.
     </div>
   </div>
   <div class='project-box' id='Cuba'>
-    <img class='project-thumb' src = 'images/portfolio/cubathumb.png' alt='Map of Cuban Cave'> <!-- Image courtesy of Zachary Masson-->
+    <img class='project-thumb' src='images/portfolio/cubathumb.png' alt='Map of Cuban Cave'> <!-- Image courtesy of Zachary Masson-->
     <h4 class='past-title'>Archaelogical Cave Diving</h4>
-    <div class = 'past-blurb'>
+    <div class='past-blurb'>
       Working with the government of Cuba, Lumpy Potato produced unprecedented maps of neolithic archaeologocical sites in submerged cave systems along Cuba's North coast. This monumental achievement was accomplished through develoment revoluationary new software for calculating cave depth.
     </div>
   </div>
   <div class='project-box' id='Lagrange'>
-    <img class='project-thumb' src = 'images/portfolio/Lagrange.jpg' alt='Map of Cuban Cave'> <!-- Image sourced from 99% Invisible: https://99percentinvisible.org/episode/home-on-lagrange/ -->
+    <img class='project-thumb' src='images/portfolio/Lagrange.jpg' alt='Map of Cuban Cave'> <!-- Image sourced from 99% Invisible: https://99percentinvisible.org/episode/home-on-lagrange/ -->
     <h4 class='past-title'>Lagrangian Land Use Mapping</h4>
-    <div class = 'past-blurb'>
+    <div class='past-blurb'>
       Impressed by Lumpy Potato's innovative past work on land use mapping, the United Nations reached out for cartographic and system analysis assistance regarding proposed large-scale permanent space habitats to be built at Lagrange Point 5. The work of this project would go on to become the only simultaneously recipient of the Nobel Peace Prize and the Nobel Prize in Physics.
     </div>
   </div>
